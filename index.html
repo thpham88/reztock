@@ -4,133 +4,267 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Restock Alerts — South Bay (Shared View)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#0f1115; --card:#1a1e27; --card2:#222836; --text:#eef1f6; --muted:#9aa5b5;
-    --line:#2c3345; --accent:#4f8cff;
-    --green:#2fbf71; --blue:#4f8cff; --amber:#f5a623; --gray:#6b7686;
+    color-scheme:dark;
+    --bg:#0E1013; --surface:#171A21; --surface2:#1E232E; --text:#F2F3F5; --dim:#9AA0AE;
+    --border:#262B36; --accent:#5865F2; --accent-soft:#8B95FF; --radius:14px;
   }
   @media (prefers-color-scheme: light){
-    :root{ --bg:#f4f6fa; --card:#ffffff; --card2:#eef1f7; --text:#161a22; --muted:#5b6575; --line:#dde2ec; }
+    :root{ color-scheme:light; --bg:#F2F3F5; --surface:#FFFFFF; --surface2:#EDEFF3; --text:#111318; --dim:#5B6472; --border:#D9DEE7; }
   }
   *{box-sizing:border-box}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);-webkit-text-size-adjust:100%}
-  .wrap{max-width:760px;margin:0 auto;padding:16px 14px 48px}
-  header h1{font-size:22px;margin:4px 0 2px}
-  header .sub{color:var(--muted);font-size:13px;line-height:1.45}
-  .panel{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:14px 0}
-  .checkbtn{display:block;width:100%;padding:13px;border-radius:10px;border:1px solid var(--line);
-    background:var(--card2);color:var(--muted);font-size:16px;font-weight:600;cursor:not-allowed;text-align:center}
-  .checknote{margin-top:9px;font-size:13px;color:var(--muted);line-height:1.5;text-align:center}
-  .checknote b{color:var(--text)}
-  h2{font-size:17px;margin:22px 0 8px;display:flex;align-items:baseline;gap:8px}
-  h2 .count{color:var(--muted);font-size:13px;font-weight:500}
-  .alert{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 12px;margin:8px 0}
-  .alert.gone{opacity:.55}
-  .alert .prod{font-weight:600;font-size:15px;line-height:1.35}
-  .alert .meta{color:var(--muted);font-size:13px;margin-top:3px;line-height:1.45}
-  .alert .notes{font-size:13px;margin-top:5px;line-height:1.45}
-  .chip{display:inline-block;padding:1px 8px;border-radius:999px;font-size:11px;font-weight:700;letter-spacing:.02em;vertical-align:1px;margin-right:6px;color:#fff}
-  .chip.confirmed{background:var(--green)} .chip.spotted{background:var(--blue)}
-  .chip.upcoming{background:var(--amber);color:#231a00} .chip.gone{background:var(--gray)}
-  .chip.other{background:var(--gray)}
-  .verdict{border-radius:14px;padding:14px;border:1px solid var(--line);background:var(--card)}
-  .verdict .pill{display:inline-block;padding:3px 12px;border-radius:999px;font-weight:800;font-size:14px;color:#fff}
-  .verdict .pill.yes{background:var(--green)} .verdict .pill.no{background:var(--gray)}
-  .verdict .vtext{margin-top:9px;font-size:15px;line-height:1.5}
-  .verdict .vmeta{color:var(--muted);font-size:13px;margin-top:6px}
-  .empty{color:var(--muted);font-size:14px;background:var(--card);border:1px dashed var(--line);border-radius:12px;padding:12px}
-  .bb .alert{padding:9px 12px}
-  footer{color:var(--muted);font-size:12px;margin-top:30px;line-height:1.5;text-align:center}
-  a{color:var(--accent)}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);-webkit-text-size-adjust:100%}
+  .font-display{font-family:"Archivo",system-ui,sans-serif}
+  .wrap{max-width:768px;margin:0 auto;padding:16px 16px 48px}
+  a{color:var(--accent-soft)}
+  /* Header */
+  .hdr{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+  .hdr .logo{display:flex;align-items:center;gap:8px}
+  .hdr .logo .sq{display:flex;height:32px;width:32px;align-items:center;justify-content:center;border-radius:8px;background:var(--accent);font-size:16px}
+  .hdr h1{font-size:22px;font-weight:900;line-height:1;letter-spacing:-0.02em;margin:0}
+  .hdr .sub{margin-top:6px;font-size:13px;color:var(--dim);line-height:1.45}
+  .hdr .snap{margin-top:2px;font-size:12px;color:var(--dim)}
+  /* Sweep / Check panel */
+  .sweep{margin-top:16px;border-radius:16px;border:1px solid rgba(88,101,242,.5);background:rgba(88,101,242,.10);padding:16px}
+  .sweep .row{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+  .sweep h2{font-size:18px;font-weight:900;line-height:1.15;margin:0;flex:1;min-width:140px}
+  .checkbtn{flex-shrink:0;border:none;border-radius:999px;background:var(--accent);padding:14px 24px;
+    font-family:"Archivo",system-ui,sans-serif;font-size:16px;font-weight:900;color:#fff;
+    box-shadow:0 10px 15px -3px rgba(88,101,242,.4);cursor:not-allowed;opacity:.55}
+  .sweep .statusline{margin-top:12px;display:flex;flex-wrap:wrap;gap:4px 16px;font-size:12px;font-weight:500;color:var(--dim)}
+  .sweep .statusline b{color:var(--text)}
+  .sweep .locknote{margin-top:8px;font-size:12px;color:var(--dim);line-height:1.5}
+  /* Stat cards */
+  .stats{margin-top:16px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .stat{border-radius:16px;border:1px solid var(--border);background:var(--surface);padding:12px;text-align:center}
+  .stat .n{font-family:"Archivo",system-ui,sans-serif;font-size:24px;font-weight:900;line-height:1.1}
+  .stat .n.green{color:#6EE7B7}
+  .stat .n.accent{color:var(--accent-soft)}
+  .stat .l{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--dim);margin-top:2px}
+  /* Section headings */
+  .secttl{margin:24px 0 0;font-size:14px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--dim)}
+  /* Store tiles */
+  .tiles{margin-top:8px;display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+  @media(min-width:640px){.tiles{grid-template-columns:repeat(3,1fr)}}
+  .tile{display:block;text-decoration:none;color:var(--text);border-radius:16px;border:1px solid var(--border);padding:12px;text-align:left;transition:transform .08s ease}
+  .tile:active{transform:scale(.98)}
+  .tile .top{display:flex;align-items:center;justify-content:space-between}
+  .tile .letter{display:flex;height:36px;width:36px;align-items:center;justify-content:center;border-radius:8px;
+    font-family:"Archivo",system-ui,sans-serif;font-size:18px;font-weight:900;color:#fff}
+  .tile .newpill{background:#fff;color:#000;border-radius:999px;padding:2px 8px;font-size:11px;font-weight:900}
+  .tile .name{margin-top:8px;font-family:"Archivo",system-ui,sans-serif;font-size:15px;font-weight:800;line-height:1.15}
+  .tile .name .arrow{color:var(--dim)}
+  .tile .tag{font-size:11px;color:var(--dim);margin-top:2px;line-height:1.35}
+  /* Verdict */
+  .verdict-panel{margin-top:20px;border-radius:16px;border:1px solid rgba(129,140,248,.3);background:rgba(129,140,248,.07);padding:16px}
+  .verdict-panel .vrow{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+  .verdict-panel h2{font-size:16px;font-weight:800;margin:0}
+  .verdict-panel .vsub{font-size:12px;color:var(--dim);margin-top:2px;line-height:1.45}
+  .vpill{flex-shrink:0;border-radius:999px;padding:4px 10px;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.05em;border:1px solid}
+  .vpill.idle{background:rgba(129,140,248,.15);border-color:rgba(129,140,248,.3);color:#C7CDFC}
+  .vpill.yes{background:rgba(52,211,153,.15);border-color:rgba(52,211,153,.3);color:#6EE7B7}
+  .vpill.no{background:rgba(161,161,170,.10);border-color:rgba(161,161,170,.25);color:#D4D4D8}
+  .vempty{margin-top:12px;border-radius:12px;border:1px dashed rgba(129,140,248,.3);padding:16px;text-align:center;font-size:14px;color:var(--dim);line-height:1.5}
+  .vcard{margin-top:12px;border-radius:12px;border:1px solid var(--border);background:var(--surface);padding:14px}
+  .vcard .vtext{font-family:"Archivo",system-ui,sans-serif;font-size:16px;font-weight:700;line-height:1.4}
+  .vcard .vwhere{margin-top:6px;font-size:13px;font-weight:600;color:#C7CDFC}
+  .vcard .vmeta{margin-top:8px;font-size:11px;font-weight:500;color:var(--dim)}
+  /* Alert cards */
+  .cards{margin-top:12px;display:flex;flex-direction:column;gap:8px}
+  .alert{border-radius:16px;border:1px solid var(--border);background:var(--surface);padding:14px}
+  .alert.gone{opacity:.6}
+  .alert .top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+  .alert .badges{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+  .alert .ago{flex-shrink:0;font-size:11px;font-weight:500;color:var(--dim)}
+  .rbadge{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:4px 10px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:#fff}
+  .spill{display:inline-flex;align-items:center;border-radius:999px;border:1px solid;padding:2px 8px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+  .spill.spotted{background:rgba(251,191,36,.15);color:#FCD34D;border-color:rgba(251,191,36,.3)}
+  .spill.confirmed{background:rgba(52,211,153,.15);color:#6EE7B7;border-color:rgba(52,211,153,.3)}
+  .spill.gone{background:rgba(161,161,170,.10);color:#A1A1AA;border-color:rgba(161,161,170,.2)}
+  .spill.upcoming{background:rgba(56,189,248,.15);color:#7DD3FC;border-color:rgba(56,189,248,.3)}
+  .spill.other{background:rgba(161,161,170,.10);color:#A1A1AA;border-color:rgba(161,161,170,.2)}
+  .alert h3{margin:8px 0 0;font-family:"Archivo",system-ui,sans-serif;font-size:16px;font-weight:700;line-height:1.3}
+  .alert .meta{margin-top:4px;font-size:13px;color:var(--dim);line-height:1.5}
+  .alert .meta p{margin:2px 0}
+  .alert .meta .notes{color:var(--text);opacity:.85}
+  .alert .meta .when{font-size:11px}
+  .alert .meta a{font-weight:700;text-decoration:underline;text-underline-offset:2px}
+  .empty{margin-top:12px;border-radius:16px;border:1px dashed var(--border);background:var(--surface);padding:24px;text-align:center}
+  .empty .ico{font-size:30px}
+  .empty p{margin:8px auto 0;max-width:340px;font-size:14px;color:var(--dim);line-height:1.5}
+  /* South Bay pinned cards */
+  .pins{margin-top:12px;display:grid;gap:10px}
+  @media(min-width:640px){.pins{grid-template-columns:repeat(2,1fr)}}
+  @media(min-width:900px){.pins{grid-template-columns:repeat(3,1fr)}}
+  .pin{position:relative;border-radius:8px;border:1px solid var(--border);background:var(--surface);padding:16px 12px 12px;box-shadow:0 4px 6px -1px rgba(0,0,0,.35)}
+  .pin .dot{position:absolute;top:-6px;left:50%;transform:translateX(-50%);height:12px;width:12px;border-radius:999px;background:#EF4444;box-shadow:0 1px 3px rgba(0,0,0,.5);outline:2px solid rgba(127,29,29,.4)}
+  .pin h3{margin:8px 0 0;font-size:14px;font-weight:700;line-height:1.3}
+  .pin .loc{margin-top:2px;font-size:12px;font-weight:600;color:#FCD34D}
+  .pin .meta{margin-top:6px;font-size:12px;color:var(--dim);line-height:1.5}
+  .pin .meta .notes{color:var(--text);opacity:.85}
+  /* Detail page header */
+  .backbtn{display:inline-block;border-radius:999px;border:1px solid var(--border);background:var(--surface);padding:10px 16px;font-size:14px;font-weight:700;color:var(--text);text-decoration:none}
+  .backbtn:active{transform:scale(.98)}
+  .dhead{margin-top:16px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+  .dhead .ttl{display:flex;align-items:center;gap:10px}
+  .dhead .letter{display:flex;height:40px;width:40px;flex-shrink:0;align-items:center;justify-content:center;border-radius:12px;font-family:"Archivo",system-ui,sans-serif;font-size:20px;font-weight:900;color:#fff}
+  .dhead h1{font-size:26px;font-weight:900;line-height:1;letter-spacing:-0.02em;margin:0}
+  .dhead .sub{margin-top:8px;font-size:13px;color:var(--dim);line-height:1.45}
+  .listtl{margin:24px 0 0;font-family:"Archivo",system-ui,sans-serif;font-size:16px;font-weight:800}
+  footer{margin-top:32px;color:var(--dim);font-size:12px;line-height:1.5;text-align:center}
 </style>
 <link rel="icon" type="image/png" href="icon-512.png">
 <link rel="apple-touch-icon" href="icon-180.png">
 </head>
+
 <body>
 <div class="wrap">
-  <header>
-    <h1>🎴 Restock Alerts — South Bay</h1>
-    <div class="sub">Pokémon &amp; One Piece restock sightings from the local Discord watch.<br>
-    Shared view · read-only · <span id="snapLine">loading…</span></div>
+  <header class="hdr">
+    <div>
+      <div class="logo"><span class="sq">💬</span><h1 class="font-display">Discord Restocks</h1></div>
+      <p class="sub">Fed by Muse's Discord sweeps, organized by store. Newest first.</p>
+      <p class="snap" id="snapLine">Loading the latest snapshot…</p>
+    </div>
   </header>
 
-  <div class="panel">
-    <div class="checkbtn" aria-disabled="true">✓ Check</div>
-    <div class="checknote">Checks run automatically — <b>midnight &amp; 5:30 AM</b> (Pacific).<br>
-    Last sweep: <b id="lastSweep">—</b><br>
-    This page is a view-only copy, refreshed after each sweep.</div>
-  </div>
+  <section class="sweep" aria-label="Sweep Discord">
+    <div class="row">
+      <h2 class="font-display">Sweep Discord</h2>
+      <button class="checkbtn" disabled aria-disabled="true" title="Checks run on Ethan's board — this shared page refreshes after each sweep">🔍 Check</button>
+    </div>
+    <div class="statusline">
+      <span>Checks run automatically — <b>midnight &amp; 5:30 AM</b> (Pacific)</span>
+      <span>Last sweep: <b id="lastSweep">—</b></span>
+    </div>
+    <p class="locknote">Shared view — the Check button lives on Ethan's board, and a fresh check locks for 30 minutes after each tap so the button can't be spammed. This page refreshes on its own after every sweep.</p>
+  </section>
 
-  <h2>🌙 Line up or not</h2>
-  <div id="verdict"></div>
+  <div class="stats" id="homeStats"></div>
 
-  <div id="stores"></div>
+  <section class="verdict-panel" aria-label="Line up or not">
+    <div class="vrow">
+      <div>
+        <h2 class="font-display">🌙 Line up or not</h2>
+        <p class="vsub">The verdict from the nightly 12 AM check — whether anything is worth lining up for in the morning, and where.</p>
+      </div>
+      <span class="vpill idle" id="verdictPill">12 AM check</span>
+    </div>
+    <div id="verdict"></div>
+  </section>
 
-  <h2>🏴‍☠️ One Piece <span class="count" id="opCount"></span></h2>
-  <div id="onepiece"></div>
-
-  <h2>📍 South Bay bulletin <span class="count">latest sightings near home</span></h2>
-  <div id="southbay" class="bb"></div>
+  <h2 class="secttl font-display">Stores</h2>
+  <div class="tiles" id="tiles"></div>
 
   <footer>Snapshot of Ethan's Restock Alerts board — for friends keeping watch.<br>
   Stock moves fast; a sighting here is never a guarantee it's still on the shelf.</footer>
 </div>
 
 <script>
-const STORE_ORDER = ["Costco","Target","Walmart","Best Buy","Barnes & Noble","Online"];
-const STORE_ICON = {"Costco":"🛒","Target":"🎯","Walmart":"🏪","Best Buy":"🔌","Barnes & Noble":"📚","Online":"🌐"};
+const RETAILERS = {
+  "Costco":        {color:"#E31837", bg:"#2A1218", letter:"C",  tagline:"Warehouse drops"},
+  "Target":        {color:"#CC0000", bg:"#2A0F0F", letter:"◎", tagline:"Story Road & more"},
+  "Walmart":       {color:"#0071CE", bg:"#0E1E33", letter:"W",  tagline:"Online + in-store"},
+  "Best Buy":      {color:"#FFE000", bg:"#262205", letter:"B",  tagline:"Drops & queues"},
+  "Barnes & Noble":{color:"#366251", bg:"#12211B", letter:"BN", tagline:"Books & TCG drops"},
+  "Online":        {color:"#7C4DFF", bg:"#1B1430", letter:"🌐", tagline:"Website drops · incl. Pokémon Center"}
+};
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function fmtTime(ms){
   if(!ms) return "—";
-  return new Date(ms).toLocaleString("en-US",{timeZone:"America/Los_Angeles",weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+  return new Date(ms).toLocaleString("en-US",{timeZone:"America/Los_Angeles",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
 }
-function chip(status){
+function timeAgo(ms){
+  const diff=Date.now()-ms, mins=Math.floor(diff/60000);
+  if(mins<1) return "just now";
+  if(mins<60) return mins+"m ago";
+  const hrs=Math.floor(mins/60);
+  if(hrs<24) return hrs+"h ago";
+  return Math.floor(hrs/24)+"d ago";
+}
+function ptDate(ms){ return new Date(ms).toLocaleDateString("en-US",{timeZone:"America/Los_Angeles"}); }
+function isToday(ms, ref){ return ptDate(ms)===ptDate(ref||Date.now()); }
+function statusPill(status){
   const s=(status||"spotted").toLowerCase();
-  const known=["confirmed","spotted","upcoming","gone"];
-  return '<span class="chip '+(known.includes(s)?s:"other")+'">'+esc(s.toUpperCase())+"</span>";
+  const map={spotted:"👀 Spotted",confirmed:"✅ Confirmed",gone:"❌ Gone",upcoming:"🗓 Upcoming"};
+  const known=["spotted","confirmed","gone","upcoming"];
+  return '<span class="spill '+(known.includes(s)?s:"other")+'">'+(map[s]||esc(s))+"</span>";
 }
-function alertCard(a, showStore){
-  const meta=[showStore?esc(a.retailer):"", esc(a.location||""), fmtTime(a.createdAt)].filter(Boolean).join(" · ");
-  return '<div class="alert'+(a.status==="gone"?" gone":"")+'"><div class="prod">'+chip(a.status)+esc(a.product)+"</div>"+
-    (meta?'<div class="meta">'+meta+"</div>":"")+
-    (a.notes?'<div class="notes">'+esc(a.notes)+"</div>":"")+
-    (a.link?'<div class="notes"><a href="'+esc(a.link)+'" rel="noopener">Link</a></div>':"")+"</div>";
+function retailerBadge(name){
+  const r=RETAILERS[name];
+  const color=r?r.color:"#5865F2", letter=r?r.letter:"🏬";
+  const fg = name==="Best Buy" ? "#111" : "#fff";
+  return '<span class="rbadge" style="background:'+color+';color:'+fg+'"><span>'+esc(letter)+"</span> "+esc(name)+"</span>";
 }
+function alertCard(a){
+  let meta="";
+  if(a.location) meta+="<p>📍 "+esc(a.location)+"</p>";
+  meta+='<p class="when">'+fmtTime(a.createdAt)+" PT</p>";
+  if(a.notes) meta+='<p class="notes">'+esc(a.notes)+"</p>";
+  if(a.link) meta+='<p><a href="'+esc(a.link)+'" rel="noopener">Open in Discord →</a></p>';
+  return '<article class="alert'+(a.status==="gone"?" gone":"")+'"><div class="top"><div class="badges">'+
+    retailerBadge(a.retailer)+statusPill(a.status)+'</div><span class="ago">'+timeAgo(a.createdAt)+"</span></div>"+
+    "<h3>"+esc(a.product)+'</h3><div class="meta">'+meta+"</div></article>";
+}
+function statCards(list, ref){
+  const today=list.filter(a=>isToday(a.createdAt, ref)).length;
+  const conf=list.filter(a=>(a.status||"").toLowerCase()==="confirmed").length;
+  return '<div class="stat"><div class="n font-display">'+list.length+'</div><div class="l">Total alerts</div></div>'+
+    '<div class="stat"><div class="n font-display">'+today+'</div><div class="l">Today</div></div>'+
+    '<div class="stat"><div class="n font-display green">'+conf+'</div><div class="l">Confirmed</div></div>';
+}
+
+const TILES = [
+  {key:"store", name:"Costco",         href:"costco.html"},
+  {key:"store", name:"Target",         href:"target.html"},
+  {key:"store", name:"Walmart",        href:"walmart.html"},
+  {key:"store", name:"Best Buy",       href:"bestbuy.html"},
+  {key:"store", name:"Barnes & Noble", href:"barnes-noble.html"},
+  {key:"store", name:"Online",         href:"online.html"},
+  {key:"onepiece", name:"One Piece",   href:"onepiece.html", color:"#E31837", bg:"#2A1218", letter:"🏴‍☠️", tagline:"One Piece Card Game restocks"},
+  {key:"southbay", name:"South Bay",   href:"southbay.html", color:"#F59E0B", bg:"#261B05", letter:"📌", tagline:"Every South Bay stop, one board"}
+];
 fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
-  document.getElementById("snapLine").textContent = "Snapshot updated " + fmtTime(d.generatedAt) + " PT · " + d.counts.total + " alerts on the board";
-  document.getElementById("lastSweep").textContent = fmtTime(d.lastSweepAt) + " PT";
-  // Stores
+  const ref=d.generatedAt||Date.now();
+  document.getElementById("snapLine").textContent="Shared view · read-only · Snapshot updated "+fmtTime(d.generatedAt)+" PT · "+d.alerts.length+" alerts on the board";
+  document.getElementById("lastSweep").textContent=fmtTime(d.lastSweepAt)+" PT";
+  // Home stats (mirrors the board's stat row: Today / All alerts / Confirmed)
+  const today=d.alerts.filter(a=>isToday(a.createdAt, ref)).length;
+  const conf=d.alerts.filter(a=>(a.status||"").toLowerCase()==="confirmed").length;
+  document.getElementById("homeStats").innerHTML=
+    '<div class="stat"><div class="n font-display">'+today+'</div><div class="l">Today</div></div>'+
+    '<div class="stat"><div class="n font-display">'+d.alerts.length+'</div><div class="l">All alerts</div></div>'+
+    '<div class="stat"><div class="n font-display accent">'+conf+'</div><div class="l">Confirmed</div></div>';
+  // Verdict
+  const v=d.verdict, vel=document.getElementById("verdict"), pill=document.getElementById("verdictPill");
+  if(v){
+    pill.className="vpill "+(v.lineUp?"yes":"no");
+    pill.textContent=v.lineUp?"Line up":"No line-up";
+    vel.innerHTML='<div class="vcard"><div class="vtext">'+esc(v.text)+"</div>"+
+      (v.where?'<div class="vwhere">📍 '+esc(v.where)+"</div>":"")+
+      '<div class="vmeta">From the 12 AM check · '+fmtTime(v.checkAt)+" PT</div></div>";
+  } else {
+    vel.innerHTML='<div class="vempty">No verdict yet. After the next 12 AM check, this is where the call lands — whether there\'s anything worth lining up for, and where.</div>';
+  }
+  // Tiles
   const byStore={};
   d.alerts.forEach(a=>{(byStore[a.retailer]=byStore[a.retailer]||[]).push(a)});
-  let html="";
-  STORE_ORDER.forEach(store=>{
-    const list=byStore[store]||[];
-    html+="<h2>"+(STORE_ICON[store]||"🏬")+" "+esc(store)+' <span class="count">'+list.length+" alert"+(list.length===1?"":"s")+"</span></h2>";
-    html+= list.length ? list.map(a=>alertCard(a,false)).join("") : '<div class="empty">Nothing spotted here right now.</div>';
-  });
-  // Any retailer outside the known order (future-proofing)
-  Object.keys(byStore).filter(s=>!STORE_ORDER.includes(s)).forEach(store=>{
-    html+="<h2>🏬 "+esc(store)+' <span class="count">'+byStore[store].length+"</span></h2>"+byStore[store].map(a=>alertCard(a,false)).join("");
-  });
-  document.getElementById("stores").innerHTML=html;
-  // Verdict
-  const v=d.verdict, vel=document.getElementById("verdict");
-  if(v){
-    vel.innerHTML='<div class="verdict"><span class="pill '+(v.lineUp?"yes":"no")+'">'+(v.lineUp?"LINE UP ✅":"NO LINE-UP")+"</span>"+
-      '<div class="vtext">'+esc(v.text)+"</div>"+
-      (v.where?'<div class="vmeta">Where: '+esc(v.where)+"</div>":"")+
-      '<div class="vmeta">From the '+fmtTime(v.checkAt)+' PT check</div></div>';
-  } else {
-    vel.innerHTML='<div class="empty">No verdict posted yet — the first one lands after tonight\'s 12 AM check.</div>';
-  }
-  // One Piece
   const op=d.alerts.filter(a=>/one piece/i.test(a.product));
-  document.getElementById("opCount").textContent=op.length+" alert"+(op.length===1?"":"s");
-  document.getElementById("onepiece").innerHTML= op.length ? op.map(a=>alertCard(a,true)).join("") : '<div class="empty">No One Piece sightings on the board right now.</div>';
-  // South Bay bulletin
   const sb=d.southBay||[];
-  document.getElementById("southbay").innerHTML= sb.length ? sb.map(a=>alertCard(a,true)).join("") : '<div class="empty">No South Bay sightings yet.</div>';
+  document.getElementById("tiles").innerHTML=TILES.map(t=>{
+    const list = t.key==="store" ? (byStore[t.name]||[]) : t.key==="onepiece" ? op : sb;
+    const meta = RETAILERS[t.name]||t;
+    const newN = list.filter(a=>isToday(a.createdAt, ref)).length;
+    const fg = t.name==="Best Buy" ? "#111" : "#fff";
+    const unit = t.key==="southbay" ? "pinned" : "total";
+    return '<a class="tile" href="'+t.href+'" aria-label="Open the '+esc(t.name)+' page" style="background:'+meta.bg+'">'+
+      '<span class="top"><span class="letter" style="background:'+meta.color+';color:'+fg+'">'+esc(meta.letter)+"</span>"+
+      (newN>0?'<span class="newpill">'+newN+" new</span>":"")+"</span>"+
+      '<span class="name">'+esc(t.name)+' <span class="arrow">→</span></span>'+
+      '<span class="tag" style="display:block">'+esc(meta.tagline)+" · "+list.length+" "+unit+"</span></a>";
+  }).join("");
 }).catch(e=>{
   document.getElementById("snapLine").textContent="Couldn't load the latest snapshot — pull to refresh in a bit.";
 });

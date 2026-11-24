@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Best Buy — Restock Alerts (Shared View)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    color-scheme:dark;
+    --bg:#0E1013; --surface:#171A21; --surface2:#1E232E; --text:#F2F3F5; --dim:#9AA0AE;
+    --border:#262B36; --accent:#5865F2; --accent-soft:#8B95FF; --radius:14px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ color-scheme:light; --bg:#F2F3F5; --surface:#FFFFFF; --surface2:#EDEFF3; --text:#111318; --dim:#5B6472; --border:#D9DEE7; }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);-webkit-text-size-adjust:100%}
+  .font-display{font-family:"Archivo",system-ui,sans-serif}
+  .wrap{max-width:768px;margin:0 auto;padding:16px 16px 48px}
+  a{color:var(--accent-soft)}
+  /* Header */
+  .hdr{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+  .hdr .logo{display:flex;align-items:center;gap:8px}
+  .hdr .logo .sq{display:flex;height:32px;width:32px;align-items:center;justify-content:center;border-radius:8px;background:var(--accent);font-size:16px}
+  .hdr h1{font-size:22px;font-weight:900;line-height:1;letter-spacing:-0.02em;margin:0}
+  .hdr .sub{margin-top:6px;font-size:13px;color:var(--dim);line-height:1.45}
+  .hdr .snap{margin-top:2px;font-size:12px;color:var(--dim)}
+  /* Sweep / Check panel */
+  .sweep{margin-top:16px;border-radius:16px;border:1px solid rgba(88,101,242,.5);background:rgba(88,101,242,.10);padding:16px}
+  .sweep .row{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+  .sweep h2{font-size:18px;font-weight:900;line-height:1.15;margin:0;flex:1;min-width:140px}
+  .checkbtn{flex-shrink:0;border:none;border-radius:999px;background:var(--accent);padding:14px 24px;
+    font-family:"Archivo",system-ui,sans-serif;font-size:16px;font-weight:900;color:#fff;
+    box-shadow:0 10px 15px -3px rgba(88,101,242,.4);cursor:not-allowed;opacity:.55}
+  .sweep .statusline{margin-top:12px;display:flex;flex-wrap:wrap;gap:4px 16px;font-size:12px;font-weight:500;color:var(--dim)}
+  .sweep .statusline b{color:var(--text)}
+  .sweep .locknote{margin-top:8px;font-size:12px;color:var(--dim);line-height:1.5}
+  /* Stat cards */
+  .stats{margin-top:16px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .stat{border-radius:16px;border:1px solid var(--border);background:var(--surface);padding:12px;text-align:center}
+  .stat .n{font-family:"Archivo",system-ui,sans-serif;font-size:24px;font-weight:900;line-height:1.1}
+  .stat .n.green{color:#6EE7B7}
+  .stat .n.accent{color:var(--accent-soft)}
+  .stat .l{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--dim);margin-top:2px}
+  /* Section headings */
+  .secttl{margin:24px 0 0;font-size:14px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:var(--dim)}
+  /* Store tiles */
+  .tiles{margin-top:8px;display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+  @media(min-width:640px){.tiles{grid-template-columns:repeat(3,1fr)}}
+  .tile{display:block;text-decoration:none;color:var(--text);border-radius:16px;border:1px solid var(--border);padding:12px;text-align:left;transition:transform .08s ease}
+  .tile:active{transform:scale(.98)}
+  .tile .top{display:flex;align-items:center;justify-content:space-between}
+  .tile .letter{display:flex;height:36px;width:36px;align-items:center;justify-content:center;border-radius:8px;
+    font-family:"Archivo",system-ui,sans-serif;font-size:18px;font-weight:900;color:#fff}
+  .tile .newpill{background:#fff;color:#000;border-radius:999px;padding:2px 8px;font-size:11px;font-weight:900}
+  .tile .name{margin-top:8px;font-family:"Archivo",system-ui,sans-serif;font-size:15px;font-weight:800;line-height:1.15}
+  .tile .name .arrow{color:var(--dim)}
+  .tile .tag{font-size:11px;color:var(--dim);margin-top:2px;line-height:1.35}
+  /* Verdict */
+  .verdict-panel{margin-top:20px;border-radius:16px;border:1px solid rgba(129,140,248,.3);background:rgba(129,140,248,.07);padding:16px}
+  .verdict-panel .vrow{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+  .verdict-panel h2{font-size:16px;font-weight:800;margin:0}
+  .verdict-panel .vsub{font-size:12px;color:var(--dim);margin-top:2px;line-height:1.45}
+  .vpill{flex-shrink:0;border-radius:999px;padding:4px 10px;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.05em;border:1px solid}
+  .vpill.idle{background:rgba(129,140,248,.15);border-color:rgba(129,140,248,.3);color:#C7CDFC}
+  .vpill.yes{background:rgba(52,211,153,.15);border-color:rgba(52,211,153,.3);color:#6EE7B7}
+  .vpill.no{background:rgba(161,161,170,.10);border-color:rgba(161,161,170,.25);color:#D4D4D8}
+  .vempty{margin-top:12px;border-radius:12px;border:1px dashed rgba(129,140,248,.3);padding:16px;text-align:center;font-size:14px;color:var(--dim);line-height:1.5}
+  .vcard{margin-top:12px;border-radius:12px;border:1px solid var(--border);background:var(--surface);padding:14px}
+  .vcard .vtext{font-family:"Archivo",system-ui,sans-serif;font-size:16px;font-weight:700;line-height:1.4}
+  .vcard .vwhere{margin-top:6px;font-size:13px;font-weight:600;color:#C7CDFC}
+  .vcard .vmeta{margin-top:8px;font-size:11px;font-weight:500;color:var(--dim)}
+  /* Alert cards */
+  .cards{margin-top:12px;display:flex;flex-direction:column;gap:8px}
+  .alert{border-radius:16px;border:1px solid var(--border);background:var(--surface);padding:14px}
+  .alert.gone{opacity:.6}
+  .alert .top{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+  .alert .badges{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+  .alert .ago{flex-shrink:0;font-size:11px;font-weight:500;color:var(--dim)}
+  .rbadge{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:4px 10px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;color:#fff}
+  .spill{display:inline-flex;align-items:center;border-radius:999px;border:1px solid;padding:2px 8px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+  .spill.spotted{background:rgba(251,191,36,.15);color:#FCD34D;border-color:rgba(251,191,36,.3)}
+  .spill.confirmed{background:rgba(52,211,153,.15);color:#6EE7B7;border-color:rgba(52,211,153,.3)}
+  .spill.gone{background:rgba(161,161,170,.10);color:#A1A1AA;border-color:rgba(161,161,170,.2)}
+  .spill.upcoming{background:rgba(56,189,248,.15);color:#7DD3FC;border-color:rgba(56,189,248,.3)}
+  .spill.other{background:rgba(161,161,170,.10);color:#A1A1AA;border-color:rgba(161,161,170,.2)}
+  .alert h3{margin:8px 0 0;font-family:"Archivo",system-ui,sans-serif;font-size:16px;font-weight:700;line-height:1.3}
+  .alert .meta{margin-top:4px;font-size:13px;color:var(--dim);line-height:1.5}
+  .alert .meta p{margin:2px 0}
+  .alert .meta .notes{color:var(--text);opacity:.85}
+  .alert .meta .when{font-size:11px}
+  .alert .meta a{font-weight:700;text-decoration:underline;text-underline-offset:2px}
+  .empty{margin-top:12px;border-radius:16px;border:1px dashed var(--border);background:var(--surface);padding:24px;text-align:center}
+  .empty .ico{font-size:30px}
+  .empty p{margin:8px auto 0;max-width:340px;font-size:14px;color:var(--dim);line-height:1.5}
+  /* South Bay pinned cards */
+  .pins{margin-top:12px;display:grid;gap:10px}
+  @media(min-width:640px){.pins{grid-template-columns:repeat(2,1fr)}}
+  @media(min-width:900px){.pins{grid-template-columns:repeat(3,1fr)}}
+  .pin{position:relative;border-radius:8px;border:1px solid var(--border);background:var(--surface);padding:16px 12px 12px;box-shadow:0 4px 6px -1px rgba(0,0,0,.35)}
+  .pin .dot{position:absolute;top:-6px;left:50%;transform:translateX(-50%);height:12px;width:12px;border-radius:999px;background:#EF4444;box-shadow:0 1px 3px rgba(0,0,0,.5);outline:2px solid rgba(127,29,29,.4)}
+  .pin h3{margin:8px 0 0;font-size:14px;font-weight:700;line-height:1.3}
+  .pin .loc{margin-top:2px;font-size:12px;font-weight:600;color:#FCD34D}
+  .pin .meta{margin-top:6px;font-size:12px;color:var(--dim);line-height:1.5}
+  .pin .meta .notes{color:var(--text);opacity:.85}
+  /* Detail page header */
+  .backbtn{display:inline-block;border-radius:999px;border:1px solid var(--border);background:var(--surface);padding:10px 16px;font-size:14px;font-weight:700;color:var(--text);text-decoration:none}
+  .backbtn:active{transform:scale(.98)}
+  .dhead{margin-top:16px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+  .dhead .ttl{display:flex;align-items:center;gap:10px}
+  .dhead .letter{display:flex;height:40px;width:40px;flex-shrink:0;align-items:center;justify-content:center;border-radius:12px;font-family:"Archivo",system-ui,sans-serif;font-size:20px;font-weight:900;color:#fff}
+  .dhead h1{font-size:26px;font-weight:900;line-height:1;letter-spacing:-0.02em;margin:0}
+  .dhead .sub{margin-top:8px;font-size:13px;color:var(--dim);line-height:1.45}
+  .listtl{margin:24px 0 0;font-family:"Archivo",system-ui,sans-serif;font-size:16px;font-weight:800}
+  footer{margin-top:32px;color:var(--dim);font-size:12px;line-height:1.5;text-align:center}
+</style>
+<link rel="icon" type="image/png" href="icon-512.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+</head>
+
+<body>
+<div class="wrap">
+  <a class="backbtn" href="index.html" aria-label="Back to all sections">← All sections</a>
+  <div class="dhead">
+    <div>
+      <div class="ttl"><span class="letter" style="background:#FFE000;color:#111">B</span><h1 class="font-display">Best Buy</h1></div>
+      <p class="sub">Drops &amp; queues — every restock the sweeps found for Best Buy, newest first.</p>
+    </div>
+  </div>
+  <div class="stats" id="stats"></div>
+  <h2 class="listtl" id="listTitle">All alerts</h2>
+  <div id="list"></div>
+  <footer>Snapshot of Ethan's Restock Alerts board — for friends keeping watch.<br>
+  Stock moves fast; a sighting here is never a guarantee it's still on the shelf.</footer>
+</div>
+<script>
+const RETAILERS = {
+  "Costco":        {color:"#E31837", bg:"#2A1218", letter:"C",  tagline:"Warehouse drops"},
+  "Target":        {color:"#CC0000", bg:"#2A0F0F", letter:"◎", tagline:"Story Road & more"},
+  "Walmart":       {color:"#0071CE", bg:"#0E1E33", letter:"W",  tagline:"Online + in-store"},
+  "Best Buy":      {color:"#FFE000", bg:"#262205", letter:"B",  tagline:"Drops & queues"},
+  "Barnes & Noble":{color:"#366251", bg:"#12211B", letter:"BN", tagline:"Books & TCG drops"},
+  "Online":        {color:"#7C4DFF", bg:"#1B1430", letter:"🌐", tagline:"Website drops · incl. Pokémon Center"}
+};
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function fmtTime(ms){
+  if(!ms) return "—";
+  return new Date(ms).toLocaleString("en-US",{timeZone:"America/Los_Angeles",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+}
+function timeAgo(ms){
+  const diff=Date.now()-ms, mins=Math.floor(diff/60000);
+  if(mins<1) return "just now";
+  if(mins<60) return mins+"m ago";
+  const hrs=Math.floor(mins/60);
+  if(hrs<24) return hrs+"h ago";
+  return Math.floor(hrs/24)+"d ago";
+}
+function ptDate(ms){ return new Date(ms).toLocaleDateString("en-US",{timeZone:"America/Los_Angeles"}); }
+function isToday(ms, ref){ return ptDate(ms)===ptDate(ref||Date.now()); }
+function statusPill(status){
+  const s=(status||"spotted").toLowerCase();
+  const map={spotted:"👀 Spotted",confirmed:"✅ Confirmed",gone:"❌ Gone",upcoming:"🗓 Upcoming"};
+  const known=["spotted","confirmed","gone","upcoming"];
+  return '<span class="spill '+(known.includes(s)?s:"other")+'">'+(map[s]||esc(s))+"</span>";
+}
+function retailerBadge(name){
+  const r=RETAILERS[name];
+  const color=r?r.color:"#5865F2", letter=r?r.letter:"🏬";
+  const fg = name==="Best Buy" ? "#111" : "#fff";
+  return '<span class="rbadge" style="background:'+color+';color:'+fg+'"><span>'+esc(letter)+"</span> "+esc(name)+"</span>";
+}
+function alertCard(a){
+  let meta="";
+  if(a.location) meta+="<p>📍 "+esc(a.location)+"</p>";
+  meta+='<p class="when">'+fmtTime(a.createdAt)+" PT</p>";
+  if(a.notes) meta+='<p class="notes">'+esc(a.notes)+"</p>";
+  if(a.link) meta+='<p><a href="'+esc(a.link)+'" rel="noopener">Open in Discord →</a></p>';
+  return '<article class="alert'+(a.status==="gone"?" gone":"")+'"><div class="top"><div class="badges">'+
+    retailerBadge(a.retailer)+statusPill(a.status)+'</div><span class="ago">'+timeAgo(a.createdAt)+"</span></div>"+
+    "<h3>"+esc(a.product)+'</h3><div class="meta">'+meta+"</div></article>";
+}
+function statCards(list, ref){
+  const today=list.filter(a=>isToday(a.createdAt, ref)).length;
+  const conf=list.filter(a=>(a.status||"").toLowerCase()==="confirmed").length;
+  return '<div class="stat"><div class="n font-display">'+list.length+'</div><div class="l">Total alerts</div></div>'+
+    '<div class="stat"><div class="n font-display">'+today+'</div><div class="l">Today</div></div>'+
+    '<div class="stat"><div class="n font-display green">'+conf+'</div><div class="l">Confirmed</div></div>';
+}
+
+const SECTION = {"kind": "store", "name": "Best Buy", "plain": "Best Buy", "empty": "No Best Buy alerts yet. When a sweep finds a Best Buy drop, it lands here."};
+fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
+  const ref=d.generatedAt||Date.now();
+  let list;
+  if(SECTION.kind==="store") list=d.alerts.filter(a=>a.retailer===SECTION.name);
+  else if(SECTION.kind==="onepiece") list=d.alerts.filter(a=>/one piece/i.test(a.product));
+  else list=(d.southBay||[]);
+  document.getElementById("stats").innerHTML=statCards(list, ref);
+  document.getElementById("listTitle").textContent="All "+SECTION.plain+" alerts";
+  const box=document.getElementById("list");
+  if(!list.length){
+    box.innerHTML='<div class="empty"><div class="ico">🔔</div><p>'+SECTION.empty+"</p></div>";
+    return;
+  }
+  if(SECTION.kind==="southbay"){
+    box.innerHTML='<div class="pins">'+list.map((a,i)=>{
+      const rot=i%3===0?"-0.7":i%3===1?"0.5":"-0.3";
+      let meta="";
+      if(a.notes) meta='<p class="notes">'+esc(a.notes)+"</p>";
+      if(a.link) meta+='<p><a href="'+esc(a.link)+'" rel="noopener">Open in Discord →</a></p>';
+      return '<article class="pin" style="transform:rotate('+rot+'deg)"><span class="dot" aria-hidden="true"></span>'+
+        '<div class="badges" style="display:flex;flex-wrap:wrap;gap:6px;align-items:center">'+retailerBadge(a.retailer)+statusPill(a.status)+
+        '<span class="ago" style="margin-left:auto;font-size:11px;color:var(--dim)">'+timeAgo(a.createdAt)+"</span></div>"+
+        "<h3>"+esc(a.product)+'</h3><p class="loc">📍 '+esc(a.location||"South Bay")+'</p><div class="meta">'+meta+"</div></article>";
+    }).join("")+"</div>";
+  } else {
+    box.innerHTML='<div class="cards">'+list.map(alertCard).join("")+"</div>";
+  }
+}).catch(e=>{
+  document.getElementById("list").innerHTML='<div class="empty"><p>Couldn\'t load the latest snapshot — pull to refresh in a bit.</p></div>';
+});
+</script>
+</body>
+</html>
