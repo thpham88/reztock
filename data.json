@@ -1,8 +1,108 @@
 {
- "generatedAt": 1795484789317,
- "lastSweepAt": 1795483143107,
+ "generatedAt": 1795506037381,
+ "lastSweepAt": 1795506032453,
  "verdict": null,
  "alerts": [
+  {
+   "id": 84,
+   "retailer": "Best Buy",
+   "product": "Pokemon stock tracker \u2014 Charizard ex Special Collection + 30th items",
+   "location": "Best Buy The Plant (#1423)",
+   "status": "confirmed",
+   "notes": "Tracker screenshots 11:10 PM Nov 23: Charizard ex Special Collection 43 on hand, Unova Poster Collection 38, 30th Mini Tin 30, 30th Booster Bundle 32, Sylveon/Greninja ex Box 1. Was no stock Nov 21-22. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795504200000
+  },
+  {
+   "id": 88,
+   "retailer": "Online",
+   "product": "Pokemon 30th at MSRP \u2014 Black Friday, South Bay LCS",
+   "location": "South Bay LCS, Santa Clara",
+   "status": "upcoming",
+   "notes": "Julia 11:02 PM: South Bay LCS in Santa Clara will have 30th at MSRP for Black Friday. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795503720000
+  },
+  {
+   "id": 87,
+   "retailer": "Online",
+   "product": "Black Friday Pokemon at MSRP \u2014 The Pop Plug",
+   "location": "The Pop Plug (in store only)",
+   "status": "upcoming",
+   "notes": "Fri Nov 27, 8 AM-6 PM, in store only, limited stock at MSRP, 2 per customer (must be different products). From the shop's Instagram post screenshot. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795502040000
+  },
+  {
+   "id": 83,
+   "retailer": "Costco",
+   "product": "Perfect Order ETB bundle \u2014 Costco.com",
+   "location": "Costco.com",
+   "status": "confirmed",
+   "notes": "Repeated PO drops all evening (queues ~7 PM, ~9:15 PM); still available at 10:17 PM per Elite_Z check; checkout total $137.31 in screenshot. Link from danimal4k post 9:26 PM (also in saved links file).",
+   "link": "https://www.costco.com/.product.4201042378.html",
+   "createdAt": 1795501020000
+  },
+  {
+   "id": 86,
+   "retailer": "Target",
+   "product": "Pokemon TCG \u2014 out of stock",
+   "location": "Target Landess",
+   "status": "gone",
+   "notes": "WackaWacka1234 9:32 PM: Landess Target OOS (photo); Yu-Gi-Oh present, Pokemon not. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795498320000
+  },
+  {
+   "id": 81,
+   "retailer": "Target",
+   "product": "Pokemon TCG \u2014 out of stock",
+   "location": "Target Hillsdale",
+   "status": "gone",
+   "notes": "pks_ 9:32 PM: Hillsdale Target OOS. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795498320000
+  },
+  {
+   "id": 89,
+   "retailer": "Best Buy",
+   "product": "Pokemon Black Friday drop day \u2014 employee tip",
+   "location": "Best Buy Pleasant Hill",
+   "status": "upcoming",
+   "notes": "Meat Squancher 8:03 PM: Pleasant Hill Best Buy employee says this Friday is the big drop day there. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795492980000
+  },
+  {
+   "id": 90,
+   "retailer": "Online",
+   "product": "One Piece OP18 packs \u2014 SF Bandai store",
+   "location": "SF Bandai, San Francisco",
+   "status": "confirmed",
+   "notes": "$4.99/pack MSRP, limit 12. In stock all evening: reports 5:30-11:20 PM, 2-5 boxes on shelf at times, no line; 11:20 PM note about unclaimed lottery pickups. No link in the Discord posts.",
+   "link": "",
+   "createdAt": 1795492380000
+  },
+  {
+   "id": 85,
+   "retailer": "Target",
+   "product": "Pokemon TCG \u2014 out of stock",
+   "location": "Sunnyvale (store not named)",
+   "status": "gone",
+   "notes": "adny1 5:52 PM: 'Sunnyvale oos' \u2014 store not named in the post. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795485120000
+  },
+  {
+   "id": 82,
+   "retailer": "Target",
+   "product": "Pokemon TCG \u2014 out of stock",
+   "location": "Target Gilroy",
+   "status": "gone",
+   "notes": "Pokepoke 5:46 PM: Gilroy Target OOS, photo of empty TCG shelf. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795484760000
+  },
   {
    "id": 75,
    "retailer": "Walmart",
@@ -786,6 +886,36 @@
  ],
  "southBay": [
   {
+   "id": 88,
+   "retailer": "Online",
+   "product": "Pokemon 30th at MSRP \u2014 Black Friday, South Bay LCS",
+   "location": "South Bay LCS, Santa Clara",
+   "status": "upcoming",
+   "notes": "Julia 11:02 PM: South Bay LCS in Santa Clara will have 30th at MSRP for Black Friday. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795503720000
+  },
+  {
+   "id": 85,
+   "retailer": "Target",
+   "product": "Pokemon TCG \u2014 out of stock",
+   "location": "Sunnyvale (store not named)",
+   "status": "gone",
+   "notes": "adny1 5:52 PM: 'Sunnyvale oos' \u2014 store not named in the post. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795485120000
+  },
+  {
+   "id": 82,
+   "retailer": "Target",
+   "product": "Pokemon TCG \u2014 out of stock",
+   "location": "Target Gilroy",
+   "status": "gone",
+   "notes": "Pokepoke 5:46 PM: Gilroy Target OOS, photo of empty TCG shelf. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795484760000
+  },
+  {
    "id": 75,
    "retailer": "Walmart",
    "product": "Pok\u00e9mon cards",
@@ -904,39 +1034,9 @@
    "notes": "Confirmed leftover stock 8:56 AM; \"still some left\" around noon.",
    "link": "",
    "createdAt": 1795452960000
-  },
-  {
-   "id": 69,
-   "retailer": "Target",
-   "product": "One Piece OP18 Single Sleeves + a few Double Packs",
-   "location": "Oakridge (San Jose)",
-   "status": "spotted",
-   "notes": "Lots of single sleeves and maybe a few double packs at 8:30 AM. No Pok\u00e9mon.",
-   "link": "",
-   "createdAt": 1795451400000
-  },
-  {
-   "id": 51,
-   "retailer": "Best Buy",
-   "product": "Pok\u00e9mon Destined Rivals 3-pack blisters (93) + 30th Celebration Mini Tin (30) \u2014 tracker scan 10:10 PM",
-   "location": "Gilroy",
-   "status": "spotted",
-   "notes": "Julia pinned: Best Buy Mountain View & Gilroy tomorrow (Mon Nov 23). Thread: leftovers from morning. Tracker counts may include in-transit, not just shelf stock. Midnight sweep Nov 23.",
-   "link": "",
-   "createdAt": 1795414980000
-  },
-  {
-   "id": 47,
-   "retailer": "Best Buy",
-   "product": "Pok\u00e9mon Destined Rivals 3-pack blisters (42) \u2014 tracker scan 10:10 PM",
-   "location": "Mountain View (El Camino Real)",
-   "status": "spotted",
-   "notes": "Julia pinned: Best Buy Mountain View & Gilroy tomorrow (Mon Nov 23). Tracker counts may include in-transit. Midnight sweep Nov 23.",
-   "link": "",
-   "createdAt": 1795414980000
   }
  ],
  "counts": {
-  "total": 78
+  "total": 88
  }
 }
