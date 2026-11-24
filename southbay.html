@@ -153,6 +153,7 @@ const RETAILERS = {
   "Online":        {color:"#7C4DFF", bg:"#1B1430", letter:"🌐", tagline:"Website drops · incl. Pokémon Center"}
 };
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function linkLabel(u){try{var h=new URL(u).hostname.replace(/^www\./,"");if(h.indexOf("costco")>-1)return "Open Costco \u2192";if(h.indexOf("target")>-1)return "Open Target \u2192";if(h.indexOf("walmart")>-1)return "Open Walmart \u2192";if(h.indexOf("bestbuy")>-1)return "Open Best Buy \u2192";if(h.indexOf("barnesandnoble")>-1)return "Open Barnes & Noble \u2192";if(h.indexOf("pokemoncenter")>-1)return "Open Pok\u00e9mon Center \u2192";if(h.indexOf("amazon")>-1||h.indexOf("a.co")>-1)return "Open Amazon \u2192";return "View product \u2192";}catch(e){return "View product \u2192";}}
 function fmtTime(ms){
   if(!ms) return "—";
   return new Date(ms).toLocaleString("en-US",{timeZone:"America/Los_Angeles",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
@@ -184,7 +185,7 @@ function alertCard(a){
   if(a.location) meta+="<p>📍 "+esc(a.location)+"</p>";
   meta+='<p class="when">'+fmtTime(a.createdAt)+" PT</p>";
   if(a.notes) meta+='<p class="notes">'+esc(a.notes)+"</p>";
-  if(a.link) meta+='<p><a href="'+esc(a.link)+'" rel="noopener">Open in Discord →</a></p>';
+  if(a.link) meta+='<p><a href="'+esc(a.link)+'" rel="noopener">'+linkLabel(a.link)+'</a></p>';
   return '<article class="alert'+(a.status==="gone"?" gone":"")+'"><div class="top"><div class="badges">'+
     retailerBadge(a.retailer)+statusPill(a.status)+'</div><span class="ago">'+timeAgo(a.createdAt)+"</span></div>"+
     "<h3>"+esc(a.product)+'</h3><div class="meta">'+meta+"</div></article>";
@@ -216,7 +217,7 @@ fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
       const rot=i%3===0?"-0.7":i%3===1?"0.5":"-0.3";
       let meta="";
       if(a.notes) meta='<p class="notes">'+esc(a.notes)+"</p>";
-      if(a.link) meta+='<p><a href="'+esc(a.link)+'" rel="noopener">Open in Discord →</a></p>';
+      if(a.link) meta+='<p><a href="'+esc(a.link)+'" rel="noopener">'+linkLabel(a.link)+'</a></p>';
       return '<article class="pin" style="transform:rotate('+rot+'deg)"><span class="dot" aria-hidden="true"></span>'+
         '<div class="badges" style="display:flex;flex-wrap:wrap;gap:6px;align-items:center">'+retailerBadge(a.retailer)+statusPill(a.status)+
         '<span class="ago" style="margin-left:auto;font-size:11px;color:var(--dim)">'+timeAgo(a.createdAt)+"</span></div>"+
