@@ -1,8 +1,23 @@
 {
- "generatedAt": 1795506037381,
- "lastSweepAt": 1795506032453,
- "verdict": null,
+ "generatedAt": 1795507559262,
+ "lastSweepAt": 1795506960000,
+ "verdict": {
+  "lineUp": false,
+  "text": "Nothing worth lining up for this morning. Midnight sweep 11:20 PM-midnight Nov 23: zero line reports, zero wristband intel in either server. Only new item was an early Costco.com link for the 30th Figure Collection 2-pack ($50.99, item 2007498) \u2014 not confirmed live. SF Bandai OP18 was still stocked with no line and skipped lottery pickups. Targets across South Bay were OOS all evening. Next real targets are Black Friday: Best Buy Pleasant Hill big drop Fri, Pop Plug and South Bay LCS 30th at MSRP Fri.",
+  "where": "",
+  "checkAt": 1795507200000
+ },
  "alerts": [
+  {
+   "id": 91,
+   "retailer": "Costco",
+   "product": "Pokemon TCG 30th Celebration Figure Collection 2-pack \u2014 $50.99 (early link, not confirmed live)",
+   "location": "Costco.com",
+   "status": "spotted",
+   "notes": "AYoung1K 11:56 PM Nov 23: early Costco Online link, supposedly 2-pack for $50.99. NOT confirmed live/in-stock. Queue caveat noted. Different item from ETB bundle 2007497. Midnight sweep Nov 24.",
+   "link": "https://www.costco.com/.product.2007498.html",
+   "createdAt": 1795506960000
+  },
   {
    "id": 84,
    "retailer": "Best Buy",
@@ -1037,6 +1052,6 @@
   }
  ],
  "counts": {
-  "total": 88
+  "total": 89
  }
 }
