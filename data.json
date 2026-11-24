@@ -1,5 +1,5 @@
 {
- "generatedAt": 1795483152570,
+ "generatedAt": 1795484789317,
  "lastSweepAt": 1795483143107,
  "verdict": null,
  "alerts": [
@@ -114,13 +114,13 @@
    "createdAt": 1795470180000
   },
   {
-   "id": 61,
+   "id": 80,
    "retailer": "Costco",
    "product": "Pok\u00e9mon 30th Celebration ETB + Booster Bundle 2-pack \u2014 $125.99 (item 2007497)",
    "location": "Costco.com (Online)",
    "status": "confirmed",
-   "notes": "Live ~12:08 PM with confirmed orders (delivery Wed Nov 25). Back up ~12:55 PM and in queue again ~3:03 PM.",
-   "link": "",
+   "notes": "Live ~12:08 PM with confirmed orders (delivery Wed Nov 25). Back up ~12:55 PM and in queue again ~3:03 PM. Product link attached from the saved links file (item 2007497).",
+   "link": "https://www.costco.com/.product.2007497.html",
    "createdAt": 1795464480000
   },
   {
@@ -724,13 +724,13 @@
    "createdAt": 1795128840000
   },
   {
-   "id": 17,
+   "id": 79,
    "retailer": "Online",
    "product": "Perfect Order ETB + Booster Bundle 2-pack \u2014 Costco online restock",
    "location": "Costco.com",
    "status": "gone",
-   "notes": "Costco US monitor restock alert Nov 19 2:08 PM (cordisc, PID 4201053980) \u2014 in stock, then gone fast; several Costco online orders were cancelled that evening.",
-   "link": "",
+   "notes": "Costco US monitor restock alert Nov 19 2:08 PM (cordisc, PID 4201053980) \u2014 in stock, then gone fast; several Costco online orders were cancelled that evening. Product link attached from the saved links file.",
+   "link": "https://www.costco.com/.product.4201053980.html",
    "createdAt": 1795126080000
   },
   {
