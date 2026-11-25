@@ -1,6 +1,6 @@
 {
- "generatedAt": 1795597198193,
- "lastSweepAt": 1795593300000,
+ "generatedAt": 1795597972452,
+ "lastSweepAt": 1795597969110,
  "verdict": {
   "lineUp": true,
   "text": "LINE UP \u2014 Best Buy One Piece OP-18 sleeved boosters, in-store drop Wed Nov 25 morning. Evidence: 3 separate mentions Nov 24 evening (8:58 PM drop post saying many stores already have stock, up to ~80 packs; 11:20 PM per-store counts 11-43 \u2014 El Camino 34, Gilroy 31, Colma 30; 11:40 PM Julia ping). No line counts or wristband intel reported yet, and counts conflict with the up-to-80 figure, so get there at open, not hours early. SECOND, UNCONFIRMED: Costco Ascended Heroes Mini Tins \u2014 11:55 PM list shows San Jose 77 in transit, Santa Clara 154, Gilroy 154, Teim called it tomorrow's drop, but the poster said cannot confirm/deny and Tracy/Patterson sightings were disputed. No other store had a Wed-morning signal; most South Bay Targets were OOS Nov 24.",
@@ -8,6 +8,36 @@
   "checkAt": 1795593600000
  },
  "alerts": [
+  {
+   "id": 118,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 ON HAND: San Jose (Senter) 77, Antioch 77, Lodi 77",
+   "location": "San Jose (Senter), Antioch, Lodi",
+   "status": "confirmed",
+   "notes": "Julia's pinned inventory post 12:49 AM Nov 25. Call 6-7 AM to confirm before driving. No link in the Discord post (in-store item).",
+   "link": "",
+   "createdAt": 1795596540000
+  },
+  {
+   "id": 117,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 IN TRANSIT: Almaden 154, Gilroy 155, El Camino 154, Fremont 154, Santa Clara 77, Sunnyvale 77, NE San Jose 77",
+   "location": "Almaden, Gilroy, El Camino, Fremont, Santa Clara, Sunnyvale, NE San Jose",
+   "status": "spotted",
+   "notes": "In transit per Julia's pinned post 12:49 AM Nov 25; most Bay Area stores in transit except SF and Mountain View (on order only). No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795596540000
+  },
+  {
+   "id": 119,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG Cynthia's Garchomp ex + Iono's Bellibolt ex Premium Collections \u2014 loaded on Target.com, OUT OF STOCK (not live yet), $44.99",
+   "location": "Target.com",
+   "status": "upcoming",
+   "notes": "Listings loaded 12:45 AM Nov 25 but stock not live per chat; possible Cyber Monday. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795596300000
+  },
   {
    "id": 94,
    "retailer": "Costco",
@@ -1151,6 +1181,26 @@
  ],
  "southBay": [
   {
+   "id": 118,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 ON HAND: San Jose (Senter) 77, Antioch 77, Lodi 77",
+   "location": "San Jose (Senter), Antioch, Lodi",
+   "status": "confirmed",
+   "notes": "Julia's pinned inventory post 12:49 AM Nov 25. Call 6-7 AM to confirm before driving. No link in the Discord post (in-store item).",
+   "link": "",
+   "createdAt": 1795596540000
+  },
+  {
+   "id": 117,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 IN TRANSIT: Almaden 154, Gilroy 155, El Camino 154, Fremont 154, Santa Clara 77, Sunnyvale 77, NE San Jose 77",
+   "location": "Almaden, Gilroy, El Camino, Fremont, Santa Clara, Sunnyvale, NE San Jose",
+   "status": "spotted",
+   "notes": "In transit per Julia's pinned post 12:49 AM Nov 25; most Bay Area stores in transit except SF and Mountain View (on order only). No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795596540000
+  },
+  {
    "id": 94,
    "retailer": "Costco",
    "product": "Pokemon Ascended Heroes 2pk Mini Tins \u2014 Bay Area in transit/on order list",
@@ -1279,29 +1329,9 @@
    "notes": "Pokepoke 5:46 PM: Gilroy Target OOS, photo of empty TCG shelf. No link in the Discord post.",
    "link": "",
    "createdAt": 1795484760000
-  },
-  {
-   "id": 75,
-   "retailer": "Walmart",
-   "product": "Pok\u00e9mon cards",
-   "location": "Milpitas",
-   "status": "gone",
-   "notes": "Reported out of stock 4:52 PM. No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795481520000
-  },
-  {
-   "id": 73,
-   "retailer": "Target",
-   "product": "Pok\u00e9mon cards",
-   "location": "Sunnyvale",
-   "status": "gone",
-   "notes": "Reported out of stock 4:41 PM. No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795480860000
   }
  ],
  "counts": {
-  "total": 114
+  "total": 117
  }
 }
