@@ -1,6 +1,6 @@
 {
- "generatedAt": 1795613394124,
- "lastSweepAt": 1795597969110,
+ "generatedAt": 1795622959807,
+ "lastSweepAt": 1795622956826,
  "verdict": {
   "lineUp": true,
   "text": "LINE UP \u2014 Best Buy One Piece OP-18 sleeved boosters, in-store drop Wed Nov 25 morning. Evidence: 3 separate mentions Nov 24 evening (8:58 PM drop post saying many stores already have stock, up to ~80 packs; 11:20 PM per-store counts 11-43 \u2014 El Camino 34, Gilroy 31, Colma 30; 11:40 PM Julia ping). No line counts or wristband intel reported yet, and counts conflict with the up-to-80 figure, so get there at open, not hours early. SECOND, UNCONFIRMED: Costco Ascended Heroes Mini Tins \u2014 11:55 PM list shows San Jose 77 in transit, Santa Clara 154, Gilroy 154, Teim called it tomorrow's drop, but the poster said cannot confirm/deny and Tracy/Patterson sightings were disputed. No other store had a Wed-morning signal; most South Bay Targets were OOS Nov 24.",
@@ -8,6 +8,66 @@
   "checkAt": 1795593600000
  },
  "alerts": [
+  {
+   "id": 124,
+   "retailer": "Best Buy",
+   "product": "One Piece OP-18 Sleeved Boosters \u2014 NO line, stock, or sellout reports in Discord as of 8:06 AM; today's drop unconfirmed either way",
+   "location": "Best Buy (all locations)",
+   "status": "upcoming",
+   "notes": "Only post: someone asking about Dublin at 7:31 AM, no answer. Overnight per-store counts stand (El Camino 34, Gilroy 31, Colma 30). No link in the Discord posts.",
+   "link": "",
+   "createdAt": 1795622760000
+  },
+  {
+   "id": 123,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED; tickets handed out 8:00 AM, selling 9:00 AM for Executive members; line 50-60 at 8:02 AM",
+   "location": "Santa Clara (Coleman)",
+   "status": "confirmed",
+   "notes": "Ticket reads SKU 2007495. Line grew 0 (7:02 AM) to 50-60 (8:02 AM). No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795622400000
+  },
+  {
+   "id": 120,
+   "retailer": "Target",
+   "product": "Target South Bay \u2014 NO Pok\u00e9mon this morning: Hillsdale, Mountain View, Silver Creek all none (Silver Creek holding for Black Friday); Cupertino Mew/Mewtwo boxes sold out 7:11 AM",
+   "location": "Hillsdale, Mountain View, Silver Creek, Cupertino",
+   "status": "gone",
+   "notes": "Lines formed (MTV 12, Cupertino ~20) but no Pok\u00e9mon stock. No link in the Discord posts.",
+   "link": "",
+   "createdAt": 1795622400000
+  },
+  {
+   "id": 122,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED dropping; line ~70 at 7:55 AM",
+   "location": "San Jose (Almaden)",
+   "status": "confirmed",
+   "notes": "Confirmed by people in line 7:46 AM. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795621560000
+  },
+  {
+   "id": 125,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 SOLD OUT (sold early from 6:27 AM, limit 1, $76.49 + tax)",
+   "location": "San Jose (Senter)",
+   "status": "gone",
+   "notes": "Line hit ~80 by 6:54 AM; last 7 let in ~6:56 AM, sold out by ~7:02 AM. Updates overnight alert 118. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795618920000
+  },
+  {
+   "id": 121,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED: Concord (77 units, line 60), Fremont (line 5), Richmond (line ~20)",
+   "location": "Concord, Fremont, Richmond",
+   "status": "confirmed",
+   "notes": "Also: Sunnyvale line 50+ (stock unconfirmed), Foster City conflicting reports, Vacaville confirmed by phone. No link in the Discord posts.",
+   "link": "",
+   "createdAt": 1795618020000
+  },
   {
    "id": 118,
    "retailer": "Costco",
@@ -1181,6 +1241,46 @@
  ],
  "southBay": [
   {
+   "id": 123,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED; tickets handed out 8:00 AM, selling 9:00 AM for Executive members; line 50-60 at 8:02 AM",
+   "location": "Santa Clara (Coleman)",
+   "status": "confirmed",
+   "notes": "Ticket reads SKU 2007495. Line grew 0 (7:02 AM) to 50-60 (8:02 AM). No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795622400000
+  },
+  {
+   "id": 120,
+   "retailer": "Target",
+   "product": "Target South Bay \u2014 NO Pok\u00e9mon this morning: Hillsdale, Mountain View, Silver Creek all none (Silver Creek holding for Black Friday); Cupertino Mew/Mewtwo boxes sold out 7:11 AM",
+   "location": "Hillsdale, Mountain View, Silver Creek, Cupertino",
+   "status": "gone",
+   "notes": "Lines formed (MTV 12, Cupertino ~20) but no Pok\u00e9mon stock. No link in the Discord posts.",
+   "link": "",
+   "createdAt": 1795622400000
+  },
+  {
+   "id": 122,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED dropping; line ~70 at 7:55 AM",
+   "location": "San Jose (Almaden)",
+   "status": "confirmed",
+   "notes": "Confirmed by people in line 7:46 AM. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795621560000
+  },
+  {
+   "id": 125,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 SOLD OUT (sold early from 6:27 AM, limit 1, $76.49 + tax)",
+   "location": "San Jose (Senter)",
+   "status": "gone",
+   "notes": "Line hit ~80 by 6:54 AM; last 7 let in ~6:56 AM, sold out by ~7:02 AM. Updates overnight alert 118. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795618920000
+  },
+  {
    "id": 118,
    "retailer": "Costco",
    "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 ON HAND: San Jose (Senter) 77, Antioch 77, Lodi 77",
@@ -1289,49 +1389,9 @@
    "notes": "cautiousplayer 8:24 AM: Story had a restock, only DR packs now. Corroborated 9:56 AM bunch of delta sleeves, 3:03 PM still DLR sleeves. No link in posts.",
    "link": "",
    "createdAt": 1795537440000
-  },
-  {
-   "id": 111,
-   "retailer": "Target",
-   "product": "One Piece OP18 sleeves \u2014 Mountain View + Gilroy; OP18 at Holger (gone) + Cottle (gone)",
-   "location": "Mountain View / Gilroy / Holger / Cottle",
-   "status": "spotted",
-   "notes": "Franco 8:10 AM MTV OP18 sleeves; x2daz 8:27 AM Gilroy OP18 sleeves; Pika 2:28 PM Holger OP18, OOS 3:36 PM first wave; Cottle 5:36 PM OP + Delta, OP gone 6:54 PM, no line. McKee only OP stickers left 3:54 PM server 2. No link in posts.",
-   "link": "",
-   "createdAt": 1795536600000
-  },
-  {
-   "id": 88,
-   "retailer": "Online",
-   "product": "Pokemon 30th at MSRP \u2014 Black Friday, South Bay LCS",
-   "location": "South Bay LCS, Santa Clara",
-   "status": "upcoming",
-   "notes": "Julia 11:02 PM: South Bay LCS in Santa Clara will have 30th at MSRP for Black Friday. No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795503720000
-  },
-  {
-   "id": 85,
-   "retailer": "Target",
-   "product": "Pokemon TCG \u2014 out of stock",
-   "location": "Sunnyvale (store not named)",
-   "status": "gone",
-   "notes": "adny1 5:52 PM: 'Sunnyvale oos' \u2014 store not named in the post. No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795485120000
-  },
-  {
-   "id": 82,
-   "retailer": "Target",
-   "product": "Pokemon TCG \u2014 out of stock",
-   "location": "Target Gilroy",
-   "status": "gone",
-   "notes": "Pokepoke 5:46 PM: Gilroy Target OOS, photo of empty TCG shelf. No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795484760000
   }
  ],
  "counts": {
-  "total": 117
+  "total": 123
  }
 }
