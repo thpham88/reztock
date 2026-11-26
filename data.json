@@ -1,6 +1,6 @@
 {
- "generatedAt": 1795700114373,
- "lastSweepAt": 1795678980000,
+ "generatedAt": 1795719568087,
+ "lastSweepAt": 1795717080000,
  "verdict": {
   "lineUp": false,
   "text": "Nothing worth lining up for this morning (Thu Nov 26). Evidence: zero posts in either server report anyone lining up, waiting, or expecting a drop on Thursday, and no wristband/ticket intel for Thursday. All 7+ independent mentions point to Friday Nov 27 instead \u2014 Costco in-transit AH Mini Tins may be put out Friday (unconfirmed speculation), Best Buy Friday TCG stock looks low, Pop Plug Santa Clara 7 AM raffle Friday. Wednesday's Costco AH tin drop sold out by late morning at most stores; Vallejo lasted longest. One Piece OP18 still had a lot at San Jose Bandai Wed afternoon, limit 6 \u2014 no line needed.",
@@ -8,6 +8,16 @@
   "checkAt": 1795680000000
  },
  "alerts": [
+  {
+   "id": 144,
+   "retailer": "Walmart",
+   "product": "NeeDoh \u2014 Black Friday Fri Nov 27: all Walmarts getting NeeDohs; limit 1 Pok\u00e9mon box + 1 NeeDoh item per person",
+   "location": "Walmart (all participating stores)",
+   "status": "upcoming",
+   "notes": "Leafeon posted the participating-stores list (link = Walmart PDF) 10:18 AM Nov 26; bandough408: 'All Walmarts are going to have needohs tomorrow.' Limit is 1 NeeDoh item total per person, not 1 of each.",
+   "link": "https://i5.walmartimages.com/dfw/4ff9c6c9-d788/k2-_a72babae-2458-4cdf-96f0-0eb8c74ffad7.v1.pdf",
+   "createdAt": 1795717080000
+  },
   {
    "id": 131,
    "retailer": "Costco",
@@ -159,6 +169,26 @@
    "createdAt": 1795622760000
   },
   {
+   "id": 142,
+   "retailer": "Target",
+   "product": "NeeDoh \u2014 IN STOCK ~20 clouds/balls (Pok\u00e9mon OOS)",
+   "location": "McKee, San Jose",
+   "status": "confirmed",
+   "notes": "minikai30 8:04 AM Nov 25: 'Mckee \ud83c\udfaf oos. Has needohs about 20 clouds/balls' \u2014 Pok\u00e9mon out of stock, NeeDohs on shelf. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795622640000
+  },
+  {
+   "id": 143,
+   "retailer": "Target",
+   "product": "NeeDoh \u2014 IN STOCK, only NeeDohs (no Pok\u00e9mon)",
+   "location": "Mountain View",
+   "status": "confirmed",
+   "notes": "Franco 8:00 AM Nov 25 (thread 'MTV target \ud83c\udfaf; 5 ppl in line'): 'NO POKEMON Only needohs.' No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795622400000
+  },
+  {
    "id": 123,
    "retailer": "Costco",
    "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED; tickets handed out 8:00 AM, selling 9:00 AM for Executive members; line 50-60 at 8:02 AM",
@@ -177,6 +207,16 @@
    "notes": "Lines formed (MTV 12, Cupertino ~20) but no Pok\u00e9mon stock. No link in the Discord posts.",
    "link": "",
    "createdAt": 1795622400000
+  },
+  {
+   "id": 141,
+   "retailer": "Target",
+   "product": "NeeDoh \u2014 only 3 left (no Pok\u00e9mon or One Piece)",
+   "location": "Silver Creek, San Jose",
+   "status": "spotted",
+   "notes": "LostSonGoku 7:47 AM Nov 25: employee said no Pok\u00e9mon or OP, only 3 NeeDohs. 10 people were in line at 7:44 AM, some for NeeDoh. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795621620000
   },
   {
    "id": 122,
@@ -1471,6 +1511,26 @@
    "createdAt": 1795627080000
   },
   {
+   "id": 142,
+   "retailer": "Target",
+   "product": "NeeDoh \u2014 IN STOCK ~20 clouds/balls (Pok\u00e9mon OOS)",
+   "location": "McKee, San Jose",
+   "status": "confirmed",
+   "notes": "minikai30 8:04 AM Nov 25: 'Mckee \ud83c\udfaf oos. Has needohs about 20 clouds/balls' \u2014 Pok\u00e9mon out of stock, NeeDohs on shelf. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795622640000
+  },
+  {
+   "id": 143,
+   "retailer": "Target",
+   "product": "NeeDoh \u2014 IN STOCK, only NeeDohs (no Pok\u00e9mon)",
+   "location": "Mountain View",
+   "status": "confirmed",
+   "notes": "Franco 8:00 AM Nov 25 (thread 'MTV target \ud83c\udfaf; 5 ppl in line'): 'NO POKEMON Only needohs.' No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795622400000
+  },
+  {
    "id": 123,
    "retailer": "Costco",
    "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED; tickets handed out 8:00 AM, selling 9:00 AM for Executive members; line 50-60 at 8:02 AM",
@@ -1491,6 +1551,16 @@
    "createdAt": 1795622400000
   },
   {
+   "id": 141,
+   "retailer": "Target",
+   "product": "NeeDoh \u2014 only 3 left (no Pok\u00e9mon or One Piece)",
+   "location": "Silver Creek, San Jose",
+   "status": "spotted",
+   "notes": "LostSonGoku 7:47 AM Nov 25: employee said no Pok\u00e9mon or OP, only 3 NeeDohs. 10 people were in line at 7:44 AM, some for NeeDoh. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795621620000
+  },
+  {
    "id": 122,
    "retailer": "Costco",
    "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED dropping; line ~70 at 7:55 AM",
@@ -1509,39 +1579,9 @@
    "notes": "Line hit ~80 by 6:54 AM; last 7 let in ~6:56 AM, sold out by ~7:02 AM. Updates overnight alert 118. No link in the Discord post.",
    "link": "",
    "createdAt": 1795618920000
-  },
-  {
-   "id": 118,
-   "retailer": "Costco",
-   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 ON HAND: San Jose (Senter) 77, Antioch 77, Lodi 77",
-   "location": "San Jose (Senter), Antioch, Lodi",
-   "status": "confirmed",
-   "notes": "Julia's pinned inventory post 12:49 AM Nov 25. Call 6-7 AM to confirm before driving. No link in the Discord post (in-store item).",
-   "link": "",
-   "createdAt": 1795596540000
-  },
-  {
-   "id": 117,
-   "retailer": "Costco",
-   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 IN TRANSIT: Almaden 154, Gilroy 155, El Camino 154, Fremont 154, Santa Clara 77, Sunnyvale 77, NE San Jose 77",
-   "location": "Almaden, Gilroy, El Camino, Fremont, Santa Clara, Sunnyvale, NE San Jose",
-   "status": "spotted",
-   "notes": "In transit per Julia's pinned post 12:49 AM Nov 25; most Bay Area stores in transit except SF and Mountain View (on order only). No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795596540000
-  },
-  {
-   "id": 94,
-   "retailer": "Costco",
-   "product": "Pokemon Ascended Heroes 2pk Mini Tins \u2014 Bay Area in transit/on order list",
-   "location": "Bay Area (San Jose, Santa Clara, Gilroy, Fremont, Hayward + 12 more)",
-   "status": "upcoming",
-   "notes": "AYoun1K 11:55 PM Nov 24, unconfirmed list: SJ 77/77, Santa Clara 154/77, Gilroy 154/77, Fremont 154/77, Hayward 154/77, Livermore/Tracy/San Ramon/Senter 77/77, Richmond/San Leandro/Concord/Napa/Santa Rosa/Rohnert Park/Vallejo 154/77. Teim 11:47 PM called it tomorrow's drop (Wed Nov 25). No link in post.",
-   "link": "",
-   "createdAt": 1795593300000
   }
  ],
  "counts": {
-  "total": 138
+  "total": 142
  }
 }
