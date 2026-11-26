@@ -232,6 +232,7 @@ const TILES = [
   {key:"store", name:"Barnes & Noble", href:"barnes-noble.html"},
   {key:"store", name:"Online",         href:"online.html"},
   {key:"onepiece", name:"One Piece",   href:"onepiece.html", color:"#E31837", bg:"#2A1218", letter:"🏴‍☠️", tagline:"One Piece Card Game restocks"},
+  {key:"needoh", name:"NeeDoh",   href:"needoh.html", color:"#8B5CF6", bg:"#1D1430", letter:"🧸", tagline:"NeeDoh squish toy restocks"},
   {key:"southbay", name:"South Bay",   href:"southbay.html", color:"#F59E0B", bg:"#261B05", letter:"📌", tagline:"Every South Bay stop, one board"}
 ];
 fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
@@ -260,9 +261,10 @@ fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
   const byStore={};
   d.alerts.forEach(a=>{(byStore[a.retailer]=byStore[a.retailer]||[]).push(a)});
   const op=d.alerts.filter(a=>/one piece/i.test(a.product));
+  const nd=d.alerts.filter(a=>/needoh|nee doh|nice cube|niceberg|gumdrop/i.test(a.product));
   const sb=d.southBay||[];
   document.getElementById("tiles").innerHTML=TILES.map(t=>{
-    const list = t.key==="store" ? (byStore[t.name]||[]) : t.key==="onepiece" ? op : sb;
+    const list = t.key==="store" ? (byStore[t.name]||[]) : t.key==="onepiece" ? op : t.key==="needoh" ? nd : sb;
     const meta = RETAILERS[t.name]||t;
     const newN = list.filter(a=>isToday(a.createdAt, ref)).length;
     const fg = t.name==="Best Buy" ? "#111" : "#fff";
