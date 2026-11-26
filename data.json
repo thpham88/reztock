@@ -1,13 +1,153 @@
 {
- "generatedAt": 1795622959807,
- "lastSweepAt": 1795622956826,
+ "generatedAt": 1795680548349,
+ "lastSweepAt": 1795678980000,
  "verdict": {
-  "lineUp": true,
-  "text": "LINE UP \u2014 Best Buy One Piece OP-18 sleeved boosters, in-store drop Wed Nov 25 morning. Evidence: 3 separate mentions Nov 24 evening (8:58 PM drop post saying many stores already have stock, up to ~80 packs; 11:20 PM per-store counts 11-43 \u2014 El Camino 34, Gilroy 31, Colma 30; 11:40 PM Julia ping). No line counts or wristband intel reported yet, and counts conflict with the up-to-80 figure, so get there at open, not hours early. SECOND, UNCONFIRMED: Costco Ascended Heroes Mini Tins \u2014 11:55 PM list shows San Jose 77 in transit, Santa Clara 154, Gilroy 154, Teim called it tomorrow's drop, but the poster said cannot confirm/deny and Tracy/Patterson sightings were disputed. No other store had a Wed-morning signal; most South Bay Targets were OOS Nov 24.",
-  "where": "Best Buy (El Camino / Mountain View, Gilroy) \u2014 One Piece OP18; Costco San Jose / Santa Clara / Gilroy \u2014 AH Mini Tins (unconfirmed)",
-  "checkAt": 1795593600000
+  "lineUp": false,
+  "text": "Nothing worth lining up for this morning (Thu Nov 26). Evidence: zero posts in either server report anyone lining up, waiting, or expecting a drop on Thursday, and no wristband/ticket intel for Thursday. All 7+ independent mentions point to Friday Nov 27 instead \u2014 Costco in-transit AH Mini Tins may be put out Friday (unconfirmed speculation), Best Buy Friday TCG stock looks low, Pop Plug Santa Clara 7 AM raffle Friday. Wednesday's Costco AH tin drop sold out by late morning at most stores; Vallejo lasted longest. One Piece OP18 still had a lot at San Jose Bandai Wed afternoon, limit 6 \u2014 no line needed.",
+  "where": "",
+  "checkAt": 1795680000000
  },
  "alerts": [
+  {
+   "id": 131,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 NEW PINS Nov 25: in-transit stock may be put out Friday Nov 27 (unconfirmed)",
+   "location": "Bay Area (Almaden, El Camino, Santa Clara, Sunnyvale, Gilroy, Fremont, Senter + more)",
+   "status": "upcoming",
+   "notes": "Pins CHANGED Nov 25: AYoung1K 1:12 AM + 7:00 AM NorCal tables; StickyBot 11:43 PM: Almaden 154 IT, El Camino 154 IT, Santa Clara 77 IT, Sunnyvale 77 IT, Gilroy 155 IT, Fremont 154 IT, Senter 77 OH/77 IT. Friday is speculation, NOT confirmed. Mountain View 231 on order only. No link.",
+   "link": "",
+   "createdAt": 1795678980000
+  },
+  {
+   "id": 138,
+   "retailer": "Best Buy",
+   "product": "Black Friday Fri Nov 27 \u2014 low TCG stock expected in-store (inventory sheets); $100 gift card for $60 deal noted",
+   "location": "Best Buy (all locations)",
+   "status": "upcoming",
+   "notes": "11:38 PM Nov 25 warning from inventory sheets. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795678680000
+  },
+  {
+   "id": 133,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon \u2014 out of stock (Nov 25 reports)",
+   "location": "Coleman, Oakridge, Westgate, Hillsdale, Stevens Creek, Cottle, Plant, Landess, Colma, McKee",
+   "status": "gone",
+   "notes": "OOS times Nov 25: Coleman 8:36 AM, Oakridge 9:10 AM, Landess 9:22 AM, McKee 11:57 AM, Colma 1:22 PM, Westgate 6:15 PM, Hillsdale 6:36 PM, Stevens Creek 8:00 PM, Cottle 8:42 PM, Plant 9:00 PM. No links in posts.",
+   "link": "",
+   "createdAt": 1795669200000
+  },
+  {
+   "id": 130,
+   "retailer": "Walmart",
+   "product": "Pok\u00e9mon \u2014 out of stock in store Nov 25",
+   "location": "Milpitas, McCarthy, Story Road",
+   "status": "gone",
+   "notes": "McCarthy 11:06 AM (Pok\u00e9mon + One Piece OOS), Story Rd no Pok\u00e9mon 11:09 AM, Milpitas 6:15 PM. No links in posts.",
+   "link": "",
+   "createdAt": 1795659300000
+  },
+  {
+   "id": 132,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon Battle Decks \u2014 IN STOCK (photo)",
+   "location": "Morgan Hill",
+   "status": "confirmed",
+   "notes": "Photo post 5:16 PM Nov 25. Only Target Pok\u00e9mon stock reported all day. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795655760000
+  },
+  {
+   "id": 139,
+   "retailer": "Online",
+   "product": "One Piece OP18 (The Dominance of God) \u2014 IN STOCK, still a lot at 4:34 PM, limit 6 per person",
+   "location": "Bandai Card Game Store, San Jose",
+   "status": "confirmed",
+   "notes": "Reported 12:02 PM, still stocked 3:58 PM; 'Still ALOT of Stock. Probably last till tomorrow' 4:34 PM. SF Bandai: no OP18 visible 11:57 AM, sleeves only. No link in posts. Filed under Online per prior Bandai alerts.",
+   "link": "",
+   "createdAt": 1795653240000
+  },
+  {
+   "id": 134,
+   "retailer": "Online",
+   "product": "Walmart online drawing (30th + DLR) \u2014 link reposted Nov 25, NO winner/outcome confirmation posted",
+   "location": "Walmart.com",
+   "status": "upcoming",
+   "notes": "Link reposted 2:05 PM Nov 25; thread empty, no result confirmed. Not a confirmed live restock.",
+   "link": "https://www.walmart.com/shop/collectibles/draw",
+   "createdAt": 1795644300000
+  },
+  {
+   "id": 126,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 NO stock at opening; all other San Jose-area Costcos dropped except Mountain View",
+   "location": "South San Francisco (Airport); Mountain View (no drop)",
+   "status": "gone",
+   "notes": "SSF Airport: no Pok\u00e9mon at opening 9:01 AM. 1:55 PM report: all SJ-area Costcos dropped except Mountain View. No link in posts.",
+   "link": "",
+   "createdAt": 1795643700000
+  },
+  {
+   "id": 129,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 still had stock ~2 hrs in, 'still a bit left' 10:59 AM",
+   "location": "Vallejo",
+   "status": "confirmed",
+   "notes": "Nov 25 morning drop lasted longer here than most stores. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795633140000
+  },
+  {
+   "id": 137,
+   "retailer": "Barnes & Noble",
+   "product": "Stock reported \u2014 15+ units, product NOT named in post (per store Instagram per thread)",
+   "location": "Stevens Creek, San Jose",
+   "status": "spotted",
+   "notes": "10:29 AM Nov 25. Product unconfirmed \u2014 do not assume Pok\u00e9mon or One Piece. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795631340000
+  },
+  {
+   "id": 127,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 morning drop, now GONE",
+   "location": "San Leandro, Redwood City, Foster City, Antioch, Sunnyvale, Coleman (San Jose), Fremont, Senter (San Jose)",
+   "status": "gone",
+   "notes": "San Leandro OOS 10:11 AM (~20 left 9:30 AM); RWC/Foster City OOS 10:01 AM; Antioch sold out 9:33 AM; Sunnyvale/Coleman/Fremont/Senter gone by ~9:56 AM. Short-notice, in-transit-only drop. No link in posts.",
+   "link": "",
+   "createdAt": 1795630260000
+  },
+  {
+   "id": 135,
+   "retailer": "Best Buy",
+   "product": "Pok\u00e9mon Black Bolt & White Flare Poster Collection \u2014 IN STOCK (photo); Unova posters Gilroy ~10 left",
+   "location": "Mountain View; Gilroy",
+   "status": "confirmed",
+   "notes": "Mountain View poster collection 9:18 AM photo. Gilroy Unova posters ~10 left 9:25 AM. Dublin 'has pokemon' 9:26 AM, product not named. Milpitas OOS 11:09 AM. Emeryville Unova rumor unconfirmed 5:21 PM. No links in posts.",
+   "link": "",
+   "createdAt": 1795627080000
+  },
+  {
+   "id": 136,
+   "retailer": "Best Buy",
+   "product": "One Piece OP18 \u2014 GONE (was 4 per person)",
+   "location": "Colma",
+   "status": "gone",
+   "notes": "Gone by 9:06 AM Nov 25. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795626360000
+  },
+  {
+   "id": 128,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED 154 in stock, tickets handed out",
+   "location": "Fairfield",
+   "status": "confirmed",
+   "notes": "26 in line 8:05 AM; ticket #84 checked out 9:05 AM, still good amount then. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795626300000
+  },
   {
    "id": 124,
    "retailer": "Best Buy",
@@ -97,6 +237,16 @@
    "notes": "Listings loaded 12:45 AM Nov 25 but stock not live per chat; possible Cyber Monday. No link in the Discord post.",
    "link": "",
    "createdAt": 1795596300000
+  },
+  {
+   "id": 140,
+   "retailer": "Target",
+   "product": "Black Saturday Sat Nov 28 \u2014 30th Tin $29.99, 30th Bundle $31.99, Mew/Mewtwo Figures $39.99, Battle Decks $24.99; Fri Nov 27 first 100 get gift card",
+   "location": "Target (all locations)",
+   "status": "upcoming",
+   "notes": "From Nov 24 announcements post carried in sweep. Fri gift card: random $25/$50/$100/$1000 for first 100. Target '4th drop' discussed Nov 25 evening, expect 1-per limit, no date given. No product link in Discord post.",
+   "link": "",
+   "createdAt": 1795593600000
   },
   {
    "id": 94,
@@ -1241,6 +1391,86 @@
  ],
  "southBay": [
   {
+   "id": 131,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 NEW PINS Nov 25: in-transit stock may be put out Friday Nov 27 (unconfirmed)",
+   "location": "Bay Area (Almaden, El Camino, Santa Clara, Sunnyvale, Gilroy, Fremont, Senter + more)",
+   "status": "upcoming",
+   "notes": "Pins CHANGED Nov 25: AYoung1K 1:12 AM + 7:00 AM NorCal tables; StickyBot 11:43 PM: Almaden 154 IT, El Camino 154 IT, Santa Clara 77 IT, Sunnyvale 77 IT, Gilroy 155 IT, Fremont 154 IT, Senter 77 OH/77 IT. Friday is speculation, NOT confirmed. Mountain View 231 on order only. No link.",
+   "link": "",
+   "createdAt": 1795678980000
+  },
+  {
+   "id": 130,
+   "retailer": "Walmart",
+   "product": "Pok\u00e9mon \u2014 out of stock in store Nov 25",
+   "location": "Milpitas, McCarthy, Story Road",
+   "status": "gone",
+   "notes": "McCarthy 11:06 AM (Pok\u00e9mon + One Piece OOS), Story Rd no Pok\u00e9mon 11:09 AM, Milpitas 6:15 PM. No links in posts.",
+   "link": "",
+   "createdAt": 1795659300000
+  },
+  {
+   "id": 132,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon Battle Decks \u2014 IN STOCK (photo)",
+   "location": "Morgan Hill",
+   "status": "confirmed",
+   "notes": "Photo post 5:16 PM Nov 25. Only Target Pok\u00e9mon stock reported all day. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795655760000
+  },
+  {
+   "id": 139,
+   "retailer": "Online",
+   "product": "One Piece OP18 (The Dominance of God) \u2014 IN STOCK, still a lot at 4:34 PM, limit 6 per person",
+   "location": "Bandai Card Game Store, San Jose",
+   "status": "confirmed",
+   "notes": "Reported 12:02 PM, still stocked 3:58 PM; 'Still ALOT of Stock. Probably last till tomorrow' 4:34 PM. SF Bandai: no OP18 visible 11:57 AM, sleeves only. No link in posts. Filed under Online per prior Bandai alerts.",
+   "link": "",
+   "createdAt": 1795653240000
+  },
+  {
+   "id": 126,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 NO stock at opening; all other San Jose-area Costcos dropped except Mountain View",
+   "location": "South San Francisco (Airport); Mountain View (no drop)",
+   "status": "gone",
+   "notes": "SSF Airport: no Pok\u00e9mon at opening 9:01 AM. 1:55 PM report: all SJ-area Costcos dropped except Mountain View. No link in posts.",
+   "link": "",
+   "createdAt": 1795643700000
+  },
+  {
+   "id": 137,
+   "retailer": "Barnes & Noble",
+   "product": "Stock reported \u2014 15+ units, product NOT named in post (per store Instagram per thread)",
+   "location": "Stevens Creek, San Jose",
+   "status": "spotted",
+   "notes": "10:29 AM Nov 25. Product unconfirmed \u2014 do not assume Pok\u00e9mon or One Piece. No link in the Discord post.",
+   "link": "",
+   "createdAt": 1795631340000
+  },
+  {
+   "id": 127,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 morning drop, now GONE",
+   "location": "San Leandro, Redwood City, Foster City, Antioch, Sunnyvale, Coleman (San Jose), Fremont, Senter (San Jose)",
+   "status": "gone",
+   "notes": "San Leandro OOS 10:11 AM (~20 left 9:30 AM); RWC/Foster City OOS 10:01 AM; Antioch sold out 9:33 AM; Sunnyvale/Coleman/Fremont/Senter gone by ~9:56 AM. Short-notice, in-transit-only drop. No link in posts.",
+   "link": "",
+   "createdAt": 1795630260000
+  },
+  {
+   "id": 135,
+   "retailer": "Best Buy",
+   "product": "Pok\u00e9mon Black Bolt & White Flare Poster Collection \u2014 IN STOCK (photo); Unova posters Gilroy ~10 left",
+   "location": "Mountain View; Gilroy",
+   "status": "confirmed",
+   "notes": "Mountain View poster collection 9:18 AM photo. Gilroy Unova posters ~10 left 9:25 AM. Dublin 'has pokemon' 9:26 AM, product not named. Milpitas OOS 11:09 AM. Emeryville Unova rumor unconfirmed 5:21 PM. No links in posts.",
+   "link": "",
+   "createdAt": 1795627080000
+  },
+  {
    "id": 123,
    "retailer": "Costco",
    "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED; tickets handed out 8:00 AM, selling 9:00 AM for Executive members; line 50-60 at 8:02 AM",
@@ -1309,89 +1539,9 @@
    "notes": "AYoun1K 11:55 PM Nov 24, unconfirmed list: SJ 77/77, Santa Clara 154/77, Gilroy 154/77, Fremont 154/77, Hayward 154/77, Livermore/Tracy/San Ramon/Senter 77/77, Richmond/San Leandro/Concord/Napa/Santa Rosa/Rohnert Park/Vallejo 154/77. Teim 11:47 PM called it tomorrow's drop (Wed Nov 25). No link in post.",
    "link": "",
    "createdAt": 1795593300000
-  },
-  {
-   "id": 101,
-   "retailer": "Best Buy",
-   "product": "One Piece OP-18 Sleeved Booster Packs \u2014 in-store drop Wed Nov 25 morning",
-   "location": "Best Buy in-store (El Camino, Gilroy, Emeryville, Colma + more)",
-   "status": "upcoming",
-   "notes": "burpacola 8:58 PM via X post: drop starting tomorrow morning, some stores up to ~80 packs, many already have in hand. AYoun1K 11:20 PM per-store counts 11-43 (El Camino 34, Gilroy 31, Colma 30, Emeryville 27, Pinole 15). Julia 11:40 PM pinged One Piece. No price, no link in Discord posts (X link only). No line/wristband intel.",
-   "link": "",
-   "createdAt": 1795582680000
-  },
-  {
-   "id": 114,
-   "retailer": "Target",
-   "product": "Pokemon \u2014 out of stock (multiple South/East Bay stores)",
-   "location": "Plant, Cupertino, Sunnyvale, Silver Creek, Westgate, Coleman, Redwood City, Fallon, Pinole",
-   "status": "gone",
-   "notes": "Nov 24 OOS reports: Plant 8:10 AM + 6:09 PM, Cupertino 1:34 PM both servers, Sunnyvale 2:14 PM, Silver Creek 2:38 PM no collector packs, Westgate 7:09 PM, Coleman 8:01 PM, Redwood City 4:08 PM, Fallon 9:45 AM, Pinole 9:47 AM. No link in posts.",
-   "link": "",
-   "createdAt": 1795579260000
-  },
-  {
-   "id": 116,
-   "retailer": "Walmart",
-   "product": "Pokemon \u2014 out of stock",
-   "location": "Milpitas / Martinez",
-   "status": "gone",
-   "notes": "Milpitas 10:37 AM Nov 24 RAGEquitter423; Martinez 7:13 PM JMagnet. No link in posts.",
-   "link": "",
-   "createdAt": 1795576380000
-  },
-  {
-   "id": 115,
-   "retailer": "Target",
-   "product": "Pokemon \u2014 Cottle restock: 4 UPCs, 30th Mew/Mewtwo figures, Ascended stickers, Chaos + Delta sleeves",
-   "location": "Cottle, San Jose",
-   "status": "gone",
-   "notes": "El Gran Kabigon 5:36 PM Nov 24, no line, ~4 people. 5:47 PM 4 UPCs + Chaos/Delta sleeves left; ~50 sleeves 6:30 PM; 8:35 PM only single Chaos Rising left. No link in post.",
-   "link": "",
-   "createdAt": 1795570560000
-  },
-  {
-   "id": 109,
-   "retailer": "Barnes & Noble",
-   "product": "30th UPCs $249.99, Mew/Mewtwo Figures $39.99, Delta ETBs $59.99, Chaos Toxel Blisters $5.99, One Piece some left",
-   "location": "Cupertino",
-   "status": "gone",
-   "notes": "Duler011 10:21 AM per IG. Line 10+ 10:33 AM, 14 at 10:42, 18 at 10:54. Limit 1 per SKU. OOS with line 11:12 AM; Delta ETB still left 11:14, some One Piece left 11:31. No link in post.",
-   "link": "",
-   "createdAt": 1795544460000
-  },
-  {
-   "id": 102,
-   "retailer": "Barnes & Noble",
-   "product": "30th UPC $249.99, Mega Evolution ETB $59.99, Booster Bundle $31.99, SV S10 3pk $14.99, One Piece OP-18 Blister $4.99",
-   "location": "Stevens Creek, San Jose",
-   "status": "gone",
-   "notes": "Duler011 10:16 AM Nov 24, limit 1 per SKU, line in store. At least 20 UPCs, kept pulling more out. OOS by 11:58 AM. Prices from receipt photo ~2 PM. No link in post.",
-   "link": "",
-   "createdAt": 1795544160000
-  },
-  {
-   "id": 112,
-   "retailer": "Barnes & Noble",
-   "product": "Pokemon \u2014 out of stock / nothing new",
-   "location": "Los Gatos",
-   "status": "gone",
-   "notes": "Rafureshia 9:53 AM Nov 24, photo. No link in post.",
-   "link": "",
-   "createdAt": 1795542780000
-  },
-  {
-   "id": 108,
-   "retailer": "Target",
-   "product": "Delta Reign packs/sleeves \u2014 Story Road restock",
-   "location": "Story Road, San Jose",
-   "status": "spotted",
-   "notes": "cautiousplayer 8:24 AM: Story had a restock, only DR packs now. Corroborated 9:56 AM bunch of delta sleeves, 3:03 PM still DLR sleeves. No link in posts.",
-   "link": "",
-   "createdAt": 1795537440000
   }
  ],
  "counts": {
-  "total": 123
+  "total": 138
  }
 }
