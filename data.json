@@ -1,13 +1,113 @@
 {
- "generatedAt": 1795753994401,
- "lastSweepAt": 1795751640000,
+ "generatedAt": 1795768346212,
+ "lastSweepAt": 1795764300000,
  "verdict": {
   "lineUp": true,
-  "text": "LINE UP Fri Nov 27 \u2014 for Black Friday morning, not tonight. Evidence: tent already set up at Concord Costco Thu 7:54 PM (no count given) ahead of expected AH Mini Tin drop \u2014 Concord IT 77 in the new 2:17 PM pin table; chairs + tent seen Thu 2:32 PM at a Best Buy (location/count not stated, ghost chairs noted) and Julia 7:44 PM says some Best Buys that held stock drop Fri at 6 AM. South Bay Costco is thin: only Mountain View IT 77 and NE San Jose IT 77 in transit; Senter's IT vanished, Santa Clara/Sunnyvale/Almaden/Gilroy on-order only \u2014 Fri drop there is unconfirmed. Target has NO Pokemon Fri \u2014 gift cards only (tickets ~5 AM, open 6 AM); Target Pokemon drop is Sat Nov 28. Signals are real but thin/single-source on lines, so get there at open, not hours early, except Concord where a tent is already up.",
-  "where": "Costco Concord (tent already up) \u2014 AH Mini Tins Fri; Best Buy 6 AM Fri (store unnamed for chairs/tent); South Bay Costco: Mountain View + NE San Jose IT only",
-  "checkAt": 1795752420000
+  "text": "LINE UP Fri Nov 27 morning \u2014 but only for Best Buy / Costco, not Target Pokemon. Evidence: Pinole Best Buy 4 chairs at 10:39 PM and Best Buy held stock should drop at 6 AM open (top 50 guidance, no stock numbers posted); Concord Costco tent already set up for AH tins, Tracy may have 1 pallet left (hearsay), Senter in-transit gone/disputed. Target lines ARE forming (Pacific Commons 10 people 11:25 PM, Pinole 4 chairs, BP 2 camping) but Friday Target is gift cards ONLY \u2014 tickets 5 AM, open 6 AM, top 100 \u2014 the Target Pokemon drop is Saturday Nov 28. Costco stock for Friday is unconfirmed, so signals are real but thin.",
+  "where": "Best Buy Pinole + Costco Concord (tent up); Target Pacific Commons / Pinole / BP lines are gift-card only",
+  "checkAt": 1795766820000
  },
  "alerts": [
+  {
+   "id": 158,
+   "retailer": "Target",
+   "product": "Black Friday line forming \u2014 10 people",
+   "location": "Pacific Commons, Fremont",
+   "status": "spotted",
+   "notes": "beekar 11:25 PM: 10 people at Pac Comm Target. Fri = gift-card tickets 5 AM, open 6 AM; Pokemon drop Sat Nov 28.",
+   "link": "",
+   "createdAt": 1795764300000
+  },
+  {
+   "id": 162,
+   "retailer": "Target",
+   "product": "Black Friday gift-card drawing \u2014 tickets 5 AM, open 6 AM Fri Nov 27",
+   "location": "All Targets",
+   "status": "upcoming",
+   "notes": "Tickets handed out 5 AM, until 7 AM; top 100 per store. Prizes per store: 1x $1,000, 9x $100, 30x $50, 60x $25 gift cards. NO Pokemon Fri \u2014 Pokemon drop is Sat Nov 28.",
+   "link": "",
+   "createdAt": 1795762380000
+  },
+  {
+   "id": 161,
+   "retailer": "Target",
+   "product": "Black Friday line forming \u2014 4 chairs",
+   "location": "Pinole",
+   "status": "spotted",
+   "notes": "Robin Rojas 10:39 PM: Pinole Target 4 chairs (and Pinole Best Buy 4 chairs, separate alert).",
+   "link": "",
+   "createdAt": 1795761540000
+  },
+  {
+   "id": 160,
+   "retailer": "Best Buy",
+   "product": "Black Friday line forming \u2014 4 chairs; held stock should drop, opens 6 AM",
+   "location": "Pinole",
+   "status": "spotted",
+   "notes": "Robin Rojas 10:39 PM: Pinole Best Buy 4 chairs. Julia guidance: Best Buy top 50 to be safe; $100 gift card for $60, opens 6 AM Fri. No stock numbers posted in window.",
+   "link": "",
+   "createdAt": 1795761540000
+  },
+  {
+   "id": 156,
+   "retailer": "Online",
+   "product": "Flowing Fists Elite Trainer Box / bundle \u2014 Forge and Fire Gaming $225",
+   "location": "Online \u2014 Forge and Fire Gaming",
+   "status": "confirmed",
+   "notes": "Confirmed in stock MSRP-ish 8:15 PM\u201310:21 PM Nov 26 in both servers; reported OOS 12:10 AM Nov 27 (after window).",
+   "link": "https://forgeandfiregaming.com/flowing-fists/flowing-fists-elite-trainer-box",
+   "createdAt": 1795760460000
+  },
+  {
+   "id": 155,
+   "retailer": "Walmart",
+   "product": "Walmart Collectibles Drawing \u2014 Gift Collection in Monday raffle",
+   "location": "Online",
+   "status": "upcoming",
+   "notes": "StickyBot reposted drawing link 10:19 PM. orz 9:28 PM: Gift Collection supposed to be in Monday's raffle; drawing wins delayed delivery reported 8:44 PM.",
+   "link": "https://www.walmart.com/shop/collectibles/draw",
+   "createdAt": 1795760340000
+  },
+  {
+   "id": 159,
+   "retailer": "Target",
+   "product": "Black Friday line forming \u2014 2 people camping with chairs",
+   "location": "BP (SF Peninsula Target)",
+   "status": "spotted",
+   "notes": "Julia 9:17 PM photo + 9:26 PM drove by, 2 people grabbing chairs/camping. Later thread count 7-15 ambiguous store. Target Fri is gift cards only; Pokemon drop is Sat Nov 28.",
+   "link": "",
+   "createdAt": 1795756620000
+  },
+  {
+   "id": 153,
+   "retailer": "Costco",
+   "product": "Ascended Heroes tins",
+   "location": "San Jose \u2014 Senter Rd",
+   "status": "gone",
+   "notes": "Buck N 8:11 PM: was 77 in transit + 77 on order, now only 77 on order. togepi 8:31 PM: believes Senter dropped Wed morning early. Timing disputed.",
+   "link": "",
+   "createdAt": 1795753860000
+  },
+  {
+   "id": 157,
+   "retailer": "Costco",
+   "product": "Ascended Heroes tins",
+   "location": "Foster City + Redwood City",
+   "status": "spotted",
+   "notes": "Green.Girl747 8:21 PM hearsay: 'I think they dropped already. Both of them.' No counts.",
+   "link": "",
+   "createdAt": 1795753260000
+  },
+  {
+   "id": 154,
+   "retailer": "Costco",
+   "product": "Ascended Heroes 2-pack tins",
+   "location": "Tracy",
+   "status": "upcoming",
+   "notes": "Rafureshia 8:07 PM hearsay: dropped Tue afternoon + Wed morning (Wed = 2 pallets); if Tue was 1 pallet, at least 1 potential pallet left for Fri Nov 27. Unconfirmed.",
+   "link": "",
+   "createdAt": 1795752420000
+  },
   {
    "id": 146,
    "retailer": "Costco",
@@ -1511,6 +1611,16 @@
  ],
  "southBay": [
   {
+   "id": 153,
+   "retailer": "Costco",
+   "product": "Ascended Heroes tins",
+   "location": "San Jose \u2014 Senter Rd",
+   "status": "gone",
+   "notes": "Buck N 8:11 PM: was 77 in transit + 77 on order, now only 77 on order. togepi 8:31 PM: believes Senter dropped Wed morning early. Timing disputed.",
+   "link": "",
+   "createdAt": 1795753860000
+  },
+  {
    "id": 145,
    "retailer": "Costco",
    "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 NEW PIN Nov 26 2:17 PM: in transit for Fri Nov 27",
@@ -1649,19 +1759,9 @@
    "notes": "Lines formed (MTV 12, Cupertino ~20) but no Pok\u00e9mon stock. No link in the Discord posts.",
    "link": "",
    "createdAt": 1795622400000
-  },
-  {
-   "id": 141,
-   "retailer": "Target",
-   "product": "NeeDoh \u2014 only 3 left (no Pok\u00e9mon or One Piece)",
-   "location": "Silver Creek, San Jose",
-   "status": "spotted",
-   "notes": "LostSonGoku 7:47 AM Nov 25: employee said no Pok\u00e9mon or OP, only 3 NeeDohs. 10 people were in line at 7:44 AM, some for NeeDoh. No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795621620000
   }
  ],
  "counts": {
-  "total": 150
+  "total": 160
  }
 }
