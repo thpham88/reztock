@@ -1,13 +1,93 @@
 {
- "generatedAt": 1795719568087,
- "lastSweepAt": 1795717080000,
+ "generatedAt": 1795753994401,
+ "lastSweepAt": 1795751640000,
  "verdict": {
-  "lineUp": false,
-  "text": "Nothing worth lining up for this morning (Thu Nov 26). Evidence: zero posts in either server report anyone lining up, waiting, or expecting a drop on Thursday, and no wristband/ticket intel for Thursday. All 7+ independent mentions point to Friday Nov 27 instead \u2014 Costco in-transit AH Mini Tins may be put out Friday (unconfirmed speculation), Best Buy Friday TCG stock looks low, Pop Plug Santa Clara 7 AM raffle Friday. Wednesday's Costco AH tin drop sold out by late morning at most stores; Vallejo lasted longest. One Piece OP18 still had a lot at San Jose Bandai Wed afternoon, limit 6 \u2014 no line needed.",
-  "where": "",
-  "checkAt": 1795680000000
+  "lineUp": true,
+  "text": "LINE UP Fri Nov 27 \u2014 for Black Friday morning, not tonight. Evidence: tent already set up at Concord Costco Thu 7:54 PM (no count given) ahead of expected AH Mini Tin drop \u2014 Concord IT 77 in the new 2:17 PM pin table; chairs + tent seen Thu 2:32 PM at a Best Buy (location/count not stated, ghost chairs noted) and Julia 7:44 PM says some Best Buys that held stock drop Fri at 6 AM. South Bay Costco is thin: only Mountain View IT 77 and NE San Jose IT 77 in transit; Senter's IT vanished, Santa Clara/Sunnyvale/Almaden/Gilroy on-order only \u2014 Fri drop there is unconfirmed. Target has NO Pokemon Fri \u2014 gift cards only (tickets ~5 AM, open 6 AM); Target Pokemon drop is Sat Nov 28. Signals are real but thin/single-source on lines, so get there at open, not hours early, except Concord where a tent is already up.",
+  "where": "Costco Concord (tent already up) \u2014 AH Mini Tins Fri; Best Buy 6 AM Fri (store unnamed for chairs/tent); South Bay Costco: Mountain View + NE San Jose IT only",
+  "checkAt": 1795752420000
  },
  "alerts": [
+  {
+   "id": 146,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 tent set up Thu evening ahead of expected Fri drop",
+   "location": "Concord",
+   "status": "spotted",
+   "notes": "thedeepsays 7:54 PM Nov 26 replying to 'Concord tomorrow?': 'Tent set up'. No person count given. Concord IT 77 in 2:17 PM pin table. No link in post.",
+   "link": "",
+   "createdAt": 1795751640000
+  },
+  {
+   "id": 152,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon \u2014 NO drop Fri Nov 27 (gift cards only, tickets ~5 AM, open 6 AM); Pok\u00e9mon drop Sat Nov 28 confirmed",
+   "location": "Target (all stores)",
+   "status": "upcoming",
+   "notes": "Julia 7:44 PM Nov 26 confirms: Target dropping Pokemon Saturday only, gift cards tomorrow Fri. Sat list stands: 30th Tin $29.99, Bundle $31.99, Mew/Mewtwo Figures $39.99, Battle Decks $24.99. Fri plans in chat: line 4:45-5 AM for gift cards. No link.",
+   "link": "",
+   "createdAt": 1795751040000
+  },
+  {
+   "id": 149,
+   "retailer": "Walmart",
+   "product": "NeeDoh + Pok\u00e9mon Delta Reign / Iono's Bellibolt \u2014 Walmart online drawing wins reported Thu Nov 26",
+   "location": "Walmart.com (online drawing)",
+   "status": "confirmed",
+   "notes": "Wins reported all day Nov 26 (incl. NeeDoh wins 10:38 AM, dumplings 9:57/10:56 AM, win confirmed 5:10 PM delivery Dec 10-15). Julia 7:44 PM: 'Walmart is Iono's & needohs.' Link is the Walmart drawing page reposted by StickyBot 7:11 PM.",
+   "link": "https://www.walmart.com/shop/collectibles/draw",
+   "createdAt": 1795749060000
+  },
+  {
+   "id": 150,
+   "retailer": "Online",
+   "product": "One Piece \u2014 P-Bandai raffle posted (product not named in post, 4,596 available per thread)",
+   "location": "P-Bandai (online)",
+   "status": "upcoming",
+   "notes": "AYoung1K 6:01 PM Nov 26 posted bare link only; product not stated in post/thread, P-Bandai page returned 403 so item unidentified. Thread: join the raffle, no Premium account needed. Link copied exactly as posted.",
+   "link": "https://p-bandai.com/us/item/N9065182001",
+   "createdAt": 1795744860000
+  },
+  {
+   "id": 151,
+   "retailer": "Best Buy",
+   "product": "Pok\u00e9mon \u2014 some stores that held stock should drop Fri Nov 27, 6 AM open; chairs + tent seen Thu (store not named)",
+   "location": "Best Buy (location not named in post)",
+   "status": "upcoming",
+   "notes": "Robin Rojas 2:32 PM: chairs + tent set up at a Best Buy (no location/count), 'ghost chairs' noted. Julia 7:44 PM: some Best Buys that held stock should drop Fri, 6 AM open. Union City stock low per 2:58 PM. No confirmed stock today. No link.",
+   "link": "",
+   "createdAt": 1795732320000
+  },
+  {
+   "id": 145,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 NEW PIN Nov 26 2:17 PM: in transit for Fri Nov 27",
+   "location": "Mountain View, NE San Jose, El Camino (South Bay)",
+   "status": "upcoming",
+   "notes": "AYoung1K table pinned 2:41 PM: MV IT 77, NE SJ IT 77, El Camino IT 154; Santa Clara/Senter/Sunnyvale/Almaden/Gilroy OO 77 only \u2014 Senter IT vanished vs morning. Concord IT 77, Antioch OH 77, Hayward IT 154. Fri drop expected, unconfirmed. No link.",
+   "link": "",
+   "createdAt": 1795731420000
+  },
+  {
+   "id": 148,
+   "retailer": "Target",
+   "product": "NeeDoh Gingerbread \u2014 sold out right away at Target; NeeDoh purple Reindoh (Target exclusive) upcoming, date unknown",
+   "location": "Target",
+   "status": "gone",
+   "notes": "Green.Girl747 2:09 PM Nov 26. Gingerbread rare/low production, one carton per store at launch per orz. No Nice Cube/Niceberg/Gumdrop posts today. No link in post.",
+   "link": "",
+   "createdAt": 1795730940000
+  },
+  {
+   "id": 147,
+   "retailer": "Online",
+   "product": "One Piece OP18 \u2014 GONE at San Jose Bandai, sleeves only left",
+   "location": "Bandai Card Game Store, San Jose",
+   "status": "gone",
+   "notes": "Deverogepi 11:52 AM Nov 26: 'Sj Bandai from voicemail have sleeves only' \u2014 OP18 gone there (was 'still a lot' Wed 4:34 PM). No One Piece at any counted store today. No link in post.",
+   "link": "",
+   "createdAt": 1795722720000
+  },
   {
    "id": 144,
    "retailer": "Walmart",
@@ -1431,6 +1511,26 @@
  ],
  "southBay": [
   {
+   "id": 145,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 NEW PIN Nov 26 2:17 PM: in transit for Fri Nov 27",
+   "location": "Mountain View, NE San Jose, El Camino (South Bay)",
+   "status": "upcoming",
+   "notes": "AYoung1K table pinned 2:41 PM: MV IT 77, NE SJ IT 77, El Camino IT 154; Santa Clara/Senter/Sunnyvale/Almaden/Gilroy OO 77 only \u2014 Senter IT vanished vs morning. Concord IT 77, Antioch OH 77, Hayward IT 154. Fri drop expected, unconfirmed. No link.",
+   "link": "",
+   "createdAt": 1795731420000
+  },
+  {
+   "id": 147,
+   "retailer": "Online",
+   "product": "One Piece OP18 \u2014 GONE at San Jose Bandai, sleeves only left",
+   "location": "Bandai Card Game Store, San Jose",
+   "status": "gone",
+   "notes": "Deverogepi 11:52 AM Nov 26: 'Sj Bandai from voicemail have sleeves only' \u2014 OP18 gone there (was 'still a lot' Wed 4:34 PM). No One Piece at any counted store today. No link in post.",
+   "link": "",
+   "createdAt": 1795722720000
+  },
+  {
    "id": 131,
    "retailer": "Costco",
    "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 NEW PINS Nov 25: in-transit stock may be put out Friday Nov 27 (unconfirmed)",
@@ -1559,29 +1659,9 @@
    "notes": "LostSonGoku 7:47 AM Nov 25: employee said no Pok\u00e9mon or OP, only 3 NeeDohs. 10 people were in line at 7:44 AM, some for NeeDoh. No link in the Discord post.",
    "link": "",
    "createdAt": 1795621620000
-  },
-  {
-   "id": 122,
-   "retailer": "Costco",
-   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED dropping; line ~70 at 7:55 AM",
-   "location": "San Jose (Almaden)",
-   "status": "confirmed",
-   "notes": "Confirmed by people in line 7:46 AM. No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795621560000
-  },
-  {
-   "id": 125,
-   "retailer": "Costco",
-   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 SOLD OUT (sold early from 6:27 AM, limit 1, $76.49 + tax)",
-   "location": "San Jose (Senter)",
-   "status": "gone",
-   "notes": "Line hit ~80 by 6:54 AM; last 7 let in ~6:56 AM, sold out by ~7:02 AM. Updates overnight alert 118. No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795618920000
   }
  ],
  "counts": {
-  "total": 142
+  "total": 150
  }
 }
