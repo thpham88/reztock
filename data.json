@@ -1,13 +1,103 @@
 {
- "generatedAt": 1795768346212,
- "lastSweepAt": 1795764300000,
+ "generatedAt": 1795782652235,
+ "lastSweepAt": 1795781220000,
  "verdict": {
   "lineUp": true,
-  "text": "LINE UP Fri Nov 27 morning \u2014 but only for Best Buy / Costco, not Target Pokemon. Evidence: Pinole Best Buy 4 chairs at 10:39 PM and Best Buy held stock should drop at 6 AM open (top 50 guidance, no stock numbers posted); Concord Costco tent already set up for AH tins, Tracy may have 1 pallet left (hearsay), Senter in-transit gone/disputed. Target lines ARE forming (Pacific Commons 10 people 11:25 PM, Pinole 4 chairs, BP 2 camping) but Friday Target is gift cards ONLY \u2014 tickets 5 AM, open 6 AM, top 100 \u2014 the Target Pokemon drop is Saturday Nov 28. Costco stock for Friday is unconfirmed, so signals are real but thin.",
-  "where": "Best Buy Pinole + Costco Concord (tent up); Target Pacific Commons / Pinole / BP lines are gift-card only",
-  "checkAt": 1795766820000
+  "text": "LINE UP for Best Buy only \u2014 opens 6 AM Fri Nov 27. PokeNotify check at 3:06 AM shows TCG stock >10 units at Harrison SF, Pinole, Tracy and others, but lines are still short at Harrison (6 people at 3:28 AM) and The Plant (12 at 3:55 AM); Pinole is 25-30 with 10+ ghost chairs, Tracy 33. Target is NOT worth it for Pokemon today: lines are 60-100+ at McKee, Silver Creek, Hillsdale, Plant, Fremont Hub and Pacific Commons, and Friday is gift-card tickets only (5 AM, first 100, open 6 AM) \u2014 Pokemon drops Sat Nov 28. Costco: no new line/stock posts; pins unchanged, Stockton still shows 231 Ascended Heroes tins on hand in the pinned table, South Bay mostly in transit.",
+  "where": "Best Buy Harrison SF and Best Buy The Plant, San Jose",
+  "checkAt": 1795781220000
  },
  "alerts": [
+  {
+   "id": 168,
+   "retailer": "Best Buy",
+   "product": "Black Friday lines \u2014 Pinole 25-30 (10+ ghost chairs), Tracy 33, Harrison SF 6, Plant 12, South Bay unnamed 25-30",
+   "location": "Pinole, Tracy, Harrison SF, The Plant, South Bay (unnamed)",
+   "status": "spotted",
+   "notes": "Pinole 10 at 12:43 AM (2 people 8 chairs) > 25-30 at 4:05 AM, 10+ ghost chairs. Tracy 33 at 2:17 AM. Harrison 5>6. Plant 12 at 3:55 AM. Opens 6 AM. No link.",
+   "link": "",
+   "createdAt": 1795781220000
+  },
+  {
+   "id": 170,
+   "retailer": "Target",
+   "product": "Black Friday lines \u2014 MTV 70+, Landess 60+, Santa Clara conflicting 40-45 / 80+ / 100+ (gift cards only Fri)",
+   "location": "Mountain View, Landess, Santa Clara",
+   "status": "spotted",
+   "notes": "MTV 30+ 1:33 AM > 70+ wrapped around corner 3:52 AM. Landess 2 at 11:30 PM > 60+ ~3 AM. Santa Clara: 80+ at 2:53 AM vs 40-45 at 3:30 AM vs possibly >100 at 4:06 AM \u2014 counts conflict. No link.",
+   "link": "",
+   "createdAt": 1795781160000
+  },
+  {
+   "id": 166,
+   "retailer": "Target",
+   "product": "Black Friday line \u2014 McKee over 100 people (gift cards only Fri; Pokemon Sat Nov 28)",
+   "location": "McKee, San Jose",
+   "status": "spotted",
+   "notes": "Zeraora 3:34 AM ~80 at McKee; thread 4:04 AM over 100 now. Target opens 6 AM, gift-card tickets 5 AM, exchange by 7 AM. No link.",
+   "link": "",
+   "createdAt": 1795781040000
+  },
+  {
+   "id": 171,
+   "retailer": "Target",
+   "product": "Black Friday lines \u2014 Fremont Hub 100+, Pacific Commons 100+, Tanforan ~70, Richmond 40-50, BP ~65 (gift cards only Fri)",
+   "location": "Fremont Hub, Pacific Commons, Tanforan, Richmond, BP",
+   "status": "spotted",
+   "notes": "Fremont Hub >100 3:46 AM; Pac Commons >100 4:01 AM; Tanforan ~50>~70 3:58 AM with cutters; Richmond 40-50 3:09 AM (server 2); BP ~65 ~3:20 AM. No link.",
+   "link": "",
+   "createdAt": 1795780860000
+  },
+  {
+   "id": 164,
+   "retailer": "Target",
+   "product": "Black Friday line \u2014 ~100 people at Silver Creek (gift cards only Fri; Pokemon Sat)",
+   "location": "Silver Creek, San Jose",
+   "status": "spotted",
+   "notes": "DrummerTurtwig 3:25 AM ~75; pnayctwmn23 4:01 AM about 100 already at Silver Creek. No link.",
+   "link": "",
+   "createdAt": 1795780860000
+  },
+  {
+   "id": 169,
+   "retailer": "Target",
+   "product": "Black Friday lines \u2014 Plant 84, Hillsdale 87, Story 78, Holger 75 (gift cards only Fri; Pokemon Sat)",
+   "location": "The Plant, Hillsdale, Story Rd, Holger \u2014 San Jose",
+   "status": "spotted",
+   "notes": "Plant 84 at 3:54 AM (Leonard Shelby); Hillsdale 60>70>87 by 3:59 AM; Story ~78 at 2:46 AM; Holger ~75 at 3:29 AM. All for 5 AM gift-card tickets / 6 AM open. No link.",
+   "link": "",
+   "createdAt": 1795780740000
+  },
+  {
+   "id": 163,
+   "retailer": "Best Buy",
+   "product": "TCG stock >10 units (product not named, PokeNotify check) \u2014 Tracy, Stockton, Elk Grove, Modesto, Arden Fair",
+   "location": "Tracy, Stockton, Elk Grove, Modesto, Arden Fair",
+   "status": "confirmed",
+   "notes": "poke_man_321 3:12 AM expanded zone: >10 units at each. Product not named. South Bay Best Buys not covered (poster out of zip entries). No link.",
+   "link": "",
+   "createdAt": 1795777920000
+  },
+  {
+   "id": 167,
+   "retailer": "Best Buy",
+   "product": "TCG stock >10 units (product not named, PokeNotify check) \u2014 Harrison SF, San Rafael, Pinole, Vallejo, Slatten Ranch, Santa Rosa",
+   "location": "Harrison SF + San Rafael, Pinole, Vallejo, Slatten Ranch, Santa Rosa",
+   "status": "confirmed",
+   "notes": "poke_man_321 3:06 AM: stock updates, locations over 10 units each (under 10 = accounting issues). Product not named in post. No link.",
+   "link": "",
+   "createdAt": 1795777560000
+  },
+  {
+   "id": 165,
+   "retailer": "Online",
+   "product": "Flowing Fists Elite Trainer Box / bundle \u2014 Forge and Fire Gaming $225 \u2014 now OOS",
+   "location": "Online \u2014 Forge and Fire Gaming",
+   "status": "gone",
+   "notes": "chknkatsucurry 12:10 AM Nov 27: went OOS. Was in stock $225 thru 10:21 PM Nov 26. Update to alert 156.",
+   "link": "https://forgeandfiregaming.com/flowing-fists/flowing-fists-elite-trainer-box",
+   "createdAt": 1795767000000
+  },
   {
    "id": 158,
    "retailer": "Target",
@@ -1611,6 +1701,46 @@
  ],
  "southBay": [
   {
+   "id": 170,
+   "retailer": "Target",
+   "product": "Black Friday lines \u2014 MTV 70+, Landess 60+, Santa Clara conflicting 40-45 / 80+ / 100+ (gift cards only Fri)",
+   "location": "Mountain View, Landess, Santa Clara",
+   "status": "spotted",
+   "notes": "MTV 30+ 1:33 AM > 70+ wrapped around corner 3:52 AM. Landess 2 at 11:30 PM > 60+ ~3 AM. Santa Clara: 80+ at 2:53 AM vs 40-45 at 3:30 AM vs possibly >100 at 4:06 AM \u2014 counts conflict. No link.",
+   "link": "",
+   "createdAt": 1795781160000
+  },
+  {
+   "id": 166,
+   "retailer": "Target",
+   "product": "Black Friday line \u2014 McKee over 100 people (gift cards only Fri; Pokemon Sat Nov 28)",
+   "location": "McKee, San Jose",
+   "status": "spotted",
+   "notes": "Zeraora 3:34 AM ~80 at McKee; thread 4:04 AM over 100 now. Target opens 6 AM, gift-card tickets 5 AM, exchange by 7 AM. No link.",
+   "link": "",
+   "createdAt": 1795781040000
+  },
+  {
+   "id": 164,
+   "retailer": "Target",
+   "product": "Black Friday line \u2014 ~100 people at Silver Creek (gift cards only Fri; Pokemon Sat)",
+   "location": "Silver Creek, San Jose",
+   "status": "spotted",
+   "notes": "DrummerTurtwig 3:25 AM ~75; pnayctwmn23 4:01 AM about 100 already at Silver Creek. No link.",
+   "link": "",
+   "createdAt": 1795780860000
+  },
+  {
+   "id": 169,
+   "retailer": "Target",
+   "product": "Black Friday lines \u2014 Plant 84, Hillsdale 87, Story 78, Holger 75 (gift cards only Fri; Pokemon Sat)",
+   "location": "The Plant, Hillsdale, Story Rd, Holger \u2014 San Jose",
+   "status": "spotted",
+   "notes": "Plant 84 at 3:54 AM (Leonard Shelby); Hillsdale 60>70>87 by 3:59 AM; Story ~78 at 2:46 AM; Holger ~75 at 3:29 AM. All for 5 AM gift-card tickets / 6 AM open. No link.",
+   "link": "",
+   "createdAt": 1795780740000
+  },
+  {
    "id": 153,
    "retailer": "Costco",
    "product": "Ascended Heroes tins",
@@ -1719,49 +1849,9 @@
    "notes": "Mountain View poster collection 9:18 AM photo. Gilroy Unova posters ~10 left 9:25 AM. Dublin 'has pokemon' 9:26 AM, product not named. Milpitas OOS 11:09 AM. Emeryville Unova rumor unconfirmed 5:21 PM. No links in posts.",
    "link": "",
    "createdAt": 1795627080000
-  },
-  {
-   "id": 142,
-   "retailer": "Target",
-   "product": "NeeDoh \u2014 IN STOCK ~20 clouds/balls (Pok\u00e9mon OOS)",
-   "location": "McKee, San Jose",
-   "status": "confirmed",
-   "notes": "minikai30 8:04 AM Nov 25: 'Mckee \ud83c\udfaf oos. Has needohs about 20 clouds/balls' \u2014 Pok\u00e9mon out of stock, NeeDohs on shelf. No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795622640000
-  },
-  {
-   "id": 143,
-   "retailer": "Target",
-   "product": "NeeDoh \u2014 IN STOCK, only NeeDohs (no Pok\u00e9mon)",
-   "location": "Mountain View",
-   "status": "confirmed",
-   "notes": "Franco 8:00 AM Nov 25 (thread 'MTV target \ud83c\udfaf; 5 ppl in line'): 'NO POKEMON Only needohs.' No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795622400000
-  },
-  {
-   "id": 123,
-   "retailer": "Costco",
-   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 CONFIRMED; tickets handed out 8:00 AM, selling 9:00 AM for Executive members; line 50-60 at 8:02 AM",
-   "location": "Santa Clara (Coleman)",
-   "status": "confirmed",
-   "notes": "Ticket reads SKU 2007495. Line grew 0 (7:02 AM) to 50-60 (8:02 AM). No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795622400000
-  },
-  {
-   "id": 120,
-   "retailer": "Target",
-   "product": "Target South Bay \u2014 NO Pok\u00e9mon this morning: Hillsdale, Mountain View, Silver Creek all none (Silver Creek holding for Black Friday); Cupertino Mew/Mewtwo boxes sold out 7:11 AM",
-   "location": "Hillsdale, Mountain View, Silver Creek, Cupertino",
-   "status": "gone",
-   "notes": "Lines formed (MTV 12, Cupertino ~20) but no Pok\u00e9mon stock. No link in the Discord posts.",
-   "link": "",
-   "createdAt": 1795622400000
   }
  ],
  "counts": {
-  "total": 160
+  "total": 169
  }
 }
