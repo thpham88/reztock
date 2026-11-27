@@ -1,13 +1,163 @@
 {
- "generatedAt": 1795782652235,
- "lastSweepAt": 1795781220000,
+ "generatedAt": 1795797377112,
+ "lastSweepAt": 1795793280000,
  "verdict": {
   "lineUp": true,
-  "text": "LINE UP for Best Buy only \u2014 opens 6 AM Fri Nov 27. PokeNotify check at 3:06 AM shows TCG stock >10 units at Harrison SF, Pinole, Tracy and others, but lines are still short at Harrison (6 people at 3:28 AM) and The Plant (12 at 3:55 AM); Pinole is 25-30 with 10+ ghost chairs, Tracy 33. Target is NOT worth it for Pokemon today: lines are 60-100+ at McKee, Silver Creek, Hillsdale, Plant, Fremont Hub and Pacific Commons, and Friday is gift-card tickets only (5 AM, first 100, open 6 AM) \u2014 Pokemon drops Sat Nov 28. Costco: no new line/stock posts; pins unchanged, Stockton still shows 231 Ascended Heroes tins on hand in the pinned table, South Bay mostly in transit.",
-  "where": "Best Buy Harrison SF and Best Buy The Plant, San Jose",
-  "checkAt": 1795781220000
+  "text": "LINE UP only if you go NOW and stay close: Walmart Tracy (Bellibolt ex + 30th mini tins, limit 2), Suisun and Hesperian (Bellibolt/Cynthia boxes in stock, no line reported) are the cleanest Pokemon plays. Costco AH tins: Salinas (~30 in line, confirmed) and Stockton (40, confirmed by phone) still workable; Concord had only a handful of its 77 tickets left at 8 AM. Do NOT join Automation (line past its 77), Mountain View (71 in line vs 77 expected and tins not in store yet, may slip to 11-12), or Hayward (~85 in line, qty disputed 77 vs 154). Best Buy is done (Plant/Pinole/SC/Emeryville no Pokemon or sold out). Target Friday is gift cards only, tickets gone \u2014 Pokemon is Sat Nov 28.",
+  "where": "Walmart Tracy / Suisun / Hesperian; Costco Salinas / Stockton / Concord",
+  "checkAt": 1795795620000
  },
  "alerts": [
+  {
+   "id": 184,
+   "retailer": "Target",
+   "product": "NeeDoh Wild Cats + Squeezies \u2014 CONFIRMED, being unloaded",
+   "location": "Emeryville",
+   "status": "confirmed",
+   "notes": "Unfore 7:28 AM with photos: Emeryville Target NeeDoh Wild Cats and Squeezies being unloaded right now, display + shelf being stocked. No link.",
+   "link": "",
+   "createdAt": 1795793280000
+  },
+  {
+   "id": 183,
+   "retailer": "Walmart",
+   "product": "Iono's Bellibolt ex ($38 Suisun / $40 Hesperian, lots) + Cynthia's Garchomp ex ($52 Suisun) \u2014 IN STOCK",
+   "location": "Suisun, Hesperian (Hayward)",
+   "status": "confirmed",
+   "notes": "Summer805 7:26 AM Suisun: up front, Iono $38, Cynthia $52; no 30th mini tins there. slifertheskydragon 7:14 AM Hesperian: still lots of Bellibolt box $40. No link.",
+   "link": "",
+   "createdAt": 1795793160000
+  },
+  {
+   "id": 186,
+   "retailer": "Barnes & Noble",
+   "product": "No new cards today \u2014 Pokemon promo cards with $15 eligible purchase only",
+   "location": "Stevens Creek, San Jose",
+   "status": "gone",
+   "notes": "Duler011 7:23 AM with photo: B&N Stevens Creek no new cards today, promo cards with $15 purchase of eligible Pokemon product. B&N Emeryville ~10 in line 7:56 AM, no stock report in window. No link.",
+   "link": "",
+   "createdAt": 1795792980000
+  },
+  {
+   "id": 178,
+   "retailer": "Costco",
+   "product": "Pokemon \u2014 CONFIRMED via phone, 40 in line",
+   "location": "Stockton",
+   "status": "confirmed",
+   "notes": "Renomus 7:19 AM: Costco Stockton Pokemon confirmed via phone, 40 on line. Product not named beyond Pokemon (AH tins expected). No link.",
+   "link": "",
+   "createdAt": 1795792740000
+  },
+  {
+   "id": 179,
+   "retailer": "Target",
+   "product": "Topps Black Friday + Delta Reign blisters \u2014 IN STOCK",
+   "location": "Emeryville",
+   "status": "confirmed",
+   "notes": "Unfore 7:14 AM with photos: Topps Black Friday and Delta Reign blisters in stock at Emeryville Target. No link.",
+   "link": "",
+   "createdAt": 1795792440000
+  },
+  {
+   "id": 174,
+   "retailer": "Costco",
+   "product": "Ascended Heroes Mini Tins \u2014 CONFIRMED, line past 77 by 8:05 AM",
+   "location": "Automation Parkway, San Jose",
+   "status": "confirmed",
+   "notes": "PSYduck 7:06 AM line forming 12; Rafureshia 7:19 AM confirmed. Line 25 > 50 > 60ish/68 > past 77 at 8:05 AM. Qty just 77 per thread; 154 was on order. Phone answers conflicted earlier. No link.",
+   "link": "",
+   "createdAt": 1795791960000
+  },
+  {
+   "id": 173,
+   "retailer": "Costco",
+   "product": "Ascended Heroes Mini Tins \u2014 expected today, NOT yet in store; line 71 vs 77 expected",
+   "location": "Mountain View",
+   "status": "upcoming",
+   "notes": "BHo17 6:49 AM ~20 in line; store expecting Pokemon today but does not have it yet. Line ~36 > 50-55 > 71 at 7:59 AM. Only 77 if it arrives; 154 still on order. Best case arrives before 9, worst delayed to 11-12. High risk. No link.",
+   "link": "",
+   "createdAt": 1795790940000
+  },
+  {
+   "id": 172,
+   "retailer": "Costco",
+   "product": "Ascended Heroes Mini Tins \u2014 CONFIRMED today (security), quantity disputed 77 vs 154",
+   "location": "Hayward",
+   "status": "confirmed",
+   "notes": "Ac! 6:40 AM: security confirmed Pokemon today, most likely AH tins. Line 40+ > ~85 at 7:19 AM, rolling in quick. Qty disputed: 154 in transit vs 77 heard. No link.",
+   "link": "",
+   "createdAt": 1795790400000
+  },
+  {
+   "id": 175,
+   "retailer": "Costco",
+   "product": "Ascended Heroes Mini Tins \u2014 CONFIRMED 77 units, tickets handed out",
+   "location": "Concord",
+   "status": "confirmed",
+   "notes": "moeplayaaaa 6:36 AM confirmed today. Line 10 > 45ish 7:26 AM. Manager confirmed only 77 (earlier 154 claim corrected). 59 tickets passed out 7:48 AM; only a handful left ~8:00 AM. No link.",
+   "link": "",
+   "createdAt": 1795790160000
+  },
+  {
+   "id": 181,
+   "retailer": "Walmart",
+   "product": "Iono's Bellibolt ex Premium Collection + 30th Mini Tins \u2014 IN STOCK, limit 2 each",
+   "location": "Tracy",
+   "status": "confirmed",
+   "notes": "uscberta 6:30 AM photo: Bellibolt ex Premium Collection boxes + 30th mini tins, back in sporting goods. Limit 1 upped to 2 each by manager. No link.",
+   "link": "",
+   "createdAt": 1795789800000
+  },
+  {
+   "id": 177,
+   "retailer": "Costco",
+   "product": "Pokemon (AH tins expected) \u2014 CONFIRMED dropping today, ~30 in line",
+   "location": "Salinas",
+   "status": "confirmed",
+   "notes": "Lopez831 6:08 AM 2 in line; GODZILLA 7:01 AM ~30 in line; Lopez831 7:42 AM confirmed dropping today. No link.",
+   "link": "",
+   "createdAt": 1795788480000
+  },
+  {
+   "id": 176,
+   "retailer": "Costco",
+   "product": "Ascended Heroes Mini Tins \u2014 NO Pokemon today",
+   "location": "Senter (San Jose), South San Francisco, Almaden, Livermore",
+   "status": "gone",
+   "notes": "Senter: manager said no Pokemon (Zeraora 6:01 AM, Dubb 7:36 AM no AH tins). SSF: no Pokemon (jjanice88 7:06 AM). Almaden: not expecting any (bbguitar 6:13 AM). Livermore: no by phone 7:16 AM. RWC dropped Tuesday. No link.",
+   "link": "",
+   "createdAt": 1795788060000
+  },
+  {
+   "id": 185,
+   "retailer": "Target",
+   "product": "NeeDoh Nice Cube \u2014 CONFIRMED in stock",
+   "location": "Silver Creek, San Jose",
+   "status": "confirmed",
+   "notes": "pnayctwmn23 5:56 AM in the NeeDoh line; 6:25 AM went back in line and got 2 more, photo shows two NeeDoh Nice Cube boxes. No price given. No link.",
+   "link": "",
+   "createdAt": 1795787760000
+  },
+  {
+   "id": 182,
+   "retailer": "Best Buy",
+   "product": "NO Pokemon / sold out at most stores \u2014 Plant none, Pinole none today (manager: tomorrow), SC sold out, Emeryville OOS, Almaden none; Milpitas gift cards out",
+   "location": "The Plant, Pinole, SC, Emeryville, Almaden, Milpitas, Mountain View",
+   "status": "gone",
+   "notes": "Plant confirmed NO Pokemon 5:27 + 6:15 AM. Pinole: no Poke today, manager said tomorrow. SC sold out of gift cards + Pokemon 6:52 AM. Emeryville Pokemon OOS 7:07 AM. Almaden no Pokemon 6:20 AM. Milpitas line 60+ cooked, gift cards out ~7:32 AM. MTV ~30, missed. Only bright spot: Stockton gift cards still available ~7:05 AM. No link.",
+   "link": "",
+   "createdAt": 1795786020000
+  },
+  {
+   "id": 180,
+   "retailer": "Target",
+   "product": "Black Friday gift-card lines 100+ at most stores, tickets capped ~100 and gone; Hillsdale Pokemon display OOS at open; Pleasant Hill 30th display removed",
+   "location": "Cupertino, Hillsdale, Morgan Hill, Coleman, Silver Creek + more (see notes)",
+   "status": "gone",
+   "notes": "Fri is gift cards ONLY; Pokemon drop Sat Nov 28. Lines: Cupertino 100+, Hillsdale 100+, Morgan Hill 100, Coleman ~108, Colma 100+, Serramonte 80-100, SF Masonic 100+, Whipple ~100, San Rafael 88, Westlake 84. Silver Creek tickets capped 100, #101 missed. Hillsdale display OOS by 6:30 AM. Pleasant Hill display removed. No link.",
+   "link": "",
+   "createdAt": 1795781700000
+  },
   {
    "id": 168,
    "retailer": "Best Buy",
@@ -1701,6 +1851,76 @@
  ],
  "southBay": [
   {
+   "id": 186,
+   "retailer": "Barnes & Noble",
+   "product": "No new cards today \u2014 Pokemon promo cards with $15 eligible purchase only",
+   "location": "Stevens Creek, San Jose",
+   "status": "gone",
+   "notes": "Duler011 7:23 AM with photo: B&N Stevens Creek no new cards today, promo cards with $15 purchase of eligible Pokemon product. B&N Emeryville ~10 in line 7:56 AM, no stock report in window. No link.",
+   "link": "",
+   "createdAt": 1795792980000
+  },
+  {
+   "id": 174,
+   "retailer": "Costco",
+   "product": "Ascended Heroes Mini Tins \u2014 CONFIRMED, line past 77 by 8:05 AM",
+   "location": "Automation Parkway, San Jose",
+   "status": "confirmed",
+   "notes": "PSYduck 7:06 AM line forming 12; Rafureshia 7:19 AM confirmed. Line 25 > 50 > 60ish/68 > past 77 at 8:05 AM. Qty just 77 per thread; 154 was on order. Phone answers conflicted earlier. No link.",
+   "link": "",
+   "createdAt": 1795791960000
+  },
+  {
+   "id": 173,
+   "retailer": "Costco",
+   "product": "Ascended Heroes Mini Tins \u2014 expected today, NOT yet in store; line 71 vs 77 expected",
+   "location": "Mountain View",
+   "status": "upcoming",
+   "notes": "BHo17 6:49 AM ~20 in line; store expecting Pokemon today but does not have it yet. Line ~36 > 50-55 > 71 at 7:59 AM. Only 77 if it arrives; 154 still on order. Best case arrives before 9, worst delayed to 11-12. High risk. No link.",
+   "link": "",
+   "createdAt": 1795790940000
+  },
+  {
+   "id": 176,
+   "retailer": "Costco",
+   "product": "Ascended Heroes Mini Tins \u2014 NO Pokemon today",
+   "location": "Senter (San Jose), South San Francisco, Almaden, Livermore",
+   "status": "gone",
+   "notes": "Senter: manager said no Pokemon (Zeraora 6:01 AM, Dubb 7:36 AM no AH tins). SSF: no Pokemon (jjanice88 7:06 AM). Almaden: not expecting any (bbguitar 6:13 AM). Livermore: no by phone 7:16 AM. RWC dropped Tuesday. No link.",
+   "link": "",
+   "createdAt": 1795788060000
+  },
+  {
+   "id": 185,
+   "retailer": "Target",
+   "product": "NeeDoh Nice Cube \u2014 CONFIRMED in stock",
+   "location": "Silver Creek, San Jose",
+   "status": "confirmed",
+   "notes": "pnayctwmn23 5:56 AM in the NeeDoh line; 6:25 AM went back in line and got 2 more, photo shows two NeeDoh Nice Cube boxes. No price given. No link.",
+   "link": "",
+   "createdAt": 1795787760000
+  },
+  {
+   "id": 182,
+   "retailer": "Best Buy",
+   "product": "NO Pokemon / sold out at most stores \u2014 Plant none, Pinole none today (manager: tomorrow), SC sold out, Emeryville OOS, Almaden none; Milpitas gift cards out",
+   "location": "The Plant, Pinole, SC, Emeryville, Almaden, Milpitas, Mountain View",
+   "status": "gone",
+   "notes": "Plant confirmed NO Pokemon 5:27 + 6:15 AM. Pinole: no Poke today, manager said tomorrow. SC sold out of gift cards + Pokemon 6:52 AM. Emeryville Pokemon OOS 7:07 AM. Almaden no Pokemon 6:20 AM. Milpitas line 60+ cooked, gift cards out ~7:32 AM. MTV ~30, missed. Only bright spot: Stockton gift cards still available ~7:05 AM. No link.",
+   "link": "",
+   "createdAt": 1795786020000
+  },
+  {
+   "id": 180,
+   "retailer": "Target",
+   "product": "Black Friday gift-card lines 100+ at most stores, tickets capped ~100 and gone; Hillsdale Pokemon display OOS at open; Pleasant Hill 30th display removed",
+   "location": "Cupertino, Hillsdale, Morgan Hill, Coleman, Silver Creek + more (see notes)",
+   "status": "gone",
+   "notes": "Fri is gift cards ONLY; Pokemon drop Sat Nov 28. Lines: Cupertino 100+, Hillsdale 100+, Morgan Hill 100, Coleman ~108, Colma 100+, Serramonte 80-100, SF Masonic 100+, Whipple ~100, San Rafael 88, Westlake 84. Silver Creek tickets capped 100, #101 missed. Hillsdale display OOS by 6:30 AM. Pleasant Hill display removed. No link.",
+   "link": "",
+   "createdAt": 1795781700000
+  },
+  {
    "id": 170,
    "retailer": "Target",
    "product": "Black Friday lines \u2014 MTV 70+, Landess 60+, Santa Clara conflicting 40-45 / 80+ / 100+ (gift cards only Fri)",
@@ -1779,79 +1999,9 @@
    "notes": "Pins CHANGED Nov 25: AYoung1K 1:12 AM + 7:00 AM NorCal tables; StickyBot 11:43 PM: Almaden 154 IT, El Camino 154 IT, Santa Clara 77 IT, Sunnyvale 77 IT, Gilroy 155 IT, Fremont 154 IT, Senter 77 OH/77 IT. Friday is speculation, NOT confirmed. Mountain View 231 on order only. No link.",
    "link": "",
    "createdAt": 1795678980000
-  },
-  {
-   "id": 130,
-   "retailer": "Walmart",
-   "product": "Pok\u00e9mon \u2014 out of stock in store Nov 25",
-   "location": "Milpitas, McCarthy, Story Road",
-   "status": "gone",
-   "notes": "McCarthy 11:06 AM (Pok\u00e9mon + One Piece OOS), Story Rd no Pok\u00e9mon 11:09 AM, Milpitas 6:15 PM. No links in posts.",
-   "link": "",
-   "createdAt": 1795659300000
-  },
-  {
-   "id": 132,
-   "retailer": "Target",
-   "product": "Pok\u00e9mon Battle Decks \u2014 IN STOCK (photo)",
-   "location": "Morgan Hill",
-   "status": "confirmed",
-   "notes": "Photo post 5:16 PM Nov 25. Only Target Pok\u00e9mon stock reported all day. No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795655760000
-  },
-  {
-   "id": 139,
-   "retailer": "Online",
-   "product": "One Piece OP18 (The Dominance of God) \u2014 IN STOCK, still a lot at 4:34 PM, limit 6 per person",
-   "location": "Bandai Card Game Store, San Jose",
-   "status": "confirmed",
-   "notes": "Reported 12:02 PM, still stocked 3:58 PM; 'Still ALOT of Stock. Probably last till tomorrow' 4:34 PM. SF Bandai: no OP18 visible 11:57 AM, sleeves only. No link in posts. Filed under Online per prior Bandai alerts.",
-   "link": "",
-   "createdAt": 1795653240000
-  },
-  {
-   "id": 126,
-   "retailer": "Costco",
-   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 NO stock at opening; all other San Jose-area Costcos dropped except Mountain View",
-   "location": "South San Francisco (Airport); Mountain View (no drop)",
-   "status": "gone",
-   "notes": "SSF Airport: no Pok\u00e9mon at opening 9:01 AM. 1:55 PM report: all SJ-area Costcos dropped except Mountain View. No link in posts.",
-   "link": "",
-   "createdAt": 1795643700000
-  },
-  {
-   "id": 137,
-   "retailer": "Barnes & Noble",
-   "product": "Stock reported \u2014 15+ units, product NOT named in post (per store Instagram per thread)",
-   "location": "Stevens Creek, San Jose",
-   "status": "spotted",
-   "notes": "10:29 AM Nov 25. Product unconfirmed \u2014 do not assume Pok\u00e9mon or One Piece. No link in the Discord post.",
-   "link": "",
-   "createdAt": 1795631340000
-  },
-  {
-   "id": 127,
-   "retailer": "Costco",
-   "product": "Pok\u00e9mon Ascended Heroes 2-Pack Mini Tins \u2014 morning drop, now GONE",
-   "location": "San Leandro, Redwood City, Foster City, Antioch, Sunnyvale, Coleman (San Jose), Fremont, Senter (San Jose)",
-   "status": "gone",
-   "notes": "San Leandro OOS 10:11 AM (~20 left 9:30 AM); RWC/Foster City OOS 10:01 AM; Antioch sold out 9:33 AM; Sunnyvale/Coleman/Fremont/Senter gone by ~9:56 AM. Short-notice, in-transit-only drop. No link in posts.",
-   "link": "",
-   "createdAt": 1795630260000
-  },
-  {
-   "id": 135,
-   "retailer": "Best Buy",
-   "product": "Pok\u00e9mon Black Bolt & White Flare Poster Collection \u2014 IN STOCK (photo); Unova posters Gilroy ~10 left",
-   "location": "Mountain View; Gilroy",
-   "status": "confirmed",
-   "notes": "Mountain View poster collection 9:18 AM photo. Gilroy Unova posters ~10 left 9:25 AM. Dublin 'has pokemon' 9:26 AM, product not named. Milpitas OOS 11:09 AM. Emeryville Unova rumor unconfirmed 5:21 PM. No links in posts.",
-   "link": "",
-   "createdAt": 1795627080000
   }
  ],
  "counts": {
-  "total": 169
+  "total": 184
  }
 }
