@@ -1,13 +1,93 @@
 {
- "generatedAt": 1795854712243,
- "lastSweepAt": 1795851660000,
+ "generatedAt": 1795869187047,
+ "lastSweepAt": 1795866660000,
  "verdict": {
   "lineUp": true,
-  "text": "LINE UP Sat Nov 28 \u2014 Target 30th Celebration drop: lines already forming Fri night \u2014 Story Road 10+ at 10:13 PM and growing, BP 13 by 11:51 PM, Sunnyvale 6, Cupertino 4, Plant 8 chairs/4 people, Santa Clara line (count unknown). Ad items: tins $29.99, booster bundle $31.99, figure collections $39.99, battle decks $24.99; Story Road thread says no UPCs/ETBs. Best Buy Pinole also dropping Sat morning with scanned stock on hand (30th bundles 31, mini tins 31, DR 3-packs 141, Charizard ex 41) \u2014 no line reported there yet, likely the better bet vs cooked Target lines. Costco AH tins in transit again per Julia, Lodi selling again Sat unconfirmed.",
-  "where": "Target Story Road / Sunnyvale / Cupertino / Santa Clara / Plant / BP, Best Buy Pinole",
-  "checkAt": 1795853220000
+  "text": "LINE UP Sat Nov 28 \u2014 Target 30th Celebration drop TODAY, but pick the short lines: Sunnyvale only 8 in line at 3:40 AM (shortest counted South Bay line), and East Bay A St / Whipple had NOBODY waiting at 1:46 AM. The rest are filling fast: Cottle 16+ with a tent (3:51 AM), Colma ~15, Hub ~12, Cupertino 11, Pac 8, Story Road 10+ (Fri night count, no recount), Plant ~8 chairs/4 people. No wristband or ticket intel posted overnight in either server. Best Buy Pinole Sat drop stands on Fri-night scans (bundles 31, mini tins 31, DR 3-packs 141) \u2014 no overnight line reports. Costco AH tins: new pin shows on hand ZERO everywhere \u2014 in transit only (Mountain View 77 South Bay), do NOT line up at Costco on this alone.",
+  "where": "Target Sunnyvale (8 in line) / Target A St + Whipple, East Bay (0 in line at 1:46 AM)",
+  "checkAt": 1795867620000
  },
  "alerts": [
+  {
+   "id": 249,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Cottle Road, San Jose",
+   "status": "spotted",
+   "notes": "Eclectic 3:51 AM Nov 28: 16+ people in line at Cottle Target, one tent. Longest South Bay line reported overnight. No link in post.",
+   "link": "",
+   "createdAt": 1795866660000
+  },
+  {
+   "id": 250,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Sunnyvale",
+   "status": "spotted",
+   "notes": "Lex 3:43 AM Nov 28: 8 chairs/people lined up as of 3:40 AM, half sleeping in cars. Was 2 at 10:43 PM, 6 at 11:15 PM Nov 27. Shortest counted South Bay line overnight. No link in post.",
+   "link": "",
+   "createdAt": 1795866180000
+  },
+  {
+   "id": 254,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Colma",
+   "status": "spotted",
+   "notes": "labrat6512 2:39 AM Nov 28: ~15 people in line at Colma Target. No recount in window. No link in post.",
+   "link": "",
+   "createdAt": 1795862340000
+  },
+  {
+   "id": 248,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Cupertino",
+   "status": "spotted",
+   "notes": "CheNsTa 2:29 AM Nov 28: 11 people in line at Cupertino Target. Was 4 at 11:03 PM Nov 27. No link in post.",
+   "link": "",
+   "createdAt": 1795861740000
+  },
+  {
+   "id": 255,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Pac (East Bay, as posted)",
+   "status": "spotted",
+   "notes": "slifertheskydragon 2:24 AM Nov 28: 8 people at 'pac' Target (name not expanded in post). No link in post.",
+   "link": "",
+   "createdAt": 1795861440000
+  },
+  {
+   "id": 253,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Hub (East Bay, as posted)",
+   "status": "spotted",
+   "notes": "jlodream 2:20 AM Nov 28: ~12 people at 'hub' Target (name not expanded in post). No link in post.",
+   "link": "",
+   "createdAt": 1795861200000
+  },
+  {
+   "id": 252,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 NO line",
+   "location": "A Street / Whipple Road (East Bay)",
+   "status": "spotted",
+   "notes": "DirtyDallas 1:46 AM Nov 28: nobody waiting at Target A St or Whipple \u2014 0 in line, the only empty stores reported overnight. No link in post.",
+   "link": "",
+   "createdAt": 1795859160000
+  },
+  {
+   "id": 251,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 updated inventory table (pin changed)",
+   "location": "NorCal \u2014 South Bay IT: Mountain View 77 only",
+   "status": "spotted",
+   "notes": "AYoung1K table updated 11/27 11:30 PM, posted 12:51 AM Nov 28; Part 2 pinned 12:53 AM (pins CHANGED). On hand NONE anywhere. IT: El Camino 154, Brentwood 154, Mountain View 77, Concord/Novato/SF/SSF/Foster City/Sand City 77, Riverbank 231. OO 77 most stores (Mountain View 154). Santa Clara/Senter/Sunnyvale/Almaden/NE SJ/Gilroy OO only. No link in post.",
+   "link": "",
+   "createdAt": 1795855860000
+  },
   {
    "id": 239,
    "retailer": "Target",
@@ -2461,6 +2541,46 @@
  ],
  "southBay": [
   {
+   "id": 249,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Cottle Road, San Jose",
+   "status": "spotted",
+   "notes": "Eclectic 3:51 AM Nov 28: 16+ people in line at Cottle Target, one tent. Longest South Bay line reported overnight. No link in post.",
+   "link": "",
+   "createdAt": 1795866660000
+  },
+  {
+   "id": 250,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Sunnyvale",
+   "status": "spotted",
+   "notes": "Lex 3:43 AM Nov 28: 8 chairs/people lined up as of 3:40 AM, half sleeping in cars. Was 2 at 10:43 PM, 6 at 11:15 PM Nov 27. Shortest counted South Bay line overnight. No link in post.",
+   "link": "",
+   "createdAt": 1795866180000
+  },
+  {
+   "id": 248,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Cupertino",
+   "status": "spotted",
+   "notes": "CheNsTa 2:29 AM Nov 28: 11 people in line at Cupertino Target. Was 4 at 11:03 PM Nov 27. No link in post.",
+   "link": "",
+   "createdAt": 1795861740000
+  },
+  {
+   "id": 251,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 updated inventory table (pin changed)",
+   "location": "NorCal \u2014 South Bay IT: Mountain View 77 only",
+   "status": "spotted",
+   "notes": "AYoung1K table updated 11/27 11:30 PM, posted 12:51 AM Nov 28; Part 2 pinned 12:53 AM (pins CHANGED). On hand NONE anywhere. IT: El Camino 154, Brentwood 154, Mountain View 77, Concord/Novato/SF/SSF/Foster City/Sand City 77, Riverbank 231. OO 77 most stores (Mountain View 154). Santa Clara/Senter/Sunnyvale/Almaden/NE SJ/Gilroy OO only. No link in post.",
+   "link": "",
+   "createdAt": 1795855860000
+  },
+  {
    "id": 239,
    "retailer": "Target",
    "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
@@ -2569,49 +2689,9 @@
    "notes": "~4 boxes at 1:24 PM, limit 2pp, behind customer service right side. Conflicting: another poster found none at customer service 1:40 PM - may be gone. No link.",
    "link": "",
    "createdAt": 1795814640000
-  },
-  {
-   "id": 198,
-   "retailer": "Walmart",
-   "product": "Perfect Order ETBs + Delta Reign packs \u2014 IN STOCK; Mountain View Walmart OOS",
-   "location": "San Lorenzo, Mountain View",
-   "status": "confirmed",
-   "notes": "San Lorenzo: lord_willin12 11:57 AM Perfect Order ETBs + bunch of Delta Reign packs confirmed. Mountain View OOS 10:14 AM Rafureshia (PBay). No link.",
-   "link": "",
-   "createdAt": 1795809480000
-  },
-  {
-   "id": 195,
-   "retailer": "Target",
-   "product": "No Pokemon \u2014 Stonestown, Mission St, Walnut Creek, A Street Hayward, Pinole, Oakridge",
-   "location": "SF, Walnut Creek, Hayward, Pinole, Oakridge San Jose",
-   "status": "gone",
-   "notes": "Stonestown + Mission no Pokemon 11:31 AM; Walnut Creek 11:00 AM; A St OOS 10:12 AM; Pinole OOS 10:48 AM; Oakridge no Pokemon 11:43 AM. Amador: no drop til tomorrow probably 9:07 AM. No link.",
-   "link": "",
-   "createdAt": 1795808580000
-  },
-  {
-   "id": 206,
-   "retailer": "Target",
-   "product": "NeeDoh \u2014 CONFIRMED just put out by Disney Toys, no line",
-   "location": "Morgan Hill",
-   "status": "confirmed",
-   "notes": "Beto 9:46 AM just put some needohs out by Disney Toys; 9:47 AM no line, no display. No link.",
-   "link": "",
-   "createdAt": 1795801560000
-  },
-  {
-   "id": 194,
-   "retailer": "Costco",
-   "product": "Ascended Heroes Mini Tins \u2014 CONFIRMED then GONE, line 76-77, 1 per household",
-   "location": "Automation Parkway, San Jose",
-   "status": "gone",
-   "notes": "Line ~76-77 by 8:12 AM, spot-saving reported; PK2OP 9:37 AM last 4/6 got lucky. No link.",
-   "link": "",
-   "createdAt": 1795801020000
   }
  ],
  "counts": {
-  "total": 245
+  "total": 253
  }
 }
