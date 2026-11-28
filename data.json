@@ -1,13 +1,153 @@
 {
- "generatedAt": 1795840186311,
- "lastSweepAt": 1795836420000,
+ "generatedAt": 1795854712243,
+ "lastSweepAt": 1795851660000,
  "verdict": {
   "lineUp": true,
-  "text": "LINE UP Sat Nov 28 for Target only \u2014 no new line/wristband intel tonight (zero line reports in 4:07-8:07 PM window), but the Sat Nov 28 Target 30th drop stands from earlier today (announced: 30th Tin $29.99, Bundle $31.99, figures, battle decks; forecast up to ~80 bundles/store) and was not contradicted. NOT Hillsdale-specific. Costco AH tins: pin table edited 7 PM shows on-hand NONE everywhere, only in transit/on order \u2014 timing unconfirmed, do not line up on that alone. Tonight go-now instead: Walmart Davis and Pleasanton still had Iono's Bellibolt ex boxes in the evening; Walmart Osgood 30th Mini Tins went OOS by 7:36 PM.",
-  "where": "Target stores Sat Nov 28; Walmart Davis / Pleasanton (go now, not line-up)",
-  "checkAt": 1795838820000
+  "text": "LINE UP Sat Nov 28 \u2014 Target 30th Celebration drop: lines already forming Fri night \u2014 Story Road 10+ at 10:13 PM and growing, BP 13 by 11:51 PM, Sunnyvale 6, Cupertino 4, Plant 8 chairs/4 people, Santa Clara line (count unknown). Ad items: tins $29.99, booster bundle $31.99, figure collections $39.99, battle decks $24.99; Story Road thread says no UPCs/ETBs. Best Buy Pinole also dropping Sat morning with scanned stock on hand (30th bundles 31, mini tins 31, DR 3-packs 141, Charizard ex 41) \u2014 no line reported there yet, likely the better bet vs cooked Target lines. Costco AH tins in transit again per Julia, Lodi selling again Sat unconfirmed.",
+  "where": "Target Story Road / Sunnyvale / Cupertino / Santa Clara / Plant / BP, Best Buy Pinole",
+  "checkAt": 1795853220000
  },
  "alerts": [
+  {
+   "id": 239,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
+   "location": "The Plant, San Jose",
+   "status": "confirmed",
+   "notes": "Line: 8+ chairs but only 4 actual people at 11:41 PM Nov 27. No link.",
+   "link": "",
+   "createdAt": 1795851660000
+  },
+  {
+   "id": 238,
+   "retailer": "Best Buy",
+   "product": "Pok\u00e9mon TCG Charizard ex Special Collection",
+   "location": "Pinole",
+   "status": "upcoming",
+   "notes": "SKU scan: Pinole 41 on hand, all other listed stores 0; held for Sat Nov 28 morning drop. No link.",
+   "link": "",
+   "createdAt": 1795850820000
+  },
+  {
+   "id": 237,
+   "retailer": "Best Buy",
+   "product": "Scarlet & Violet Destined Rivals 3-Pack Booster",
+   "location": "Pinole",
+   "status": "upcoming",
+   "notes": "SKU scan: Pinole 141 on hand, Tracy 5, Marina 5; held for Sat Nov 28 morning drop. No link.",
+   "link": "",
+   "createdAt": 1795850820000
+  },
+  {
+   "id": 236,
+   "retailer": "Best Buy",
+   "product": "Pok\u00e9mon TCG 30th Celebration Mini Tin",
+   "location": "Pinole",
+   "status": "upcoming",
+   "notes": "SKU scan: Pinole 31, Tracy 30, Colma 3, San Carlos 1, Salinas 1; held for Sat morning drop. No link.",
+   "link": "",
+   "createdAt": 1795850820000
+  },
+  {
+   "id": 235,
+   "retailer": "Best Buy",
+   "product": "Pok\u00e9mon TCG Unova Poster Collection",
+   "location": "Pinole",
+   "status": "upcoming",
+   "notes": "SKU scan: Pinole 35 on hand; held for Sat Nov 28 morning drop. No link.",
+   "link": "",
+   "createdAt": 1795850820000
+  },
+  {
+   "id": 234,
+   "retailer": "Best Buy",
+   "product": "Pok\u00e9mon TCG 30th Celebration Booster Bundle",
+   "location": "Pinole",
+   "status": "upcoming",
+   "notes": "SKU scan 11:10 PM Nov 27: Pinole 31 on hand, Emeryville 3; held for Sat Nov 28 morning drop (confirmed 11:59 PM). No link in post.",
+   "link": "",
+   "createdAt": 1795850820000
+  },
+  {
+   "id": 242,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
+   "location": "Santa Clara",
+   "status": "confirmed",
+   "notes": "Line forming at 11:17 PM Nov 27, count unknown. No link.",
+   "link": "",
+   "createdAt": 1795850220000
+  },
+  {
+   "id": 240,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
+   "location": "Cupertino",
+   "status": "confirmed",
+   "notes": "Line forming: 4 at 11:03 PM Nov 27. No link.",
+   "link": "",
+   "createdAt": 1795849380000
+  },
+  {
+   "id": 241,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
+   "location": "Sunnyvale",
+   "status": "confirmed",
+   "notes": "Line forming: 2 at 10:43 PM, 6 by 11:15 PM Nov 27. No link.",
+   "link": "",
+   "createdAt": 1795848180000
+  },
+  {
+   "id": 247,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Sylveon/Greninja tin $29.99, Booster Bundle $31.99, Eevee/Umbreon Figure $39.99, Battle Deck $24.99",
+   "location": "Various \u2014 Saturday Nov 28 drop",
+   "status": "upcoming",
+   "notes": "Julia announcement 10:21 PM Nov 27: Target drop tomorrow (Sat); Costco AH tins in transit again, most on order. Ad image only, no link.",
+   "link": "",
+   "createdAt": 1795846860000
+  },
+  {
+   "id": 243,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
+   "location": "Story Road, San Jose",
+   "status": "confirmed",
+   "notes": "Line forming: 10+ at 10:13 PM Nov 27, growing (family of ~10 joined 11:46 PM). Thread says no UPCs/ETBs in drop contents. No link.",
+   "link": "",
+   "createdAt": 1795846380000
+  },
+  {
+   "id": 244,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon Ascended Heroes tins (presumed)",
+   "location": "Lodi",
+   "status": "upcoming",
+   "notes": "Renomus 9:43 PM Nov 27: Lodi sold Pokemon today, selling again tomorrow Nov 28 \u2014 phrased as question, unconfirmed. Pin table stale per AYoung1K 12:06 AM. No link.",
+   "link": "",
+   "createdAt": 1795844580000
+  },
+  {
+   "id": 245,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon \u2014 Saturday drop",
+   "location": "BP, SF Peninsula (as posted)",
+   "status": "confirmed",
+   "notes": "OOS at 9:11 PM, line 0 then 13 in line by 11:51 PM. Retailer inferred Target from photos/thread; abbreviation BP not expanded in post. No link.",
+   "link": "",
+   "createdAt": 1795842660000
+  },
+  {
+   "id": 246,
+   "retailer": "Walmart",
+   "product": "Iono's Bellibolt ex boxes",
+   "location": "Oceanside",
+   "status": "confirmed",
+   "notes": "In stock behind customer service counter 8:23 PM Nov 27. Out of Bay Area (SoCal). No link.",
+   "link": "",
+   "createdAt": 1795839780000
+  },
   {
    "id": 227,
    "retailer": "Target",
@@ -2321,6 +2461,56 @@
  ],
  "southBay": [
   {
+   "id": 239,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
+   "location": "The Plant, San Jose",
+   "status": "confirmed",
+   "notes": "Line: 8+ chairs but only 4 actual people at 11:41 PM Nov 27. No link.",
+   "link": "",
+   "createdAt": 1795851660000
+  },
+  {
+   "id": 242,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
+   "location": "Santa Clara",
+   "status": "confirmed",
+   "notes": "Line forming at 11:17 PM Nov 27, count unknown. No link.",
+   "link": "",
+   "createdAt": 1795850220000
+  },
+  {
+   "id": 240,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
+   "location": "Cupertino",
+   "status": "confirmed",
+   "notes": "Line forming: 4 at 11:03 PM Nov 27. No link.",
+   "link": "",
+   "createdAt": 1795849380000
+  },
+  {
+   "id": 241,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
+   "location": "Sunnyvale",
+   "status": "confirmed",
+   "notes": "Line forming: 2 at 10:43 PM, 6 by 11:15 PM Nov 27. No link.",
+   "link": "",
+   "createdAt": 1795848180000
+  },
+  {
+   "id": 243,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
+   "location": "Story Road, San Jose",
+   "status": "confirmed",
+   "notes": "Line forming: 10+ at 10:13 PM Nov 27, growing (family of ~10 joined 11:46 PM). Thread says no UPCs/ETBs in drop contents. No link.",
+   "link": "",
+   "createdAt": 1795846380000
+  },
+  {
    "id": 231,
    "retailer": "Target",
    "product": "Pok\u00e9mon / One Piece (none)",
@@ -2419,59 +2609,9 @@
    "notes": "Line ~76-77 by 8:12 AM, spot-saving reported; PK2OP 9:37 AM last 4/6 got lucky. No link.",
    "link": "",
    "createdAt": 1795801020000
-  },
-  {
-   "id": 188,
-   "retailer": "Costco",
-   "product": "Ascended Heroes Mini Tins \u2014 NO Pokemon today / OOS",
-   "location": "Cottle Rd San Jose, Vallejo",
-   "status": "gone",
-   "notes": "Cottle OOS 8:13 AM dman (photos, both servers). Vallejo confirmed no Pokemon by phone 9:33 AM bobagabe. No link.",
-   "link": "",
-   "createdAt": 1795800780000
-  },
-  {
-   "id": 196,
-   "retailer": "Target",
-   "product": "Pokemon \u2014 OOS 8:57 AM",
-   "location": "Silver Creek, San Jose",
-   "status": "gone",
-   "notes": "D87 8:57 AM OOS. Holger ticket line jumped ~20 people 9:28 AM. No link.",
-   "link": "",
-   "createdAt": 1795798620000
-  },
-  {
-   "id": 190,
-   "retailer": "Costco",
-   "product": "Ascended Heroes Mini Tins \u2014 tickets still available 8:35 AM",
-   "location": "Mountain View",
-   "status": "spotted",
-   "notes": "Foolsfolly 8:35 AM tickets still available. No link.",
-   "link": "",
-   "createdAt": 1795797300000
-  },
-  {
-   "id": 205,
-   "retailer": "Barnes & Noble",
-   "product": "Battle decks + Mewtwo promos \u2014 IN STOCK; booster bundles sold out",
-   "location": "Stevens Creek, San Jose",
-   "status": "confirmed",
-   "notes": "Duler011 8:32 AM battle decks + promos in stock; booster bundles sold out as poster arrived. Emeryville B&N Pokemon OOS 8:18 AM; Hillsdale no Pokemon 10:25 AM. No link.",
-   "link": "",
-   "createdAt": 1795797120000
-  },
-  {
-   "id": 204,
-   "retailer": "Target",
-   "product": "NeeDoh Squeezy (carrot-shaped) \u2014 CONFIRMED in stock",
-   "location": "Santa Clara",
-   "status": "confirmed",
-   "notes": "LittleOppa 8:13 AM with photo, on shelves. No link.",
-   "link": "",
-   "createdAt": 1795795980000
   }
  ],
  "counts": {
-  "total": 231
+  "total": 245
  }
 }
