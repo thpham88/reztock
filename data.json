@@ -1,13 +1,173 @@
 {
- "generatedAt": 1795811627873,
- "lastSweepAt": 1795809480000,
+ "generatedAt": 1795826291183,
+ "lastSweepAt": 1795823160000,
  "verdict": {
   "lineUp": true,
-  "text": "LINE UP Sat Nov 28 for Target Pokemon drop \u2014 Hillsdale display already set (~40 booster bundles, 8 tins, Mew/Mewtwo figures, limits 1-2); Amador also expects drop tomorrow. GO NOW (no line): Walmart San Lorenzo Perfect Order ETBs + Delta Reign (11:57 AM), Union City tins/Bellibolt (11:34 AM), Pleasanton mini tins. Costco AH tins are DONE \u2014 Automation, Hayward, Livermore, Antioch, SF all ticketed out / OOS by ~9:30 AM; do not join those lines.",
-  "where": "Target Hillsdale (Sat Nov 28); Walmart San Lorenzo, Union City, Pleasanton (now)",
-  "checkAt": 1795810020000
+  "text": "LINE UP Sat Nov 28 - but NOT at Hillsdale. Target Sat 30th drop: half-pallet estimate, at least 80x booster bundles if double-sided (store unnamed, orz 12:24 PM); Hillsdale manager said its 30th drop will NOT happen Sat - display went out by accident Fri, do NOT line up there. Costco Sat: Ascended Heroes 2-pack tins in transit 77-154 at El Camino (154), Brentwood (154), Foster City/SSF/Santa Rosa/Novato/Salinas (77) - on hand 0 everywhere, arrival timing unconfirmed; Airport/Colma expected cooked at 6 AM. Signals are real but timing is unconfirmed for Costco, so expect long lines for uncertain stock.",
+  "where": "Target Sat Nov 28 (not Hillsdale) + Costco El Camino / Foster City / SSF / Brentwood Sat Nov 28",
+  "checkAt": 1795824420000
  },
  "alerts": [
+  {
+   "id": 223,
+   "retailer": "Target",
+   "product": "Pokemon - none",
+   "location": "Serramonte, Daly City",
+   "status": "gone",
+   "notes": "PokeRobinhood 3:46 PM: No pokemon at Serramonte. No link.",
+   "link": "",
+   "createdAt": 1795823160000
+  },
+  {
+   "id": 224,
+   "retailer": "Best Buy",
+   "product": "Pokemon + One Piece - OOS",
+   "location": "San Francisco",
+   "status": "gone",
+   "notes": "Sshh 3:20 PM: Best Buy SF OOS pokemon and OP. Sailor Moon TCG present (not counted). No link.",
+   "link": "",
+   "createdAt": 1795821600000
+  },
+  {
+   "id": 209,
+   "retailer": "Costco",
+   "product": "Pokemon - none in stock",
+   "location": "Livermore / Dublin",
+   "status": "gone",
+   "notes": "Rafureshia 3:13-3:14 PM: Livermore Costco has no pokemon, no Dublin either. Thread: Livermore might get stock later. No link.",
+   "link": "",
+   "createdAt": 1795821180000
+  },
+  {
+   "id": 218,
+   "retailer": "Walmart",
+   "product": "Delta Reign single packs (+ Chaos packs)",
+   "location": "Milpitas",
+   "status": "confirmed",
+   "notes": "kev 2:26 PM: single packs of chaos and dr at customer service. Thread: dr most likely Delta Reign. Quantity unstated. No link.",
+   "link": "",
+   "createdAt": 1795818360000
+  },
+  {
+   "id": 222,
+   "retailer": "Target",
+   "product": "Pokemon - OOS",
+   "location": "Walnut Creek",
+   "status": "gone",
+   "notes": "Gust 2:14 PM: wc target oos. No link.",
+   "link": "",
+   "createdAt": 1795817640000
+  },
+  {
+   "id": 213,
+   "retailer": "Walmart",
+   "product": "Iono's Bellibolt ex",
+   "location": "Almaden, San Jose",
+   "status": "confirmed",
+   "notes": "Photo of stacked boxes in deli section. 11 left at 2:47 PM, limit 1. Price reported ambiguously $13.68 / $35. No link.",
+   "link": "",
+   "createdAt": 1795816320000
+  },
+  {
+   "id": 219,
+   "retailer": "Target",
+   "product": "Pokemon - OOS",
+   "location": "Sunnyvale",
+   "status": "gone",
+   "notes": "hozat 1:43 PM: Sunnyvale Target OOS of Pokemon, two Naruto sleeves left. No link.",
+   "link": "",
+   "createdAt": 1795815780000
+  },
+  {
+   "id": 212,
+   "retailer": "Costco",
+   "product": "Ascended Heroes 2-Pack Tins - in transit table",
+   "location": "Bay Area - El Camino, Foster City, S San Francisco, Brentwood, Santa Rosa, Novato, Salinas, Sand City + more",
+   "status": "upcoming",
+   "notes": "AYoung1K 1:36 PM, newly pinned. On hand 0 everywhere. In transit: El Camino 154, Brentwood 154, Foster City 77, SSF 77, Santa Rosa 77, Novato 77, Salinas 77, Sand City 77. On order 77 most stores, Concord 154. Livermore none. No link in post.",
+   "link": "",
+   "createdAt": 1795815360000
+  },
+  {
+   "id": 216,
+   "retailer": "Walmart",
+   "product": "Iono's Bellibolt ex Premium Collection",
+   "location": "Mountain View - Showers Dr",
+   "status": "spotted",
+   "notes": "~4 boxes at 1:24 PM, limit 2pp, behind customer service right side. Conflicting: another poster found none at customer service 1:40 PM - may be gone. No link.",
+   "link": "",
+   "createdAt": 1795814640000
+  },
+  {
+   "id": 211,
+   "retailer": "Barnes & Noble",
+   "product": "Pokemon 30th Anniversary UPC + Delta Reign ETB",
+   "location": "Dublin",
+   "status": "gone",
+   "notes": "Line 10 at 1:23 PM, 25+ at 2:57 PM. jiminy 3:14 PM: handful of UPCs and Delta ETBs, OOS now. No link.",
+   "link": "",
+   "createdAt": 1795814580000
+  },
+  {
+   "id": 214,
+   "retailer": "Walmart",
+   "product": "Pokemon 30th Anniversary Mini Tin + Iono's Bellibolt ex",
+   "location": "Union City",
+   "status": "confirmed",
+   "notes": "In stock through 2:35 PM: 2 cases left behind cabinet in Pokemon section. Limit 1 tin + 1 Iono per transaction/person. At sporting goods cashier, then action/figures. No link.",
+   "link": "",
+   "createdAt": 1795813920000
+  },
+  {
+   "id": 210,
+   "retailer": "Barnes & Noble",
+   "product": "Pokemon 30th Anniversary UPC - Day variant",
+   "location": "Walnut Creek",
+   "status": "confirmed",
+   "notes": "~20 UPCs at 3 PM drop, $250 before tax. Line ~10 at 12:55 PM, 15-16 at 1:43 PM, maxed at 2:33 PM - likely gone vs 20 units. Day variant only. No link.",
+   "link": "",
+   "createdAt": 1795812720000
+  },
+  {
+   "id": 217,
+   "retailer": "Walmart",
+   "product": "Perfect Order ETB - single",
+   "location": "Hesperian Blvd, Hayward",
+   "status": "spotted",
+   "notes": "orz 12:32 PM photo of stocked aisle, one PO ETB singled out, believed $60-70. No link.",
+   "link": "",
+   "createdAt": 1795811520000
+  },
+  {
+   "id": 221,
+   "retailer": "Target",
+   "product": "Pokemon 30th Booster Bundles - Sat Nov 28 drop estimate",
+   "location": "General - store not named; NOT Hillsdale",
+   "status": "upcoming",
+   "notes": "orz 12:24-12:28 PM: half pallet, possibly double-sided = at least 80x booster bundles, little else guaranteed. CORRECTION to prior sweep: Hillsdale manager said 30th drop will NOT happen Sat at Hillsdale (display went out by accident Fri). No link.",
+   "link": "",
+   "createdAt": 1795811040000
+  },
+  {
+   "id": 220,
+   "retailer": "Target",
+   "product": "Pokemon - OOS",
+   "location": "Bayfair, San Leandro",
+   "status": "gone",
+   "notes": "orz 12:18 PM photo of empty shelves. No link.",
+   "link": "",
+   "createdAt": 1795810680000
+  },
+  {
+   "id": 215,
+   "retailer": "Barnes & Noble",
+   "product": "Delta Reign booster packs and coin",
+   "location": "Brentwood",
+   "status": "confirmed",
+   "notes": "Poster 4, 12:10 PM: a lot of Delta Booster and coin left. No link.",
+   "link": "",
+   "createdAt": 1795810200000
+  },
   {
    "id": 198,
    "retailer": "Walmart",
@@ -2071,6 +2231,46 @@
  ],
  "southBay": [
   {
+   "id": 218,
+   "retailer": "Walmart",
+   "product": "Delta Reign single packs (+ Chaos packs)",
+   "location": "Milpitas",
+   "status": "confirmed",
+   "notes": "kev 2:26 PM: single packs of chaos and dr at customer service. Thread: dr most likely Delta Reign. Quantity unstated. No link.",
+   "link": "",
+   "createdAt": 1795818360000
+  },
+  {
+   "id": 213,
+   "retailer": "Walmart",
+   "product": "Iono's Bellibolt ex",
+   "location": "Almaden, San Jose",
+   "status": "confirmed",
+   "notes": "Photo of stacked boxes in deli section. 11 left at 2:47 PM, limit 1. Price reported ambiguously $13.68 / $35. No link.",
+   "link": "",
+   "createdAt": 1795816320000
+  },
+  {
+   "id": 219,
+   "retailer": "Target",
+   "product": "Pokemon - OOS",
+   "location": "Sunnyvale",
+   "status": "gone",
+   "notes": "hozat 1:43 PM: Sunnyvale Target OOS of Pokemon, two Naruto sleeves left. No link.",
+   "link": "",
+   "createdAt": 1795815780000
+  },
+  {
+   "id": 216,
+   "retailer": "Walmart",
+   "product": "Iono's Bellibolt ex Premium Collection",
+   "location": "Mountain View - Showers Dr",
+   "status": "spotted",
+   "notes": "~4 boxes at 1:24 PM, limit 2pp, behind customer service right side. Conflicting: another poster found none at customer service 1:40 PM - may be gone. No link.",
+   "link": "",
+   "createdAt": 1795814640000
+  },
+  {
    "id": 198,
    "retailer": "Walmart",
    "product": "Perfect Order ETBs + Delta Reign packs \u2014 IN STOCK; Mountain View Walmart OOS",
@@ -2179,49 +2379,9 @@
    "notes": "PSYduck 7:06 AM line forming 12; Rafureshia 7:19 AM confirmed. Line 25 > 50 > 60ish/68 > past 77 at 8:05 AM. Qty just 77 per thread; 154 was on order. Phone answers conflicted earlier. No link.",
    "link": "",
    "createdAt": 1795791960000
-  },
-  {
-   "id": 173,
-   "retailer": "Costco",
-   "product": "Ascended Heroes Mini Tins \u2014 expected today, NOT yet in store; line 71 vs 77 expected",
-   "location": "Mountain View",
-   "status": "upcoming",
-   "notes": "BHo17 6:49 AM ~20 in line; store expecting Pokemon today but does not have it yet. Line ~36 > 50-55 > 71 at 7:59 AM. Only 77 if it arrives; 154 still on order. Best case arrives before 9, worst delayed to 11-12. High risk. No link.",
-   "link": "",
-   "createdAt": 1795790940000
-  },
-  {
-   "id": 176,
-   "retailer": "Costco",
-   "product": "Ascended Heroes Mini Tins \u2014 NO Pokemon today",
-   "location": "Senter (San Jose), South San Francisco, Almaden, Livermore",
-   "status": "gone",
-   "notes": "Senter: manager said no Pokemon (Zeraora 6:01 AM, Dubb 7:36 AM no AH tins). SSF: no Pokemon (jjanice88 7:06 AM). Almaden: not expecting any (bbguitar 6:13 AM). Livermore: no by phone 7:16 AM. RWC dropped Tuesday. No link.",
-   "link": "",
-   "createdAt": 1795788060000
-  },
-  {
-   "id": 185,
-   "retailer": "Target",
-   "product": "NeeDoh Nice Cube \u2014 CONFIRMED in stock",
-   "location": "Silver Creek, San Jose",
-   "status": "confirmed",
-   "notes": "pnayctwmn23 5:56 AM in the NeeDoh line; 6:25 AM went back in line and got 2 more, photo shows two NeeDoh Nice Cube boxes. No price given. No link.",
-   "link": "",
-   "createdAt": 1795787760000
-  },
-  {
-   "id": 182,
-   "retailer": "Best Buy",
-   "product": "NO Pokemon / sold out at most stores \u2014 Plant none, Pinole none today (manager: tomorrow), SC sold out, Emeryville OOS, Almaden none; Milpitas gift cards out",
-   "location": "The Plant, Pinole, SC, Emeryville, Almaden, Milpitas, Mountain View",
-   "status": "gone",
-   "notes": "Plant confirmed NO Pokemon 5:27 + 6:15 AM. Pinole: no Poke today, manager said tomorrow. SC sold out of gift cards + Pokemon 6:52 AM. Emeryville Pokemon OOS 7:07 AM. Almaden no Pokemon 6:20 AM. Milpitas line 60+ cooked, gift cards out ~7:32 AM. MTV ~30, missed. Only bright spot: Stockton gift cards still available ~7:05 AM. No link.",
-   "link": "",
-   "createdAt": 1795786020000
   }
  ],
  "counts": {
-  "total": 206
+  "total": 222
  }
 }
