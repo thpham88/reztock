@@ -1,13 +1,273 @@
 {
- "generatedAt": 1795869187047,
- "lastSweepAt": 1795866660000,
+ "generatedAt": 1795883292468,
+ "lastSweepAt": 1795881540000,
  "verdict": {
   "lineUp": true,
-  "text": "LINE UP Sat Nov 28 \u2014 Target 30th Celebration drop TODAY, but pick the short lines: Sunnyvale only 8 in line at 3:40 AM (shortest counted South Bay line), and East Bay A St / Whipple had NOBODY waiting at 1:46 AM. The rest are filling fast: Cottle 16+ with a tent (3:51 AM), Colma ~15, Hub ~12, Cupertino 11, Pac 8, Story Road 10+ (Fri night count, no recount), Plant ~8 chairs/4 people. No wristband or ticket intel posted overnight in either server. Best Buy Pinole Sat drop stands on Fri-night scans (bundles 31, mini tins 31, DR 3-packs 141) \u2014 no overnight line reports. Costco AH tins: new pin shows on hand ZERO everywhere \u2014 in transit only (Mountain View 77 South Bay), do NOT line up at Costco on this alone.",
-  "where": "Target Sunnyvale (8 in line) / Target A St + Whipple, East Bay (0 in line at 1:46 AM)",
-  "checkAt": 1795867620000
+  "text": "LINE UP NOW Sat Nov 28 \u2014 best bet is Costco El Camino Real: AH tins confirmed today, only 11 in line at 5:24 AM, spots still available at 6:20 AM, NO ghost chairs, tickets handed out at 8 AM, opens 9 AM. Costco Airport also confirmed at 7:40 AM. For Target's 30th drop (open now): shortest lines were Pleasant Hill 5 (bundles for first 30), Silver Creek ~10 (stock may be low), McKee 20-24 with lots of 30th bundles in stock limit 2. Most other Targets are 20-45 deep: Plant 35+, Santa Clara 45, Antioch/Bayfair 40+, Dublin 44+. Avoid: Metreon and Geary/Masonic had NO Pokemon at opening, Costco Mountain View called no Pokemon, Foster City/Concord are in-transit 77 only with calls saying not today.",
+  "where": "Costco El Camino Real (tickets 8 AM, opens 9 AM) / Costco Airport SF / Target Pleasant Hill, Silver Creek, McKee",
+  "checkAt": 1795882020000
  },
  "alerts": [
+  {
+   "id": 264,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Westlake (WL, as posted)",
+   "status": "spotted",
+   "notes": "7:59 AM: 15 in line. No link in post.",
+   "link": "",
+   "createdAt": 1795881540000
+  },
+  {
+   "id": 263,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG \u2014 Black Bolt / White Flare, Mew/Mewtwo/Ditto boxes, Bundles, Battle Decks \u2014 low stock counts",
+   "location": "Landess, San Jose",
+   "status": "spotted",
+   "notes": "Line 12ish at 5:23 AM. 7:47 AM report: 4 Black Bolt/White Flare, 4 Mew/Mewtwo/Ditto boxes, 60 bundles, 30 battle decks. No link in post.",
+   "link": "",
+   "createdAt": 1795880820000
+  },
+  {
+   "id": 280,
+   "retailer": "Target",
+   "product": "NeeDoh \u2014 none today, expected tomorrow Nov 29",
+   "location": "Pacifica",
+   "status": "upcoming",
+   "notes": "slifertheskydragon 7:45 AM: No needoh today but tomorrow. jlodream 7:58 AM: They'll have Needoh tomorrow they said. No link in post.",
+   "link": "",
+   "createdAt": 1795880700000
+  },
+  {
+   "id": 265,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 confirmed",
+   "location": "Airport, South San Francisco",
+   "status": "confirmed",
+   "notes": "jjanice88 7:40-7:42 AM: Confirmed Costco Airport. Product not named in main post, AH tins per context. No link in post.",
+   "link": "",
+   "createdAt": 1795880400000
+  },
+  {
+   "id": 278,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 line forming, not received yet",
+   "location": "Brentwood",
+   "status": "spotted",
+   "notes": "Rafureshia 7:27 AM: 20 in line, no confirmation yet. 7:34 AM call: lady said they haven't received it yet. No link in post.",
+   "link": "",
+   "createdAt": 1795879620000
+  },
+  {
+   "id": 271,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 in stock, medium stock, limit 2",
+   "location": "Santa Clara (El Camino)",
+   "status": "confirmed",
+   "notes": "PBay 7:22 AM mrcupcakebandit: 45 ppl, confirmed 2 Pokemon per person & medium stock. Bay Area: 17 at 6:48 AM, 25 at 7:15 AM same store. Post edited 8:17 AM post-window to add Sold Out. No link in post.",
+   "link": "",
+   "createdAt": 1795879320000
+  },
+  {
+   "id": 270,
+   "retailer": "Target",
+   "product": "NeeDoh Gumdrop & NeeDoh Swirls \u2014 confirmed",
+   "location": "Santa Clara (El Camino)",
+   "status": "confirmed",
+   "notes": "mrcupcakebandit 7:22 AM: Gum drop & Needoh swirls confirmed too, medium stock, 45 in line. No link in post.",
+   "link": "",
+   "createdAt": 1795879320000
+  },
+  {
+   "id": 266,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG \u2014 no stock at opening",
+   "location": "Geary / Masonic, San Francisco",
+   "status": "gone",
+   "notes": "Tuna 7:21 AM: no Pokemon at opening. Stonestown also reported no line 7:21 AM. No link in post.",
+   "link": "",
+   "createdAt": 1795879260000
+  },
+  {
+   "id": 257,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG \u2014 no stock at opening",
+   "location": "Metreon, San Francisco",
+   "status": "gone",
+   "notes": "4 in line 5:52 AM; ParmeseanPapi 7:06 AM: Metreon OOS nothing at opening. No link in post.",
+   "link": "",
+   "createdAt": 1795878360000
+  },
+  {
+   "id": 281,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 in transit 77, conflicting call reports",
+   "location": "Foster City / Concord",
+   "status": "spotted",
+   "notes": "Foster City 77 IT per 12:51 AM table (6:34 AM), but 7:23 AM call said not today. Concord 77 IT new today (7:05 AM), but 7:16 AM call said none today. Conflicting \u2014 both reported. No link in posts.",
+   "link": "",
+   "createdAt": 1795878300000
+  },
+  {
+   "id": 273,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration Booster Bundles \u2014 in stock, lots",
+   "location": "McKee, San Jose",
+   "status": "confirmed",
+   "notes": "KaliWubz 6:54 AM: 20 in line; 7:13 AM: employee said 2 per person, everything listed in stock, lots of 30th bundles, 24 in line. No link in post.",
+   "link": "",
+   "createdAt": 1795877640000
+  },
+  {
+   "id": 272,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Oakridge, San Jose",
+   "status": "spotted",
+   "notes": "Leonard Shelby 6:54 AM: 20 in line. Coleman also 20 in line 7:12 AM. No link in post.",
+   "link": "",
+   "createdAt": 1795877640000
+  },
+  {
+   "id": 276,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Albany / Dublin Amador / Richmond / Alameda",
+   "status": "spotted",
+   "notes": "Albany over 20 at 6:45 AM; Dublin Amador 44+ at 7:29 AM; Richmond ~35 at 7:44 AM; Alameda 30+ at 6:48 AM (Bay Area). No link in posts.",
+   "link": "",
+   "createdAt": 1795877100000
+  },
+  {
+   "id": 277,
+   "retailer": "Best Buy",
+   "product": "Pok\u00e9mon TCG \u2014 stock confirmed, line forming",
+   "location": "Pinole",
+   "status": "confirmed",
+   "notes": "hbbkinko 6:43 AM: 14-15 in line, 9-10 ghost chairs; ~7:44 AM: 26 total, 20 people, 6 empty chairs. Julia 6:46 AM confirmed stock at Pinole Best Buy. No link in post.",
+   "link": "",
+   "createdAt": 1795876980000
+  },
+  {
+   "id": 269,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming, very little product",
+   "location": "Westgate",
+   "status": "spotted",
+   "notes": "kpuck34 6:27 AM: 20+ in line. ~7:58 AM: employee said very little product. No link in post.",
+   "link": "",
+   "createdAt": 1795876020000
+  },
+  {
+   "id": 274,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG \u2014 no stock today (called)",
+   "location": "Mountain View",
+   "status": "gone",
+   "notes": "bbguitar 6:12 AM: called MTV, they said no Pokemon. Context: MTV dropped yesterday. No link in post.",
+   "link": "",
+   "createdAt": 1795875120000
+  },
+  {
+   "id": 262,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming, confirmed",
+   "location": "Redwood City",
+   "status": "confirmed",
+   "notes": "BHo17 6:10 AM: 15 in line. 6:51 AM: RWC confirmed, cooked with line. No link in post.",
+   "link": "",
+   "createdAt": 1795875000000
+  },
+  {
+   "id": 268,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "The Plant, San Jose",
+   "status": "spotted",
+   "notes": "mobster_s9 6:07 AM: 20+ in line; ~7:44 AM update 35+. No link in post.",
+   "link": "",
+   "createdAt": 1795874820000
+  },
+  {
+   "id": 260,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Mountain View",
+   "status": "spotted",
+   "notes": "Rz 5:58 AM: 10+ in line; ~8:04 AM thread: poster ~20th in line. No link in post.",
+   "link": "",
+   "createdAt": 1795874280000
+  },
+  {
+   "id": 275,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Hesperian / Walnut Creek / Antioch / Bayfair",
+   "status": "spotted",
+   "notes": "Hesperian ~20 at 5:25 AM; Walnut Creek 15-20 at 5:42 AM; Antioch 40+ at 5:53 AM; Bayfair ~40 at 6:32 AM. No link in posts.",
+   "link": "",
+   "createdAt": 1795872300000
+  },
+  {
+   "id": 261,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG Ascended Heroes 2-Pack Mini Tins \u2014 confirmed today, tickets 8 AM",
+   "location": "El Camino Real (ECR)",
+   "status": "confirmed",
+   "notes": "CeeTG 5:24 AM: 11 in line, store said they have Pokemon today. Aaron 6:20 AM: spots still available, no ghost chairs, tickets at 8 AM, opens 9 AM. No link in post.",
+   "link": "",
+   "createdAt": 1795872240000
+  },
+  {
+   "id": 279,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration Booster Bundles \u2014 line forming, stock for first 30",
+   "location": "Pleasant Hill",
+   "status": "spotted",
+   "notes": "Scooby-Doo 5:23 AM: 5 in line; only enough booster bundles for first 30. No link in post.",
+   "link": "",
+   "createdAt": 1795872180000
+  },
+  {
+   "id": 259,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Tanforan",
+   "status": "spotted",
+   "notes": "~18 at 5:08 AM; 6:32 AM update: still only 30-40 in line. No link in post.",
+   "link": "",
+   "createdAt": 1795871280000
+  },
+  {
+   "id": 256,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming / stock photo",
+   "location": "BP (as posted)",
+   "status": "confirmed",
+   "notes": "jjanice88 5:03 AM: 25 people in line. 7:05 AM houseoflearneddrs posted stock photo (product not named). No link in post.",
+   "link": "",
+   "createdAt": 1795870980000
+  },
+  {
+   "id": 267,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming, stock may be low",
+   "location": "Silver Creek, San Jose",
+   "status": "spotted",
+   "notes": "HenryTheKoala 4:57 AM: about 10 in line. ~7:42 AM thread: stock might be low. No link in post.",
+   "link": "",
+   "createdAt": 1795870620000
+  },
+  {
+   "id": 258,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Serramonte",
+   "status": "spotted",
+   "notes": "LangJaiRich 4:35 AM Nov 28: 16 chairs, 12 ghost (empty). No link in post.",
+   "link": "",
+   "createdAt": 1795869300000
+  },
   {
    "id": 249,
    "retailer": "Target",
@@ -2541,6 +2801,96 @@
  ],
  "southBay": [
   {
+   "id": 263,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG \u2014 Black Bolt / White Flare, Mew/Mewtwo/Ditto boxes, Bundles, Battle Decks \u2014 low stock counts",
+   "location": "Landess, San Jose",
+   "status": "spotted",
+   "notes": "Line 12ish at 5:23 AM. 7:47 AM report: 4 Black Bolt/White Flare, 4 Mew/Mewtwo/Ditto boxes, 60 bundles, 30 battle decks. No link in post.",
+   "link": "",
+   "createdAt": 1795880820000
+  },
+  {
+   "id": 271,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 in stock, medium stock, limit 2",
+   "location": "Santa Clara (El Camino)",
+   "status": "confirmed",
+   "notes": "PBay 7:22 AM mrcupcakebandit: 45 ppl, confirmed 2 Pokemon per person & medium stock. Bay Area: 17 at 6:48 AM, 25 at 7:15 AM same store. Post edited 8:17 AM post-window to add Sold Out. No link in post.",
+   "link": "",
+   "createdAt": 1795879320000
+  },
+  {
+   "id": 270,
+   "retailer": "Target",
+   "product": "NeeDoh Gumdrop & NeeDoh Swirls \u2014 confirmed",
+   "location": "Santa Clara (El Camino)",
+   "status": "confirmed",
+   "notes": "mrcupcakebandit 7:22 AM: Gum drop & Needoh swirls confirmed too, medium stock, 45 in line. No link in post.",
+   "link": "",
+   "createdAt": 1795879320000
+  },
+  {
+   "id": 273,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration Booster Bundles \u2014 in stock, lots",
+   "location": "McKee, San Jose",
+   "status": "confirmed",
+   "notes": "KaliWubz 6:54 AM: 20 in line; 7:13 AM: employee said 2 per person, everything listed in stock, lots of 30th bundles, 24 in line. No link in post.",
+   "link": "",
+   "createdAt": 1795877640000
+  },
+  {
+   "id": 272,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Oakridge, San Jose",
+   "status": "spotted",
+   "notes": "Leonard Shelby 6:54 AM: 20 in line. Coleman also 20 in line 7:12 AM. No link in post.",
+   "link": "",
+   "createdAt": 1795877640000
+  },
+  {
+   "id": 274,
+   "retailer": "Costco",
+   "product": "Pok\u00e9mon TCG \u2014 no stock today (called)",
+   "location": "Mountain View",
+   "status": "gone",
+   "notes": "bbguitar 6:12 AM: called MTV, they said no Pokemon. Context: MTV dropped yesterday. No link in post.",
+   "link": "",
+   "createdAt": 1795875120000
+  },
+  {
+   "id": 268,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "The Plant, San Jose",
+   "status": "spotted",
+   "notes": "mobster_s9 6:07 AM: 20+ in line; ~7:44 AM update 35+. No link in post.",
+   "link": "",
+   "createdAt": 1795874820000
+  },
+  {
+   "id": 260,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
+   "location": "Mountain View",
+   "status": "spotted",
+   "notes": "Rz 5:58 AM: 10+ in line; ~8:04 AM thread: poster ~20th in line. No link in post.",
+   "link": "",
+   "createdAt": 1795874280000
+  },
+  {
+   "id": 267,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming, stock may be low",
+   "location": "Silver Creek, San Jose",
+   "status": "spotted",
+   "notes": "HenryTheKoala 4:57 AM: about 10 in line. ~7:42 AM thread: stock might be low. No link in post.",
+   "link": "",
+   "createdAt": 1795870620000
+  },
+  {
    "id": 249,
    "retailer": "Target",
    "product": "Pok\u00e9mon TCG 30th Celebration drop \u2014 line forming",
@@ -2599,99 +2949,9 @@
    "notes": "Line forming at 11:17 PM Nov 27, count unknown. No link.",
    "link": "",
    "createdAt": 1795850220000
-  },
-  {
-   "id": 240,
-   "retailer": "Target",
-   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
-   "location": "Cupertino",
-   "status": "confirmed",
-   "notes": "Line forming: 4 at 11:03 PM Nov 27. No link.",
-   "link": "",
-   "createdAt": 1795849380000
-  },
-  {
-   "id": 241,
-   "retailer": "Target",
-   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
-   "location": "Sunnyvale",
-   "status": "confirmed",
-   "notes": "Line forming: 2 at 10:43 PM, 6 by 11:15 PM Nov 27. No link.",
-   "link": "",
-   "createdAt": 1795848180000
-  },
-  {
-   "id": 243,
-   "retailer": "Target",
-   "product": "Pok\u00e9mon TCG 30th Celebration \u2014 Saturday drop",
-   "location": "Story Road, San Jose",
-   "status": "confirmed",
-   "notes": "Line forming: 10+ at 10:13 PM Nov 27, growing (family of ~10 joined 11:46 PM). Thread says no UPCs/ETBs in drop contents. No link.",
-   "link": "",
-   "createdAt": 1795846380000
-  },
-  {
-   "id": 231,
-   "retailer": "Target",
-   "product": "Pok\u00e9mon / One Piece (none)",
-   "location": "Target Story Road, San Jose",
-   "status": "gone",
-   "notes": "7:03 PM E36compactm52swap: Disney, Magic, Naruto, Star Wars and sports at Story Target. No Pokemon or OP. Photo. No link in post.",
-   "link": "",
-   "createdAt": 1795834980000
-  },
-  {
-   "id": 233,
-   "retailer": "Barnes & Noble",
-   "product": "NeeDoh Dream Drops",
-   "location": "Barnes & Noble Cupertino",
-   "status": "confirmed",
-   "notes": "4:31 PM addison: Barnes and Noble Cupertino has Dream Drops. No link in post.",
-   "link": "",
-   "createdAt": 1795825860000
-  },
-  {
-   "id": 218,
-   "retailer": "Walmart",
-   "product": "Delta Reign single packs (+ Chaos packs)",
-   "location": "Milpitas",
-   "status": "confirmed",
-   "notes": "kev 2:26 PM: single packs of chaos and dr at customer service. Thread: dr most likely Delta Reign. Quantity unstated. No link.",
-   "link": "",
-   "createdAt": 1795818360000
-  },
-  {
-   "id": 213,
-   "retailer": "Walmart",
-   "product": "Iono's Bellibolt ex",
-   "location": "Almaden, San Jose",
-   "status": "confirmed",
-   "notes": "Photo of stacked boxes in deli section. 11 left at 2:47 PM, limit 1. Price reported ambiguously $13.68 / $35. No link.",
-   "link": "",
-   "createdAt": 1795816320000
-  },
-  {
-   "id": 219,
-   "retailer": "Target",
-   "product": "Pokemon - OOS",
-   "location": "Sunnyvale",
-   "status": "gone",
-   "notes": "hozat 1:43 PM: Sunnyvale Target OOS of Pokemon, two Naruto sleeves left. No link.",
-   "link": "",
-   "createdAt": 1795815780000
-  },
-  {
-   "id": 216,
-   "retailer": "Walmart",
-   "product": "Iono's Bellibolt ex Premium Collection",
-   "location": "Mountain View - Showers Dr",
-   "status": "spotted",
-   "notes": "~4 boxes at 1:24 PM, limit 2pp, behind customer service right side. Conflicting: another poster found none at customer service 1:40 PM - may be gone. No link.",
-   "link": "",
-   "createdAt": 1795814640000
   }
  ],
  "counts": {
-  "total": 253
+  "total": 279
  }
 }
