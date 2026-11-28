@@ -1,13 +1,103 @@
 {
- "generatedAt": 1795826291183,
- "lastSweepAt": 1795823160000,
+ "generatedAt": 1795840186311,
+ "lastSweepAt": 1795836420000,
  "verdict": {
   "lineUp": true,
-  "text": "LINE UP Sat Nov 28 - but NOT at Hillsdale. Target Sat 30th drop: half-pallet estimate, at least 80x booster bundles if double-sided (store unnamed, orz 12:24 PM); Hillsdale manager said its 30th drop will NOT happen Sat - display went out by accident Fri, do NOT line up there. Costco Sat: Ascended Heroes 2-pack tins in transit 77-154 at El Camino (154), Brentwood (154), Foster City/SSF/Santa Rosa/Novato/Salinas (77) - on hand 0 everywhere, arrival timing unconfirmed; Airport/Colma expected cooked at 6 AM. Signals are real but timing is unconfirmed for Costco, so expect long lines for uncertain stock.",
-  "where": "Target Sat Nov 28 (not Hillsdale) + Costco El Camino / Foster City / SSF / Brentwood Sat Nov 28",
-  "checkAt": 1795824420000
+  "text": "LINE UP Sat Nov 28 for Target only \u2014 no new line/wristband intel tonight (zero line reports in 4:07-8:07 PM window), but the Sat Nov 28 Target 30th drop stands from earlier today (announced: 30th Tin $29.99, Bundle $31.99, figures, battle decks; forecast up to ~80 bundles/store) and was not contradicted. NOT Hillsdale-specific. Costco AH tins: pin table edited 7 PM shows on-hand NONE everywhere, only in transit/on order \u2014 timing unconfirmed, do not line up on that alone. Tonight go-now instead: Walmart Davis and Pleasanton still had Iono's Bellibolt ex boxes in the evening; Walmart Osgood 30th Mini Tins went OOS by 7:36 PM.",
+  "where": "Target stores Sat Nov 28; Walmart Davis / Pleasanton (go now, not line-up)",
+  "checkAt": 1795838820000
  },
  "alerts": [
+  {
+   "id": 227,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon (general)",
+   "location": "Target Stonestown, San Francisco",
+   "status": "gone",
+   "notes": "7:27 PM tecNINE: Stonestown Target OOS. Some sports only. No link in post.",
+   "link": "",
+   "createdAt": 1795836420000
+  },
+  {
+   "id": 231,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon / One Piece (none)",
+   "location": "Target Story Road, San Jose",
+   "status": "gone",
+   "notes": "7:03 PM E36compactm52swap: Disney, Magic, Naruto, Star Wars and sports at Story Target. No Pokemon or OP. Photo. No link in post.",
+   "link": "",
+   "createdAt": 1795834980000
+  },
+  {
+   "id": 230,
+   "retailer": "Costco",
+   "product": "Ascended Heroes 2-pack tins \u2014 in transit table (pin update)",
+   "location": "NorCal Costco stores",
+   "status": "spotted",
+   "notes": "AYoung1K pin table edited 7:01-7:02 PM. OH none at every store. IT: El Camino 154, Brentwood 154, Clovis 154, Turlock 154, Riverbank 231, Santa Rosa/Novato/Rohnert Park/Foster City/SSF/Fresno/N Fresno/Lodi/Hanford/Elk Grove 77 each. MTV on order now 154 (down from 231). No link in post.",
+   "link": "",
+   "createdAt": 1795834860000
+  },
+  {
+   "id": 228,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon / One Piece (none)",
+   "location": "Target Westlake, Daly City",
+   "status": "gone",
+   "notes": "6:21 PM anthony: no pokemon or one piece at Westlake Target. No link in post.",
+   "link": "",
+   "createdAt": 1795832460000
+  },
+  {
+   "id": 225,
+   "retailer": "Walmart",
+   "product": "Iono's Bellibolt ex Premium Collection",
+   "location": "Walmart Pleasanton",
+   "status": "confirmed",
+   "notes": "6:07 PM clare: photo of box on shelf, in stock. No link in post.",
+   "link": "",
+   "createdAt": 1795831620000
+  },
+  {
+   "id": 229,
+   "retailer": "Walmart",
+   "product": "Pok\u00e9mon 30th Anniversary Mini Tins",
+   "location": "Walmart Osgood, Fremont",
+   "status": "gone",
+   "notes": "5:42 PM pzzzyDstryr: still have plenty (cross-posted Bay Area server). Thread updates: 7:32 PM in line, nothing in cases; 7:36 PM OOS, no more Pok\u00e9mon TCG. No link in post.",
+   "link": "",
+   "createdAt": 1795830120000
+  },
+  {
+   "id": 226,
+   "retailer": "Walmart",
+   "product": "Iono's Bellibolt ex Premium Collection",
+   "location": "Walmart Davis",
+   "status": "confirmed",
+   "notes": "5:03 PM Joekunn0129: still has Iono boxes; unsure if 30th mini tins remain. Photo. No link in post.",
+   "link": "",
+   "createdAt": 1795827780000
+  },
+  {
+   "id": 232,
+   "retailer": "Barnes & Noble",
+   "product": "NeeDoh Dream Drops",
+   "location": "Barnes & Noble Hillsdale, San Mateo",
+   "status": "confirmed",
+   "notes": "4:37 PM djbell72: BN Hillsdale has Dream Drop, about 5 of them. Photo. No link in post.",
+   "link": "",
+   "createdAt": 1795826220000
+  },
+  {
+   "id": 233,
+   "retailer": "Barnes & Noble",
+   "product": "NeeDoh Dream Drops",
+   "location": "Barnes & Noble Cupertino",
+   "status": "confirmed",
+   "notes": "4:31 PM addison: Barnes and Noble Cupertino has Dream Drops. No link in post.",
+   "link": "",
+   "createdAt": 1795825860000
+  },
   {
    "id": 223,
    "retailer": "Target",
@@ -2231,6 +2321,26 @@
  ],
  "southBay": [
   {
+   "id": 231,
+   "retailer": "Target",
+   "product": "Pok\u00e9mon / One Piece (none)",
+   "location": "Target Story Road, San Jose",
+   "status": "gone",
+   "notes": "7:03 PM E36compactm52swap: Disney, Magic, Naruto, Star Wars and sports at Story Target. No Pokemon or OP. Photo. No link in post.",
+   "link": "",
+   "createdAt": 1795834980000
+  },
+  {
+   "id": 233,
+   "retailer": "Barnes & Noble",
+   "product": "NeeDoh Dream Drops",
+   "location": "Barnes & Noble Cupertino",
+   "status": "confirmed",
+   "notes": "4:31 PM addison: Barnes and Noble Cupertino has Dream Drops. No link in post.",
+   "link": "",
+   "createdAt": 1795825860000
+  },
+  {
    "id": 218,
    "retailer": "Walmart",
    "product": "Delta Reign single packs (+ Chaos packs)",
@@ -2359,29 +2469,9 @@
    "notes": "LittleOppa 8:13 AM with photo, on shelves. No link.",
    "link": "",
    "createdAt": 1795795980000
-  },
-  {
-   "id": 186,
-   "retailer": "Barnes & Noble",
-   "product": "No new cards today \u2014 Pokemon promo cards with $15 eligible purchase only",
-   "location": "Stevens Creek, San Jose",
-   "status": "gone",
-   "notes": "Duler011 7:23 AM with photo: B&N Stevens Creek no new cards today, promo cards with $15 purchase of eligible Pokemon product. B&N Emeryville ~10 in line 7:56 AM, no stock report in window. No link.",
-   "link": "",
-   "createdAt": 1795792980000
-  },
-  {
-   "id": 174,
-   "retailer": "Costco",
-   "product": "Ascended Heroes Mini Tins \u2014 CONFIRMED, line past 77 by 8:05 AM",
-   "location": "Automation Parkway, San Jose",
-   "status": "confirmed",
-   "notes": "PSYduck 7:06 AM line forming 12; Rafureshia 7:19 AM confirmed. Line 25 > 50 > 60ish/68 > past 77 at 8:05 AM. Qty just 77 per thread; 154 was on order. Phone answers conflicted earlier. No link.",
-   "link": "",
-   "createdAt": 1795791960000
   }
  ],
  "counts": {
-  "total": 222
+  "total": 231
  }
 }
